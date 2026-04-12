@@ -1,6 +1,7 @@
-/[Ll]ibrary/
-/[Tt]emp/
-/[Obj]/
-/[Build]/
-/[Logs]/
-/[UserSettings]/
+Library/
+Temp/
+Obj/
+Build/
+Logs/
+UserSettings/
+MemoryCaptures/
