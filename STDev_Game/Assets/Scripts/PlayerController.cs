@@ -1,5 +1,5 @@
 using UnityEngine;
-using System.Collections.Generic; // List를 쓰기 위해 필요
+using System.Collections.Generic;
 
 public class PlayerController : MonoBehaviour
 {
@@ -7,31 +7,51 @@ public class PlayerController : MonoBehaviour
     public LineRenderer pathLine;
     public float speed = 2f;
 
+    // 내부에서만 쓰는 변수들
     private bool isMoving = false;
     private int currentPointIndex = 0;
     private int collectedStars = 0;
     private Vector3 startPosition;
-
-    // ★ 맵에 있는 모든 별들을 담아둘 리스트
     private List<GameObject> allStars = new List<GameObject>();
+
+    // ★ WandController가 에러 없이 읽을 수 있도록 만든 '공개용 속성' (에러 해결 핵심!)
+    public bool IsMoving => isMoving;
 
     void Start()
     {
         startPosition = transform.position;
 
-        // ★ 시작할 때 맵에서 "Star" 태그가 붙은 모든 물체를 찾아서 리스트에 저장합니다.
+        // 시작할 때 맵의 모든 별을 찾아둠
         GameObject[] starsInScene = GameObject.FindGameObjectsWithTag("Star");
         allStars.AddRange(starsInScene);
     }
 
     public void StartMoving()
     {
+        // 선이 없으면 출발 안 함
         if (pathLine == null || pathLine.positionCount < 2) return;
 
-        transform.position = pathLine.GetPosition(0);
-        currentPointIndex = 1;
-        collectedStars = 0;
+        // 1. 이어가기 로직: 내 위치에서 가장 가까운 다음 점 찾기
+        int nextIndex = 0;
+        for (int i = 0; i < pathLine.positionCount; i++)
+        {
+            // 선의 x좌표들을 검사해서, 내 캐릭터의 x좌표보다 같거나 큰(오른쪽에 있는) 첫 번째 점을 찾음
+            if (pathLine.GetPosition(i).x >= transform.position.x - 0.05f)
+            {
+                nextIndex = i;
+                break; // 찾았으면 반복문 종료
+            }
+        }
+
+        // 2. 찾은 지점(내 발밑)부터 다시 롤러코스터 타기 시작!
+        currentPointIndex = nextIndex;
         isMoving = true;
+    }
+
+    // ★ 우클릭을 눌렀을 때 멈추게 하는 함수
+    public void StopMoving()
+    {
+        isMoving = false; // 이동 멈춤!
     }
 
     void Update()
@@ -57,7 +77,7 @@ public class PlayerController : MonoBehaviour
         if (other.CompareTag("Star"))
         {
             collectedStars++;
-            other.gameObject.SetActive(false); // 별 먹기 (비활성화)
+            other.gameObject.SetActive(false);
             Debug.Log("별 획득! 현재: " + collectedStars);
         }
         else if (other.CompareTag("Gear"))
@@ -80,21 +100,16 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    // ★ 리셋할 때 실행되는 함수
     void ResetStage()
     {
         isMoving = false;
-        transform.position = startPosition; // 위치 초기화
+        transform.position = startPosition; // 제자리로
 
-        // ★ 리스트에 담아둔 모든 별을 다시 활성화합니다.
+        // 먹었던 별들 다시 켜기
         foreach (GameObject star in allStars)
         {
-            if (star != null)
-            {
-                star.SetActive(true);
-            }
+            if (star != null) star.SetActive(true);
         }
-
-        collectedStars = 0; // 점수 초기화
+        collectedStars = 0;
     }
 }
