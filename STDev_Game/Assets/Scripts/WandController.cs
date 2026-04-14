@@ -25,6 +25,12 @@ public class WandController : MonoBehaviour
     public float xRangeMax = 20;
     public int lineResolution = 100;
 
+    [Header("별가루 이펙트 설정")]
+    public ParticleSystem graphParticles; // ★ 파티클 연결할 곳
+    public int particlesPerFrame = 1; // 한 프레임에 뿌릴 별가루 개수
+
+    private Vector3[] currentLinePositions; // 계산된 그래프 점들을 담아둘 바구니
+
     // 현재 들고 있는 지팡이 (시작은 1차)
     private WandType selectedWand = WandType.Linear;
 
@@ -36,26 +42,20 @@ public class WandController : MonoBehaviour
 
     void Start()
     {
-        // 시작할 때 1차 지팡이 아이콘으로 UI 셋팅
         UpdateWandUI();
     }
 
-    // UI 버튼을 누르면 호출될 "무기 스왑" 함수
     public void SwapWand()
     {
         int nextWand = (int)selectedWand + 1;
-        if (nextWand > 3)
-        {
-            nextWand = 1;
-        }
+        if (nextWand > 3) nextWand = 1;
 
         selectedWand = (WandType)nextWand;
 
-        ClearGraph();   // 지팡이를 바꾸면 그리던 선 초기화
-        UpdateWandUI(); // 바뀐 지팡이 아이콘으로 UI 업데이트
+        ClearGraph();
+        UpdateWandUI();
     }
 
-    // 버튼의 이미지를 교체하는 함수
     void UpdateWandUI()
     {
         if (wandBtnImage != null)
@@ -68,41 +68,52 @@ public class WandController : MonoBehaviour
 
     void Update()
     {
-        // 1. 우클릭: 실행 또는 정지
+        // 1. 우클릭 감지
         if (Mouse.current.rightButton.wasPressedThisFrame)
         {
-            if (player.IsMoving)
-            {
-                player.StopMoving();
-            }
-            else if (points.Count == RequiredPoints)
-            {
-                ExecuteFullProcess();
-            }
+            if (player.IsMoving) player.StopMoving();
+            else if (points.Count == RequiredPoints) ExecuteFullProcess();
             return;
         }
 
-        // 2. 좌클릭: 점 찍기
+        // 2. 좌클릭 감지
         if (Mouse.current.leftButton.wasPressedThisFrame && !player.IsMoving)
         {
-            // UI를 클릭했을 때는 점이 안 찍히도록 방어
             if (EventSystem.current != null && EventSystem.current.IsPointerOverGameObject()) return;
-
-            // 이미 점이 다 찼다면 초기화
             if (points.Count >= RequiredPoints) ClearGraph();
-
-            // 첫 번째 점은 무조건 캐릭터 위치로 고정
             if (points.Count == 0) AddPoint(player.transform.position);
 
             Vector2 mouseScreenPosition = Mouse.current.position.ReadValue();
             Vector3 mousePos = Camera.main.ScreenToWorldPoint(new Vector3(mouseScreenPosition.x, mouseScreenPosition.y, Camera.main.nearClipPlane));
             mousePos.z = 0;
 
-            AddPoint(mousePos);
+            AddPoint(mousePos); // 여기서 에러가 났던 겁니다! (이제 함수가 아래에 있습니다)
+        }
+
+        // 3. 파티클 이펙트 뿜뿜 (확률 조절 버전)
+        if (currentLinePositions != null && currentLinePositions.Length > 0 && points.Count == RequiredPoints)
+        {
+            // ★ 0.1f는 10% 확률을 의미합니다. 
+            // 더 적게 나오게 하려면 0.05f(5%), 더 많이 나오게 하려면 0.2f(20%)로 조절하세요.
+            if (Random.value < 3f)
+            {
+                int randomIndex = Random.Range(0, currentLinePositions.Length);
+                Vector3 emitPos = currentLinePositions[randomIndex];
+
+                // (Y축 제한 로직은 그대로 유지)
+                if (emitPos.y > 5.5f || emitPos.y < -5.5f) return;
+
+                ParticleSystem.EmitParams emitParams = new ParticleSystem.EmitParams();
+                emitParams.position = emitPos;
+
+                Vector2 randomDir = Random.insideUnitCircle.normalized;
+                emitParams.velocity = new Vector3(randomDir.x, randomDir.y, 0) * 2f;
+
+                graphParticles.Emit(emitParams, 1);
+            }
         }
     }
-
-    // 선을 그리고 캐릭터를 출발시키는 함수
+    // ★ 빠졌던 핵심 함수 1: 선 그리고 출발하기
     public void ExecuteFullProcess()
     {
         if (points.Count == RequiredPoints)
@@ -112,7 +123,7 @@ public class WandController : MonoBehaviour
         }
     }
 
-    // 점 추가 및 화면에 생성
+    // ★ 빠졌던 핵심 함수 2: 점 찍기
     void AddPoint(Vector2 pos)
     {
         points.Add(pos);
@@ -123,16 +134,15 @@ public class WandController : MonoBehaviour
         }
     }
 
-    // 그래프 초기화
     public void ClearGraph()
     {
         points.Clear();
         lineRenderer.positionCount = 0;
+        currentLinePositions = null;
         foreach (var pt in spawnedPoints) Destroy(pt);
         spawnedPoints.Clear();
     }
 
-    // 라그랑주 보간법을 이용해 곡선 그리기
     void DrawGraph()
     {
         List<Vector3> linePositions = new List<Vector3>();
@@ -143,11 +153,18 @@ public class WandController : MonoBehaviour
             float y = CalculateLagrange(x, points);
             linePositions.Add(new Vector3(x, y, 0));
         }
+
+        currentLinePositions = linePositions.ToArray();
+
         lineRenderer.positionCount = linePositions.Count;
-        lineRenderer.SetPositions(linePositions.ToArray());
+        lineRenderer.SetPositions(currentLinePositions);
+
+        // 검은 선 숨기기 (투명도 0)
+        Color transparentColor = new Color(1, 1, 1, 0);
+        lineRenderer.startColor = transparentColor;
+        lineRenderer.endColor = transparentColor;
     }
 
-    // 수학 계산 로직 (라그랑주 다항식)
     float CalculateLagrange(float x, List<Vector2> pts)
     {
         float result = 0f;
@@ -158,7 +175,7 @@ public class WandController : MonoBehaviour
             {
                 if (i != j)
                 {
-                    if (pts[i].x == pts[j].x) continue; // 0으로 나누기 방지
+                    if (pts[i].x == pts[j].x) continue;
                     term *= (x - pts[j].x) / (pts[i].x - pts[j].x);
                 }
             }
