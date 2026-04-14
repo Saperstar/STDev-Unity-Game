@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Inspector
+  m_Title: Hierarchy
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 112}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 36
+  controlID: 212
   draggingID: 0
 --- !u!114 &3
 MonoBehaviour:
@@ -95,8 +95,8 @@ MonoBehaviour:
     y: 0
     width: 277
     height: 600
-  m_MinSize: {x: 201, y: 226}
-  m_MaxSize: {x: 4001, y: 4026}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -224,7 +224,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 112}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 37
+  controlID: 288
   draggingID: 0
 --- !u!114 &10
 MonoBehaviour:
@@ -250,7 +250,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 56}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 38
+  controlID: 289
   draggingID: 0
 --- !u!114 &11
 MonoBehaviour:
@@ -652,16 +652,16 @@ MonoBehaviour:
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs:
-    - m_Data: 43540
+    - m_Data: 42858
     m_LastClickedID:
-      m_Data: 43540
+      m_Data: 42858
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 42316
-    - m_Data: 42318
-    - m_Data: 42320
-    - m_Data: 42322
-    - m_Data: 42324
+    - m_Data: 42742
+    - m_Data: 42744
+    - m_Data: 42746
+    - m_Data: 42748
+    - m_Data: 42750
     - m_Data: 1000000000
     - m_Data: 2147483647
     m_RenameOverlay:
@@ -697,11 +697,11 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 42316
-    - m_Data: 42318
-    - m_Data: 42320
-    - m_Data: 42322
-    - m_Data: 42324
+    - m_Data: 42742
+    - m_Data: 42744
+    - m_Data: 42746
+    - m_Data: 42748
+    - m_Data: 42750
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -736,8 +736,8 @@ MonoBehaviour:
     m_ExpandedInstanceIDs: []
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: PlayerController
+      m_OriginalName: PlayerController
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
@@ -745,10 +745,10 @@ MonoBehaviour:
         width: 0
         height: 0
       m_UserData:
-        m_Data: 0
+        m_Data: 44462
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_TrimLeadingAndTrailingWhitespace: 0
       m_ClientGUIView: {fileID: 5}
@@ -861,33 +861,8 @@ MonoBehaviour:
       m_LastClickedID:
         m_Data: 0
       m_ExpandedIDs:
-      - m_Data: -47708
-      - m_Data: -47036
-      - m_Data: -46680
-      - m_Data: -45718
-      - m_Data: -45606
-      - m_Data: -45526
-      - m_Data: -45400
-      - m_Data: -45314
-      - m_Data: -44976
-      - m_Data: -44914
-      - m_Data: -44844
-      - m_Data: -44780
-      - m_Data: -44722
-      - m_Data: -22194
-      - m_Data: -21208
-      - m_Data: -21144
-      - m_Data: -17804
-      - m_Data: -12348
-      - m_Data: -6138
-      - m_Data: -2132
-      - m_Data: -1910
       - m_Data: -1382
-      - m_Data: 44408
-      - m_Data: 44466
-      - m_Data: 45206
-      - m_Data: 45266
-      - m_Data: 45292
+      - m_Data: 42626
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1509,9 +1484,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -0.23645124, y: 0.0716519, z: 0.020564094}
+    m_Target: {x: -0.36657754, y: 0.28571, z: 1442.0364}
     speed: 2
-    m_Value: {x: -0.23645124, y: 0.0716519, z: 0.020564094}
+    m_Value: {x: -0.36657754, y: 0.28571, z: 1442.0364}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1562,9 +1537,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 7.9435906
+    m_Target: 7.163289
     speed: 2
-    m_Value: 7.9435906
+    m_Value: 7.163289
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1639,7 +1614,7 @@ MonoBehaviour:
   m_SerializedViewNames: []
   m_SerializedViewValues: []
   m_PlayModeViewName: GameView
-  m_ShowGizmos: 1
+  m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
   m_TargetSize: {x: 2560, y: 1440}
@@ -1649,7 +1624,7 @@ MonoBehaviour:
   m_EnterPlayModeBehavior: 0
   m_UseMipMap: 0
   m_VSyncEnabled: 0
-  m_Gizmos: 1
+  m_Gizmos: 0
   m_Stats: 0
   m_SelectedSizes: 05000000000000000000000000000000000000000000000000000000000000000000000000000000
   m_ZoomArea:
