@@ -1,11 +1,11 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.4/staging' branch; Version is '6000.4.2f1 (7a4c1aeef971) revision 8014874'; Using compiler version '194234433'; Build Type 'Release'
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User" at "2026-04-14T14:14:31.0369508Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User" at "2026-04-14T15:38:17.6646362Z"
 OS: 'Windows 11  (10.0.26200) Core' Language: 'ko' Physical Memory: 65139 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-04-14T14:14:31Z
+Date: 2026-04-14T15:38:17Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.4.2f1\Editor\Unity.exe
@@ -19,7 +19,7 @@ C:/Users/User/Documents/GitHub/STDev-Unity-Game/STDev_Game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-13618
+12369
 -licensingIpc
 LicenseClient-User
 -force-d3d12
@@ -68,12 +68,12 @@ C:/Users/User/Documents/GitHub/STDev-Unity-Game/STDev_Game
     "memorysetup-job-temp-allocator-block-size=2097152"
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
-Player connection [18596]  Target information:
+Player connection [30164]  Target information:
 
-Player connection [18596]  * "[IP] 49.142.1.230 [Port] 0 [Flags] 2 [Guid] 2889866903 [EditorId] 2889866903 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-CL97U5V) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [30164]  * "[IP] 49.142.1.230 [Port] 0 [Flags] 2 [Guid] 1295944728 [EditorId] 1295944728 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-CL97U5V) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [18596] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [18596] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [30164] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [30164] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -85,7 +85,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 3.64 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 2.73 ms, found 5 plugins.
 Initialize engine version: 6000.4.2f1 (7a4c1aeef971)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.4.2f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/User/Documents/GitHub/STDev-Unity-Game/STDev_Game/Assets
@@ -103,19 +103,19 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.4.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.4.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56880
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56340
 CodeReloadManager initialized
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000982 seconds.
+Registered in 0.001402 seconds.
 [Licensing::Client] Error: HandshakeResponse reported an error:
 	ResponseCode: 505
 	ResponseStatus: Unsupported protocol version '1.18.1'.
 [Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-User"
 [Licensing::IpcConnector] LicenseClient-User channel disconnected successfully.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User-6000.4.2" at "2026-04-14T14:14:31.7754882Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User-6000.4.2" at "2026-04-14T15:38:18.3704537Z"
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -124,23 +124,23 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.301 seconds
-Domain Reload Profiling: 654ms
-	BeginReloadAssembly (94ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (44ms)
-	LoadAllAssembliesAndSetupDomain (169ms)
-		LoadAssemblies (92ms)
-		AnalyzeDomain (162ms)
-			TypeCache.Refresh (161ms)
-				TypeCache.ScanAssembly (149ms)
-	FinalizeReload (302ms)
+- Finished resetting the current domain, in  0.269 seconds
+Domain Reload Profiling: 574ms
+	BeginReloadAssembly (81ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (145ms)
+		LoadAssemblies (80ms)
+		AnalyzeDomain (137ms)
+			TypeCache.Refresh (136ms)
+				TypeCache.ScanAssembly (127ms)
+	FinalizeReload (270ms)
 		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (40ms)
-			BeforeProcessingInitializeOnLoad (58ms)
-			ProcessInitializeOnLoadAttributes (80ms)
-			ProcessInitializeOnLoadMethodAttributes (69ms)
+			InitializePlatformSupportModulesInManaged (32ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (70ms)
+			ProcessInitializeOnLoadMethodAttributes (59ms)
 ========================================================================
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
@@ -148,14 +148,14 @@ Begin MonoManager ReloadAssembly
 [Licensing::Module] Licensing is not yet initialized.
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.18.1+9fbee8e
-  Session Id:              ceac92b8a00c43178c45a11a74894003
-  Correlation Id:          7608516d474eab37407ba7636285973b
-  External correlation Id: 6587429980255407917
+  Session Id:              66c9f7ec7460458bb8ba56e336b37e09
+  Correlation Id:          e9c6578a1693c39b63246b76050d45f6
+  External correlation Id: 486212368195927154
   Machine Id:              7Rkg+453PpH69n8NcTT5q07kvjI=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-User-6000.4.2" (connect: 0.00s, validation: 0.00s, handshake: 0.67s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User-6000.4.2-notifications" at "2026-04-14T14:14:32.4427079Z"
-[Licensing::Module] Licensing Background thread has ended after 1.41s
-[Licensing::Module] Licensing is initialized (took 0.04s).
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-User-6000.4.2" (connect: 0.00s, validation: 0.00s, handshake: 0.64s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User-6000.4.2-notifications" at "2026-04-14T15:38:19.0145637Z"
+[Licensing::Module] Licensing Background thread has ended after 1.35s
+[Licensing::Module] Licensing is initialized (took 0.14s).
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
   Id: 14569739307647-UnityPersXXXX
@@ -201,151 +201,175 @@ Native extension for WebGL target not found
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.400 seconds
-Domain Reload Profiling: 953ms
-	BeginReloadAssembly (172ms)
-		DisableScriptedObjects (5ms)
-		CreateAndSetChildDomain (26ms)
-	RebuildCommonClasses (28ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (45ms)
-	LoadAllAssembliesAndSetupDomain (300ms)
-		LoadAssemblies (216ms)
-		AnalyzeDomain (146ms)
-			TypeCache.Refresh (103ms)
-				TypeCache.ScanAssembly (94ms)
-			BuildScriptInfoCaches (38ms)
+- Finished resetting the current domain, in  0.503 seconds
+Domain Reload Profiling: 1247ms
+	BeginReloadAssembly (284ms)
+		DisableScriptedObjects (4ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (361ms)
+		LoadAssemblies (249ms)
+		AnalyzeDomain (177ms)
+			TypeCache.Refresh (127ms)
+				TypeCache.ScanAssembly (115ms)
+			BuildScriptInfoCaches (44ms)
 			ResolveRequiredComponents (3ms)
-	FinalizeReload (400ms)
+	FinalizeReload (503ms)
 		SetupLoadedEditorAssemblies (0ms)
-			BeforeProcessingInitializeOnLoad (83ms)
-			ProcessInitializeOnLoadAttributes (178ms)
-			ProcessInitializeOnLoadMethodAttributes (40ms)
+			BeforeProcessingInitializeOnLoad (108ms)
+			ProcessInitializeOnLoadAttributes (230ms)
+			ProcessInitializeOnLoadMethodAttributes (53ms)
 			AfterProcessingInitializeOnLoad (3ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5273 unused Assets / (1.2 MB). Loaded Objects now: 5861.
-Memory consumption went from 106.6 MB to 105.4 MB.
-Total: 6.862900 ms (FindLiveObjects: 1.092400 ms CreateObjectMapping: 0.324700 ms MarkObjects: 4.274000 ms  DeleteObjects: 1.169700 ms)
+Unloading 5273 unused Assets / (1.3 MB). Loaded Objects now: 5861.
+Memory consumption went from 108.6 MB to 107.3 MB.
+Total: 4.945300 ms (FindLiveObjects: 0.515000 ms CreateObjectMapping: 0.187800 ms MarkObjects: 3.289500 ms  DeleteObjects: 0.950600 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 377254.414723 seconds.
-  path: Assets/Scenes/GameScene.unity
-  importAddress: Guid(60145b526aca7fe46acff33dd1224ee3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scenes/GameScene.unity using Guid(60145b526aca7fe46acff33dd1224ee3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd57098cfe0db1312bc112eb55acc680e') in 0.0454555 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=dba41e1dc553a32df2f75c4124e29453 DependenciesID=7ed8faa2de5204e9c2aa1c3ca3ad26fb StaticDependenciesID=b48f24c5b275acc073916f71c4084846 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 382283.536916 seconds.
+  path: Assets/map/Tileset.png
+  importAddress: Guid(b8858257ca4f0d84a8e2e5a21f6bbf04) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/map/Tileset.png using Guid(b8858257ca4f0d84a8e2e5a21f6bbf04) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '96aa47c7cdfa01c3eb729f35a166d25e') in 0.0931033 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f732459c22559bc8d5be000cd611a7cf DependenciesID=0f0161e4067407254cca87ae5029ac53 StaticDependenciesID=dbc708daecf6a026d55361e8b31bb52b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Scenes/SelectMenu.unity
-  importAddress: Guid(785d33abe5d3be849a6826b88e59eeff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SelectMenu.unity using Guid(785d33abe5d3be849a6826b88e59eeff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '5469983b6c1181c1b6e8fb5e67f94f13') in 0.0004286 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2f6fec37c1a78881dff674a05a498c31 DependenciesID=d4ddf6e7e24eee430605ffd190621fc2 StaticDependenciesID=6a94ab5cb8a07f4b704601040de97914 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 0.000017 seconds.
+  path: Assets/map/Tileset.png
+  importAddress: Guid(b8858257ca4f0d84a8e2e5a21f6bbf04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map/Tileset.png using Guid(b8858257ca4f0d84a8e2e5a21f6bbf04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '54a0798861a2d182692e613834b2ebef') in 0.0542546 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=73b125668550e46a0574aa53f6450d47 DependenciesID=2ea52ec257bcf4dd176efd5fd8907471 StaticDependenciesID=beb940da51c540748cd4113c4a00b397 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Scenes/SelectMenu.unity
-  importAddress: Guid(785d33abe5d3be849a6826b88e59eeff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scenes/SelectMenu.unity using Guid(785d33abe5d3be849a6826b88e59eeff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '08ab979e80bbc5a751dce3b225f147b2') in 0.0069502 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=65a7406a87bbe814d941530a692be5c3 DependenciesID=ca88633b9a07d09e2a250cf68756a512 StaticDependenciesID=944037bd2553ed1e582cc3811916584e 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 53.025050 seconds.
+  path: Assets/map/Tileset.png
+  importAddress: Guid(b8858257ca4f0d84a8e2e5a21f6bbf04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map/Tileset.png using Guid(b8858257ca4f0d84a8e2e5a21f6bbf04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '9dc94d31be21ef0d68b6e72a9eecd9b0') in 0.8430577 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f7e14477b7b82780853dbfee27ed6de4 DependenciesID=04656ed64e583ad68f7fb1c7a8d4eca8 StaticDependenciesID=bd0d941967775ed0e28768eaec282d87 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 994
 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.931424 seconds.
-  path: Assets/Scenes/GameScene.unity
-  importAddress: Guid(60145b526aca7fe46acff33dd1224ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/GameScene.unity using Guid(60145b526aca7fe46acff33dd1224ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'f1987ae6d727ced4125086c30f89d8d6') in 0.0004722 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c6b2a525e5be09cf7f63eb9bc6f64b78 DependenciesID=1813699a4788b2be36da4d4771ff6e0b StaticDependenciesID=cb9cca1a1148ff06f2e6568a86de5aa4 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 1312.818768 seconds.
+  path: Assets/map/dirtpath-17.png
+  importAddress: Guid(ed78dc2e1a8e42b44820a14d637c562b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map/dirtpath-17.png using Guid(ed78dc2e1a8e42b44820a14d637c562b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '15ff2d880775cdb10aa1439c6e5b16d7') in 0.011936 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a0014c146fbe71e09b4bdf25c1d4ef8 DependenciesID=c37b2774069a7c235bab0ee01e5bc0eb StaticDependenciesID=6b2ea4f0aa9c5cbcaccfd4045004440d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.451406 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  importAddress: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '918feeaf1d5822f9552e0b9f4fb161f7') in 0.0004979 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ed762298b59bb6514954732a4a6a55a4 DependenciesID=8f9bd488739457c1cdab60e7d4f4c584 StaticDependenciesID=7b84d1a3a0532052aa00655ac7fa594e 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 0.177684 seconds.
+  path: Assets/map/dirtpath-17.png
+  importAddress: Guid(ed78dc2e1a8e42b44820a14d637c562b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/map/dirtpath-17.png using Guid(ed78dc2e1a8e42b44820a14d637c562b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f81346b37dadd4c26ef44a7175eda376') in 0.0108114 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9526d74f71729a7075bcc769f38df87b DependenciesID=f3c6fc8ad72616d942540ee8f4b10a63 StaticDependenciesID=bde3dfc495ea9c58b88bb709243b27a4 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 337.611294 seconds.
-  path: Assets/Scenes/forest.png
-  importAddress: Guid(cf01948500fdd484eaf470759d42c0a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scenes/forest.png using Guid(cf01948500fdd484eaf470759d42c0a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '58eee1040f63517a60000d29f533267a') in 0.2747515 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bb5b7f74437a10958c083d1ac32f606b DependenciesID=8394569eaa578d2bb02e39070f6cdd58 StaticDependenciesID=95ebdd01068a3729a9f3227ac5a441a0 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 590
+  Time since last request: 101.656447 seconds.
+  path: Assets/map/dark-grass-middle-middle.png
+  importAddress: Guid(a17625bf69af47f45b2bf6cc3a72cf32) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/map/dark-grass-middle-middle.png using Guid(a17625bf69af47f45b2bf6cc3a72cf32) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ce3377752cb57426625b57d659ba098f') in 0.0113533 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c439ef286ddf964792861c44019fd712 DependenciesID=ce83d6f5c986286890c501c1c1d78b86 StaticDependenciesID=aea527b8a5e640b10845d25b8ef8f458 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.986823 seconds.
-  path: Assets/Scenes/forest.png
-  importAddress: Guid(cf01948500fdd484eaf470759d42c0a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/forest.png using Guid(cf01948500fdd484eaf470759d42c0a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '4c38a61994f0c836ca06524bd81eb4e0') in 0.7085325 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=73f109387b9f5649a3c7984dd4422ccf DependenciesID=577feb00581a7e94319d76030ebb42ca StaticDependenciesID=8ddb3025fd5b38eaf149905216644c74 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 590
+  Time since last request: 5.347287 seconds.
+  path: Assets/map/dark-grass-middle-middle.png
+  importAddress: Guid(a17625bf69af47f45b2bf6cc3a72cf32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map/dark-grass-middle-middle.png using Guid(a17625bf69af47f45b2bf6cc3a72cf32) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '2230f97579dc387de289e5a8db6b4eb1') in 0.0349217 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a39f8d23619d588ed353bc1812b320ac DependenciesID=6cce3834661edf301c3d040ff8f83230 StaticDependenciesID=2cb64344de5fe9744a4d061ee98b58a6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 124.314168 seconds.
-  path: Assets/Scenes/New Folder
-  importAddress: Guid(be5757f896a20c74786de4e5abafc034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/New Folder using Guid(be5757f896a20c74786de4e5abafc034) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'ea346294993043527aa6f36a29f60c73') in 0.000452 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0101af8d11665f88f8424645e7967933 DependenciesID=53aa740ce7ff9bb3d17d174c5836ddef StaticDependenciesID=0c86cf73e8fb8be5735832b4071d5ff1 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 25.519644 seconds.
+  path: Assets/map/grass-1.png
+  importAddress: Guid(fd44257f95f781c4eabe434dedaddcbc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/map/grass-1.png using Guid(fd44257f95f781c4eabe434dedaddcbc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '8b3ce162954c3d6dd04b2246f117feca') in 0.0097138 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=43b52aff753e644cec3635f6709f4c0c DependenciesID=ff86bc2f7412d2007cbda2e37b30ba4e StaticDependenciesID=bea08eaa62f84743de87f7f28380de09 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.978655 seconds.
-  path: Assets/Scenes/New Folder
-  importAddress: Guid(be5757f896a20c74786de4e5abafc034) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scenes/New Folder using Guid(be5757f896a20c74786de4e5abafc034) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4eab5a4c14139ce6db544c77bac891fa') in 0.0083148 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=327f12002478597175bddd38e06283ea DependenciesID=9f5fc0838257be2821c5d1c4aab86279 StaticDependenciesID=aaace1cb48970dde7f13129d97c47215 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 0.106574 seconds.
+  path: Assets/map/grass-1.png
+  importAddress: Guid(fd44257f95f781c4eabe434dedaddcbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map/grass-1.png using Guid(fd44257f95f781c4eabe434dedaddcbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '81f617c8c2cdf1419e234dc0d140edd4') in 0.0144286 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2359819899677ab598fc19f15204d9e1 DependenciesID=308b901a1f2cbc84fd6dcf9244bb25f8 StaticDependenciesID=b4f382be04e3a15e8bf5e59affc56e72 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.195357 seconds.
-  path: Assets/map
-  importAddress: Guid(f644eafc0ba1e6041a7144c25f05cea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/map using Guid(f644eafc0ba1e6041a7144c25f05cea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '6bc10bb4bececb703952c7b0d9820a1e') in 0.0004134 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=473644571a2d08a248faece2dd5f1e24 DependenciesID=97df3e29d103d38de4fbe7199a3a3698 StaticDependenciesID=b2a3907d48c5a0aa111bf200d7d8037d 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 104.518220 seconds.
+  path: Assets/map/dirtpath-10.png
+  importAddress: Guid(d08dba766cdf7624ea79c3f8b94fe4be) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/map/dirtpath-10.png using Guid(d08dba766cdf7624ea79c3f8b94fe4be) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b1eb82f464ea44bbf39d87ca49792ffd') in 0.0115663 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=12b367d4c1138a92554e0f97633d6c2c DependenciesID=7c23096f6bffc46cf57cb9dd031b2d70 StaticDependenciesID=dd7fcb2e5dae8087916fcce19fe0b946 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.979056 seconds.
-  path: Assets/map
-  importAddress: Guid(f644eafc0ba1e6041a7144c25f05cea8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/map using Guid(f644eafc0ba1e6041a7144c25f05cea8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '287fe0991335c3902adc82a049e26035') in 0.008162 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=35b27584bc55d4ef1bf9422053bd203f DependenciesID=e538910b6a90a1b9053cdc94fb28168e StaticDependenciesID=8fb32df9400feca4533b96089e9e766a 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 9.800796 seconds.
+  path: Assets/map/dirtpath-11.png
+  importAddress: Guid(0fafc4647c0cc704d8daf168ad12dc8f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/map/dirtpath-11.png using Guid(0fafc4647c0cc704d8daf168ad12dc8f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6132447ae7f49bdcbd4db69ddfc962c7') in 0.0131711 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6233a9ae60367143e554c30edbc9043c DependenciesID=9429cfd2f9159586ee04342cc9c587f0 StaticDependenciesID=45bccf1dfb623c0bfa9fdec5d029a59b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 22.087587 seconds.
-  path: Assets/map/map.png
-  importAddress: Guid(8f56675a3ee47794cb4181cce260a7b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/map/map.png using Guid(8f56675a3ee47794cb4181cce260a7b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '2b44c37069f1a941f8442f8d8d37f166') in 0.1248503 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2b30d8c2edaec3486bd5e2c126da4258 DependenciesID=439ec7bca984e6870e2e555c4532d383 StaticDependenciesID=13ed3ab199424011a57b7d9044f6d312 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 91
+  Time since last request: 15.938481 seconds.
+  path: Assets/map/dirtpath-14.png
+  importAddress: Guid(8ae7ab3049ecdf340bcb2193b92bda41) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/map/dirtpath-14.png using Guid(8ae7ab3049ecdf340bcb2193b92bda41) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd66689fc3003ee1a0a0da761b2adc4d0') in 0.0114206 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bbfcc42e389eabeb1fc02455d203288b DependenciesID=b65721403e2a93e5e6e7c4c604607260 StaticDependenciesID=fd6dec8c79dda30a14572a6895dbf570 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.161212 seconds.
-  path: Assets/map/map.png
-  importAddress: Guid(8f56675a3ee47794cb4181cce260a7b8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/map/map.png using Guid(8f56675a3ee47794cb4181cce260a7b8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9cc80126476fc2a0a9b76662e822df76') in 0.0727458 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2586ecb428de46a2737be4e8dc7b4812 DependenciesID=628d17c429c689284bd0c33b370caeb7 StaticDependenciesID=aef34791a4b28fbba772156c207e2996 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 91
+  Time since last request: 0.052443 seconds.
+  path: Assets/map/dirtpath-14.png
+  importAddress: Guid(8ae7ab3049ecdf340bcb2193b92bda41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map/dirtpath-14.png using Guid(8ae7ab3049ecdf340bcb2193b92bda41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '61ef6690cbffad5480bd3401b05cd4b4') in 0.0490867 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0fac8e60a25290b344271f73f849f303 DependenciesID=a84c5ce66b2d39fe9f05aa788e94dd36 StaticDependenciesID=77a4a97f743e8590e5f3c436f3bf5599 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 62.703061 seconds.
-  path: Assets/map/map.png
-  importAddress: Guid(8f56675a3ee47794cb4181cce260a7b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/map/map.png using Guid(8f56675a3ee47794cb4181cce260a7b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'f62e219568b299c42020ab1d0dcdb262') in 0.1198532 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bbb1e7f9a9753d21e8ae6cefdc4c42d0 DependenciesID=967b909b0b05171ad3c572683a3560f2 StaticDependenciesID=63f9d667b9c23a6dbf4b46e4435b0a79 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 91
+  Time since last request: 15.842362 seconds.
+  path: Assets/map/dirtpath-10.png
+  importAddress: Guid(d08dba766cdf7624ea79c3f8b94fe4be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map/dirtpath-10.png using Guid(d08dba766cdf7624ea79c3f8b94fe4be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'a42a2d8184974d1fc8f495e45681b2e4') in 0.0107564 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=769558b692c70d6021e011000d9d2bda DependenciesID=7d233200835bc5de45ee906e09fcb530 StaticDependenciesID=d038a8ef28c2689d1a4aeef2caa3ba1d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.855730 seconds.
-  path: Assets/map/map.png
-  importAddress: Guid(8f56675a3ee47794cb4181cce260a7b8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/map/map.png using Guid(8f56675a3ee47794cb4181cce260a7b8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '98b1e0cc7c937efcdf6de8a79c972ff7') in 0.0292363 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fa1ade15c035e36d3bb0da0c767406d4 DependenciesID=7770367043b9ccffaf558c233c62df43 StaticDependenciesID=9bde7de534f396c194a8cdb63f245b51 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 91
+  Time since last request: 274.976030 seconds.
+  path: Assets/map/dirtpath-15.png
+  importAddress: Guid(b51824bf060bcea4586d16a2c1948a4a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/map/dirtpath-15.png using Guid(b51824bf060bcea4586d16a2c1948a4a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c7a73f6862b3865f411037c631eebd84') in 0.0115408 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ad3278648d24d513f3971b7b6fe53784 DependenciesID=5d89d96e7c3e46481878427648c65f54 StaticDependenciesID=d0e41bbeca6bf9bffe6ac177f2e6d61b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.590367 seconds.
+  path: Assets/map/dirtpath-15.png
+  importAddress: Guid(b51824bf060bcea4586d16a2c1948a4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map/dirtpath-15.png using Guid(b51824bf060bcea4586d16a2c1948a4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '80c5b6f316c652f6d1ffc86e18221431') in 0.0114456 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=64b3232e0e55ec0b3113738203914831 DependenciesID=1dd6a1e5535d358be90c38322f82cd2a StaticDependenciesID=de6af1a50a96e3ba646a81fd6835774f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 68.038583 seconds.
+  path: Assets/map/dirtpath-16.png
+  importAddress: Guid(c0a861bc5b7e32c4182180fce475c3d1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/map/dirtpath-16.png using Guid(c0a861bc5b7e32c4182180fce475c3d1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0b6fb6943f2e83e8d452afe88c672cb3') in 0.0126736 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=659fefce100f0cc1d958c841f9ab1e5f DependenciesID=3e9e625ff03149f6d3311c6cbb6017d4 StaticDependenciesID=2fa63df4d6a2ea2f256cd478e4e4dd02 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.758609 seconds.
+  path: Assets/map/dirtpath-16.png
+  importAddress: Guid(c0a861bc5b7e32c4182180fce475c3d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map/dirtpath-16.png using Guid(c0a861bc5b7e32c4182180fce475c3d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '1ffa9fb94d7e30ed1ff9bc43fb9da74e') in 0.0507439 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=27775210c0708ce0b75770044cd5cd1b DependenciesID=705ec1795617e4109a1d5f0322a35a0e StaticDependenciesID=5d8a335a21d63ee13a59e4f2ec80d986 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 

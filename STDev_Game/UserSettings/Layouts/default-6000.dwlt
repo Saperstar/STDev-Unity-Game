@@ -633,7 +633,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/map
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -643,7 +643,7 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/map
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\User\Documents\GitHub\STDev-Unity-Game\STDev_Game
   m_LockTracker:
@@ -652,12 +652,12 @@ MonoBehaviour:
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs:
-    - m_Data: 54086
+    - m_Data: 42460
     m_LastClickedID:
-      m_Data: 54086
+      m_Data: 42460
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 42344
+    - m_Data: 42382
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -691,7 +691,7 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 42344
+    - m_Data: 42382
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -720,11 +720,12 @@ MonoBehaviour:
       m_ResourceFile: 
   m_ListAreaState:
     m_SelectedInstanceIDs:
-    - m_Data: 57726
+    - m_Data: 42722
     m_LastClickedEntityId:
-      m_Data: 57726
+      m_Data: 42722
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: []
+    m_ExpandedInstanceIDs:
+    - m_Data: 44258
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -852,14 +853,9 @@ MonoBehaviour:
       m_LastClickedID:
         m_Data: 0
       m_ExpandedIDs:
-      - m_Data: -43046
-      - m_Data: -42974
-      - m_Data: -42904
-      - m_Data: -42286
-      - m_Data: -41866
-      - m_Data: -41504
-      - m_Data: -41426
-      - m_Data: -40022
+      - m_Data: -8884
+      - m_Data: -1382
+      - m_Data: 42310
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1481,9 +1477,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 0, y: 0, z: 0}
+    m_Target: {x: 1302.0361, y: 661.31824, z: 3.657375}
     speed: 2
-    m_Value: {x: -1.0843352, y: -7.8725805, z: 588.21313}
+    m_Value: {x: 1302.0361, y: 661.31824, z: 3.657375}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1534,9 +1530,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 10
+    m_Target: 1102.8679
     speed: 2
-    m_Value: 43.58932
+    m_Value: 1102.8679
   m_Ortho:
     m_Target: 1
     speed: 2
