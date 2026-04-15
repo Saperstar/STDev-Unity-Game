@@ -5,3 +5,6 @@ Build/
 Logs/
 UserSettings/
 MemoryCaptures/
+
+*.log
+*.tmp
