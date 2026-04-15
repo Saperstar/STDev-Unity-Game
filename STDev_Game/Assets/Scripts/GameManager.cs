@@ -49,7 +49,7 @@ public class GameManager : MonoBehaviour
         {
             if (i >= currentHearts)
             {
-                heartAnimators[i].Play("Break", 0, 1.0f);
+                heartAnimators[i].Play("Heart_break_Anim", 0, 1.0f);
             }
         }
     }
