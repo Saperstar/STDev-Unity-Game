@@ -1,0 +1,1030 @@
+fileFormatVersion: 2
+guid: 1b5466eb530a91e49a523e2cc00fa591
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8130587358272616295
+    second: HeartSprite_0
+  - first:
+      213: 5540912890332653528
+    second: HeartSprite_1
+  - first:
+      213: -4179017212403569558
+    second: HeartSprite_2
+  - first:
+      213: -667158506395497426
+    second: HeartSprite_3
+  - first:
+      213: 3670503168739312580
+    second: HeartSprite_4
+  - first:
+      213: -5967390548623927981
+    second: HeartSprite_5
+  - first:
+      213: -6039415370450166517
+    second: HeartSprite_6
+  - first:
+      213: -4184734347300212759
+    second: HeartSprite_7
+  - first:
+      213: -4476841950700390155
+    second: HeartSprite_8
+  - first:
+      213: -8136491683656150464
+    second: HeartSprite_9
+  - first:
+      213: 48136794379094422
+    second: HeartSprite_10
+  - first:
+      213: 5360800527219073041
+    second: HeartSprite_11
+  - first:
+      213: -2310535328096693646
+    second: HeartSprite_12
+  - first:
+      213: 6931432909373308769
+    second: HeartSprite_13
+  - first:
+      213: -4332728031609365516
+    second: HeartSprite_14
+  - first:
+      213: -4649413275954304180
+    second: HeartSprite_15
+  - first:
+      213: -6576465408588668405
+    second: HeartSprite_16
+  - first:
+      213: 298840126956107088
+    second: HeartSprite_17
+  - first:
+      213: -5716793269117609218
+    second: HeartSprite_18
+  - first:
+      213: -7574223830297510444
+    second: HeartSprite_19
+  - first:
+      213: 2043737943874388438
+    second: HeartSprite_20
+  - first:
+      213: 7212727157060811642
+    second: HeartSprite_21
+  - first:
+      213: 7196211828773265452
+    second: HeartSprite_22
+  - first:
+      213: 6928794419360692922
+    second: HeartSprite_23
+  - first:
+      213: 5860691147933915024
+    second: HeartSprite_24
+  - first:
+      213: 4703961699662707231
+    second: HeartSprite_25
+  - first:
+      213: -7885587091937298078
+    second: HeartSprite_26
+  - first:
+      213: -7714520242653329575
+    second: HeartSprite_27
+  - first:
+      213: -5819004373242084325
+    second: HeartSprite_28
+  - first:
+      213: 3656702514803877452
+    second: HeartSprite_29
+  - first:
+      213: -970009610241340143
+    second: HeartSprite_30
+  - first:
+      213: -3743581189752895207
+    second: HeartSprite_31
+  - first:
+      213: 7586079525690699971
+    second: HeartSprite_32
+  - first:
+      213: 236412407806942176
+    second: HeartSprite_33
+  - first:
+      213: 2670307922303912653
+    second: HeartSprite_34
+  - first:
+      213: -8011957877662937632
+    second: HeartSprite_35
+  - first:
+      213: -3147766827934106715
+    second: HeartSprite_36
+  - first:
+      213: -1758550976982666328
+    second: HeartSprite_37
+  - first:
+      213: -2496930979046101695
+    second: HeartSprite_38
+  - first:
+      213: 2482689969128626553
+    second: HeartSprite_39
+  - first:
+      213: 4905622148834657964
+    second: HeartSprite_40
+  - first:
+      213: 4479382136155605305
+    second: HeartSprite_41
+  - first:
+      213: 7305991779872174491
+    second: HeartSprite_42
+  - first:
+      213: -6383922659715823021
+    second: HeartSprite_43
+  - first:
+      213: -99439422597274171
+    second: HeartSprite_44
+  - first:
+      213: 7884654038030833315
+    second: HeartSprite_45
+  - first:
+      213: -3245645798160813497
+    second: HeartSprite_46
+  - first:
+      213: 3691086725644639925
+    second: HeartSprite_47
+  - first:
+      213: 6871993784366691116
+    second: HeartSprite_48
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HeartSprite_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 225
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 767fe19ef16a5d070800000000000000
+      internalID: 8130587358272616295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeartSprite_1
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 225
+        width: 45
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d729afaae645ec40800000000000000
+      internalID: 5540912890332653528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeartSprite_2
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 225
+        width: 45
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6c21789cf52106c0800000000000000
+      internalID: -4179017212403569558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeartSprite_3
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 225
+        width: 37
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2c8a698fd6cdb6f0800000000000000
+      internalID: -667158506395497426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeartSprite_4
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 225
+        width: 37
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c307af4f2f30f230800000000000000
+      internalID: 3670503168739312580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeartSprite_5
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 225
+        width: 37
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3555f31a9e19f2da0800000000000000
+      internalID: -5967390548623927981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeartSprite_6
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 226
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0d984108bfaf2ca0800000000000000
+      internalID: -6039415370450166517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeartSprite_7
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 226
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ef6bc56846dce5c0800000000000000
+      internalID: -4184734347300212759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeartSprite_8
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 173
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f8bfe417ff0fd1c0800000000000000
+      internalID: -4476841950700390155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeartSprite_9
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 168
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04251c53cef551f80800000000000000
+      internalID: -8136491683656150464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeartSprite_10
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 169
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6998791d8240ba000800000000000000
+      internalID: 48136794379094422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeartSprite_11
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 164
+        width: 37
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 110ae904da3656a40800000000000000
+      internalID: 5360800527219073041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeartSprite_12
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 160
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2725ecf5c545fefd0800000000000000
+      internalID: -2310535328096693646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeartSprite_13
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 156
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16ff5abb185613060800000000000000
+      internalID: 6931432909373308769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeartSprite_14
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 156
+        width: 52
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fbdb8f9fce0fd3c0800000000000000
+      internalID: -4332728031609365516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeartSprite_15
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 160
+        width: 45
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4b22c85247f97fb0800000000000000
+      internalID: -4649413275954304180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeartSprite_16
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 91
+        width: 53
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b02ad63fd83bbb4a0800000000000000
+      internalID: -6576465408588668405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeartSprite_18
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 90
+        width: 56
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efa96e38fced9a0b0800000000000000
+      internalID: -5716793269117609218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeartSprite_20
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 87
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d1ce9ee4d0dc5c10800000000000000
+      internalID: 2043737943874388438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeartSprite_23
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 88
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abaf3b760d5082060800000000000000
+      internalID: 6928794419360692922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeartSprite_25
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 85
+        width: 64
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1a30714e34d74140800000000000000
+      internalID: 4703961699662707231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeartSprite_28
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 95
+        width: 45
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b14067a5a5ebe3fa0800000000000000
+      internalID: -5819004373242084325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeartSprite_30
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 89
+        width: 55
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11d89d81665d982f0800000000000000
+      internalID: -970009610241340143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeartSprite_34
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 84
+        width: 61
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dca06dd48e6de0520800000000000000
+      internalID: 2670307922303912653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeartSprite_35
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 31
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ed028a62cecfc090800000000000000
+      internalID: -8011957877662937632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeartSprite_36
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 30
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5abba316fb2e054d0800000000000000
+      internalID: -3147766827934106715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeartSprite_37
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 30
+        width: 35
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a33881243f5897e0800000000000000
+      internalID: -1758550976982666328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeartSprite_38
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 30
+        width: 43
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14de94df08e195dd0800000000000000
+      internalID: -2496930979046101695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeartSprite_39
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 30
+        width: 45
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97956518f59447220800000000000000
+      internalID: 2482689969128626553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeartSprite_40
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 30
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca6049f6a55441440800000000000000
+      internalID: 4905622148834657964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeartSprite_41
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 30
+        width: 45
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93909cee156f92e30800000000000000
+      internalID: 4479382136155605305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeartSprite_42
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 30
+        width: 45
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b917433a0d8146560800000000000000
+      internalID: 7305991779872174491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 8aa9efea1b69e8d4499e009fd0ab0ecb
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      HeartSprite_0: 8130587358272616295
+      HeartSprite_1: 5540912890332653528
+      HeartSprite_10: 48136794379094422
+      HeartSprite_11: 5360800527219073041
+      HeartSprite_12: -2310535328096693646
+      HeartSprite_13: 6931432909373308769
+      HeartSprite_14: -4332728031609365516
+      HeartSprite_15: -4649413275954304180
+      HeartSprite_16: -6576465408588668405
+      HeartSprite_17: 298840126956107088
+      HeartSprite_18: -5716793269117609218
+      HeartSprite_19: -7574223830297510444
+      HeartSprite_2: -4179017212403569558
+      HeartSprite_20: 2043737943874388438
+      HeartSprite_21: 7212727157060811642
+      HeartSprite_22: 7196211828773265452
+      HeartSprite_23: 6928794419360692922
+      HeartSprite_24: 5860691147933915024
+      HeartSprite_25: 4703961699662707231
+      HeartSprite_26: -7885587091937298078
+      HeartSprite_27: -7714520242653329575
+      HeartSprite_28: -5819004373242084325
+      HeartSprite_29: 3656702514803877452
+      HeartSprite_3: -667158506395497426
+      HeartSprite_30: -970009610241340143
+      HeartSprite_31: -3743581189752895207
+      HeartSprite_32: 7586079525690699971
+      HeartSprite_33: 236412407806942176
+      HeartSprite_34: 2670307922303912653
+      HeartSprite_35: -8011957877662937632
+      HeartSprite_36: -3147766827934106715
+      HeartSprite_37: -1758550976982666328
+      HeartSprite_38: -2496930979046101695
+      HeartSprite_39: 2482689969128626553
+      HeartSprite_4: 3670503168739312580
+      HeartSprite_40: 4905622148834657964
+      HeartSprite_41: 4479382136155605305
+      HeartSprite_42: 7305991779872174491
+      HeartSprite_43: -6383922659715823021
+      HeartSprite_44: -99439422597274171
+      HeartSprite_45: 7884654038030833315
+      HeartSprite_46: -3245645798160813497
+      HeartSprite_47: 3691086725644639925
+      HeartSprite_48: 6871993784366691116
+      HeartSprite_5: -5967390548623927981
+      HeartSprite_6: -6039415370450166517
+      HeartSprite_7: -4184734347300212759
+      HeartSprite_8: -4476841950700390155
+      HeartSprite_9: -8136491683656150464
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

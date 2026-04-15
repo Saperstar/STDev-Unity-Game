@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\USER\\Desktop\\\uB300\uD68C\\STDev Hackathon\\STDev-Unity-Game\\STDev_Game\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\Desktop\\\uB300\uD68C\\STDev Hackathon\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\WandController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\WandController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\Desktop\\\uB300\uD68C\\STDev Hackathon\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\GameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\GameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\Desktop\\\uB300\uD68C\\STDev Hackathon\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\PlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\Desktop\\\uB300\uD68C\\STDev Hackathon\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\GraphDrawer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\GraphDrawer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\Desktop\\\uB300\uD68C\\STDev Hackathon\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\TreasureMap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\TreasureMap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\Desktop\\\uB300\uD68C\\STDev Hackathon\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\WandController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\WandController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\Desktop\\\uB300\uD68C\\STDev Hackathon\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\StarItem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\StarItem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\Desktop\\\uB300\uD68C\\STDev Hackathon\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\MainMenuManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\MainMenuManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\Desktop\\\uB300\uD68C\\STDev Hackathon\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\GraphDrawer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\GraphDrawer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,8 +38,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TreasureMap.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\\uB300\uD68C\\STDev Hackathon\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\TreasureMap.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TreasureMap.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\\uB300\uD68C\\STDev Hackathon\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\TreasureMap.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TreasureMap.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T10:38:30.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StarItem.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\\uB300\uD68C\\STDev Hackathon\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\StarItem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\StarItem.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\\uB300\uD68C\\STDev Hackathon\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\StarItem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\StarItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T09:47:18.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\\uB300\uD68C\\STDev Hackathon\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\\uB300\uD68C\\STDev Hackathon\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAiwC8AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T09:44:33.524Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -36,27 +87,27 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
               "ToolTip": "C:\\Users\\USER\\Desktop\\\uB300\uD68C\\STDev Hackathon\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAiwE4AAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAiwH0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-14T11:34:23.695Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "WandController.cs",
               "DocumentMoniker": "C:\\Users\\USER\\Desktop\\\uB300\uD68C\\STDev Hackathon\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\WandController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\WandController.cs",
               "ToolTip": "C:\\Users\\USER\\Desktop\\\uB300\uD68C\\STDev Hackathon\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\WandController.cs",
               "RelativeToolTip": "Assets\\Scripts\\WandController.cs",
-              "ViewState": "AgIAAJ0AAAAAAAAAAAAiwKgAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAiwGEAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-14T10:57:31.481Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "GraphDrawer.cs",
               "DocumentMoniker": "C:\\Users\\USER\\Desktop\\\uB300\uD68C\\STDev Hackathon\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\GraphDrawer.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GraphDrawer.cs",
@@ -68,15 +119,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "MainMenuManager.cs",
               "DocumentMoniker": "C:\\Users\\USER\\Desktop\\\uB300\uD68C\\STDev Hackathon\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\MainMenuManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MainMenuManager.cs",
               "ToolTip": "C:\\Users\\USER\\Desktop\\\uB300\uD68C\\STDev Hackathon\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\MainMenuManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\MainMenuManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T07:56:38.983Z"
+              "WhenOpened": "2026-04-13T07:56:38.983Z",
+              "EditorCaption": ""
             }
           ]
         }

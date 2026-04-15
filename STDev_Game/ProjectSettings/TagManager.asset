@@ -5,9 +5,9 @@ TagManager:
   serializedVersion: 3
   tags:
   - Star
-  - Gear
   - Heart
   - TreasureMap
+  - Monster
   layers:
   - Default
   - TransparentFX

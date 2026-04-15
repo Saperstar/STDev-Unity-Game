@@ -7,27 +7,22 @@ public class PlayerController : MonoBehaviour
     public LineRenderer pathLine;
     public float speed = 2f;
 
-    // 내부에서만 쓰는 변수들
     private bool isMoving = false;
     private int currentPointIndex = 0;
     private int collectedStars = 0;
     private Vector3 startPosition;
 
-    // 리셋을 위해 맵의 별과 하트를 기억해둘 리스트
     private List<GameObject> allStars = new List<GameObject>();
-    private List<GameObject> allHearts = new List<GameObject>(); // ★ 하트용 리스트 추가
+    private List<GameObject> allHearts = new List<GameObject>();
 
-    // ★ WandController나 다른 곳에서 읽을 수 있는 공개용 속성들
     public bool IsMoving => isMoving;
-    public bool HasHeartKey { get; private set; } = false; // ★ 하트 스테이지 입장 권한 (기본값: 없음)
+    public bool HasHeartKey { get; private set; } = false;
 
     void Start()
     {
         startPosition = transform.position;
-
-        // 시작할 때 맵의 모든 별과 하트를 찾아둠
         allStars.AddRange(GameObject.FindGameObjectsWithTag("Star"));
-        allHearts.AddRange(GameObject.FindGameObjectsWithTag("Heart")); // ★ 하트 찾기 추가
+        allHearts.AddRange(GameObject.FindGameObjectsWithTag("Heart"));
     }
 
     public void StartMoving()
@@ -58,6 +53,23 @@ public class PlayerController : MonoBehaviour
         if (!isMoving) return;
 
         Vector3 targetPos = pathLine.GetPosition(currentPointIndex);
+
+        // --- [★ 추가된 회전 로직: 가야 할 방향 쳐다보기] ---
+        // 1. 방향 벡터 구하기 (목표 위치 - 현재 위치)
+        Vector3 direction = targetPos - transform.position;
+
+        // 2. 캐릭터가 제자리에 멈춰있지 않을 때만 회전
+        if (direction != Vector3.zero)
+        {
+            // 3. Atan2 함수로 정확한 각도(Angle) 계산
+            float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+
+            // 4. 계산된 각도를 캐릭터의 Z축 회전에 덮어씌우기
+            transform.rotation = Quaternion.Euler(0, 0, angle);
+        }
+        // --------------------------------------------------
+
+        // 기존 이동 로직 (이건 건드리지 마세요!)
         transform.position = Vector3.MoveTowards(transform.position, targetPos, speed * Time.deltaTime);
 
         if (Vector3.Distance(transform.position, targetPos) < 0.05f)
@@ -76,6 +88,8 @@ public class PlayerController : MonoBehaviour
         if (other.CompareTag("Star"))
         {
             collectedStars++;
+            if (GameManager.Instance != null) GameManager.Instance.AddStar();
+
             other.gameObject.SetActive(false);
             Debug.Log("별 획득! 현재: " + collectedStars);
         }
@@ -85,62 +99,71 @@ public class PlayerController : MonoBehaviour
             other.gameObject.SetActive(false);
             Debug.Log("❤️ 하트 획득!");
         }
-        // ★ 보물지도 로직 추가
         else if (other.CompareTag("TreasureMap"))
         {
             other.gameObject.SetActive(false);
-            Debug.Log("🗺️ 보물지도를 찾았습니다! 즉시 클리어!");
+            isMoving = false;
 
-            isMoving = false; // 즉시 이동 멈춤
-
-            // 지도를 먹었을 때는 별이 0개라도 성공으로 처리하기 위해 직접 성공 함수 호출
-            MissionComplete(true);
+            // 보물지도를 먹으면 심판에게 판정 요청
+            if (GameManager.Instance != null) GameManager.Instance.CheckClearCondition();
         }
-        else if (other.CompareTag("Gear"))
+        // ★ 두 개로 나뉘어 있던 몬스터 코드를 완벽하게 하나로 합쳤습니다!
+        else if (other.CompareTag("Monster"))
         {
-            ResetStage();
+            Rigidbody2D rb = GetComponent<Rigidbody2D>();
+            if (rb != null)
+            {
+                rb.linearVelocity = Vector2.zero; // 물리적 속도 제거 (최신 API)
+                rb.bodyType = RigidbodyType2D.Kinematic; // 물리 엔진 영향 일시 정지 (최신 API)
+            }
+
+            // [1단 잠금] 이동 플래그 끄기
+            isMoving = false;
+
+            // [2단 잠금] 현재 위치 고정
+            transform.position = transform.position;
+
+            // 하트 깎기
+            if (GameManager.Instance != null)
+            {
+                GameManager.Instance.LoseHeart();
+            }
+
+            // [3단 잠금] 즉시 종료
+            return;
         }
     }
 
     void CheckWinCondition()
     {
-        // 선의 끝에 도달했을 때 호출되는 기본 체크
-        MissionComplete(collectedStars > 0);
-    }
+        // 선의 끝(도착점)에 도달했는데 이 함수가 실행됐다는 건, 
+        // 중간에 보물지도를 먹지(터치하지) 못하고 지나쳤다는 뜻입니다! (즉, 실패)
+        if (GameManager.Instance != null)
+        {
+            Debug.Log("보물지도를 놓치고 선의 끝에 도달했습니다! 하트 감소!");
 
-    // ★ 성공/실패 처리를 통합한 함수
-    void MissionComplete(bool isSuccess)
-    {
-        if (isSuccess)
-        {
-            Debug.Log("🎉 스테이지 클리어!");
-            // 여기에 다음 스테이지 이동 로직 추가
-        }
-        else
-        {
-            Debug.Log("별을 하나도 못 먹고 끝에 도달했습니다. 실패!");
-            ResetStage();
+            // 기존 코드: GameManager.Instance.CheckClearCondition(); 
+            // ⬇️ 새로운 코드: 독수리에 닿은 것처럼 자비 없이 하트를 깎습니다!
+            GameManager.Instance.LoseHeart();
         }
     }
 
     void ResetStage()
     {
         isMoving = false;
-        transform.position = startPosition; // 제자리로
+        transform.position = startPosition;
 
-        // 먹었던 별들 다시 켜기
         foreach (GameObject star in allStars)
         {
             if (star != null) star.SetActive(true);
         }
 
-        // ★ 먹었던 하트도 다시 켜고, 권한 몰수하기
         foreach (GameObject heart in allHearts)
         {
             if (heart != null) heart.SetActive(true);
         }
 
         collectedStars = 0;
-        HasHeartKey = false; // 리셋됐으니 하트 권한도 다시 사라짐
+        HasHeartKey = false;
     }
 }
