@@ -71,7 +71,7 @@ public class WandController : MonoBehaviour
         // 1. 우클릭 감지
         if (Mouse.current.rightButton.wasPressedThisFrame)
         {
-            if (player.IsMoving) player.StopMoving();
+            if (player.IsMoving) player.RequestStop();    // 수정 후 (매니저에게 횟수 검사 요청)
             else if (points.Count == RequiredPoints) ExecuteFullProcess();
             return;
         }

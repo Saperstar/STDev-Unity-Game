@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1918
     height: 980
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Scene
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -725,7 +725,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Scripts
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -735,7 +735,7 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Scripts
   m_LastFoldersGridSize: 16
   m_LastProjectPath: "C:\\Users\\USER\\Desktop\\\uB300\uD68C\\STDev Hackathon\\STDev-Unity-Game\\STDev_Game"
   m_LockTracker:
@@ -744,9 +744,9 @@ MonoBehaviour:
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs:
-    - m_Data: 43744
+    - m_Data: 43750
     m_LastClickedID:
-      m_Data: 43744
+      m_Data: 43750
     m_ExpandedIDs:
     - m_Data: 0
     - m_Data: 43646
@@ -815,11 +815,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs:
-    - m_Data: 43536
+    m_SelectedInstanceIDs: []
     m_LastClickedEntityId:
-      m_Data: 43536
-    m_HadKeyboardFocusLastEvent: 1
+      m_Data: 0
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs:
     - m_Data: 42990
     - m_Data: 43464
@@ -827,8 +826,8 @@ MonoBehaviour:
     - m_Data: 74444
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: MainMenu
+      m_OriginalName: MainMenu
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
@@ -836,10 +835,10 @@ MonoBehaviour:
         width: 0
         height: 0
       m_UserData:
-        m_Data: 0
+        m_Data: 43814
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_TrimLeadingAndTrailingWhitespace: 0
       m_ClientGUIView: {fileID: 5}
@@ -948,12 +947,25 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs:
-      - m_Data: 43536
+      m_SelectedIDs: []
       m_LastClickedID:
         m_Data: 0
       m_ExpandedIDs:
+      - m_Data: -5928
+      - m_Data: -5400
+      - m_Data: -5342
+      - m_Data: -4608
+      - m_Data: -1916
       - m_Data: -1426
+      - m_Data: 43862
+      - m_Data: 43920
+      - m_Data: 47370
+      - m_Data: 47382
+      - m_Data: 47410
+      - m_Data: 47612
+      - m_Data: 48954
+      - m_Data: 48994
+      - m_Data: 49152
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1575,9 +1587,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 0.0060915416, y: 0.024366166, z: 31.252644}
+    m_Target: {x: -0.07822767, y: -0.59459376, z: 10.934673}
     speed: 2
-    m_Value: {x: 0.0060915416, y: 0.024366166, z: 31.252644}
+    m_Value: {x: -0.07822767, y: -0.59459376, z: 10.934673}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1628,9 +1640,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 6.738649
+    m_Target: 7.985957
     speed: 2
-    m_Value: 6.738649
+    m_Value: 7.985957
   m_Ortho:
     m_Target: 1
     speed: 2
