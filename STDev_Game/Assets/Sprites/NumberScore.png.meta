@@ -1,0 +1,3510 @@
+fileFormatVersion: 2
+guid: 30f24f2ea3fbb477698229290fe8b9ec
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4192489671375137730
+    second: NumberScore_0
+  - first:
+      213: 6981205132357657858
+    second: NumberScore_1
+  - first:
+      213: -1575079313449726307
+    second: NumberScore_2
+  - first:
+      213: -6666405243410330059
+    second: NumberScore_3
+  - first:
+      213: -237849156603707392
+    second: NumberScore_4
+  - first:
+      213: 2377101262741076788
+    second: NumberScore_5
+  - first:
+      213: -6252401553030127259
+    second: NumberScore_6
+  - first:
+      213: -7498719375699359217
+    second: NumberScore_7
+  - first:
+      213: -1233708275163235215
+    second: NumberScore_8
+  - first:
+      213: 2576510064388997293
+    second: NumberScore_9
+  - first:
+      213: -1914813268001931169
+    second: NumberScore_10
+  - first:
+      213: 7476539807900314041
+    second: NumberScore_11
+  - first:
+      213: -9010572718478981257
+    second: NumberScore_12
+  - first:
+      213: -5486894981912102447
+    second: NumberScore_13
+  - first:
+      213: -6878156203408302227
+    second: NumberScore_14
+  - first:
+      213: 2457378115413248464
+    second: NumberScore_15
+  - first:
+      213: -8585162214997191919
+    second: NumberScore_16
+  - first:
+      213: 471294398575731785
+    second: NumberScore_17
+  - first:
+      213: -894775428147997328
+    second: NumberScore_18
+  - first:
+      213: -1292321600505335658
+    second: NumberScore_19
+  - first:
+      213: 9206129323789271545
+    second: NumberScore_20
+  - first:
+      213: 1227875360656791983
+    second: NumberScore_21
+  - first:
+      213: 5537656081849716002
+    second: NumberScore_22
+  - first:
+      213: -2391229481343821980
+    second: NumberScore_23
+  - first:
+      213: 8128897439096341688
+    second: NumberScore_24
+  - first:
+      213: 3114722593373166276
+    second: NumberScore_25
+  - first:
+      213: 8997865750268810927
+    second: NumberScore_26
+  - first:
+      213: -2601462963293489750
+    second: NumberScore_27
+  - first:
+      213: 3650362586818110188
+    second: NumberScore_28
+  - first:
+      213: -4759943796106233605
+    second: NumberScore_29
+  - first:
+      213: 2898014350557739642
+    second: NumberScore_30
+  - first:
+      213: -3550806221802368834
+    second: NumberScore_31
+  - first:
+      213: -3402911978957688174
+    second: NumberScore_32
+  - first:
+      213: -7894501595480578188
+    second: NumberScore_33
+  - first:
+      213: 602679194108047633
+    second: NumberScore_34
+  - first:
+      213: -6070160661524812672
+    second: NumberScore_35
+  - first:
+      213: 2889794466799239499
+    second: NumberScore_36
+  - first:
+      213: 6567840536814804393
+    second: NumberScore_37
+  - first:
+      213: 5081485815876325409
+    second: NumberScore_38
+  - first:
+      213: -5609089917817145183
+    second: NumberScore_39
+  - first:
+      213: -1337964620102900306
+    second: NumberScore_40
+  - first:
+      213: -7331746107198954268
+    second: NumberScore_41
+  - first:
+      213: -823065049620253419
+    second: NumberScore_42
+  - first:
+      213: 8622530123479663241
+    second: NumberScore_43
+  - first:
+      213: 735378623428076922
+    second: NumberScore_44
+  - first:
+      213: -6601022073016738416
+    second: NumberScore_45
+  - first:
+      213: 9138485399895513524
+    second: NumberScore_46
+  - first:
+      213: -4964126914983608651
+    second: NumberScore_47
+  - first:
+      213: -7333253570245780664
+    second: NumberScore_48
+  - first:
+      213: -9120189454774909315
+    second: NumberScore_49
+  - first:
+      213: 7159334261931570714
+    second: NumberScore_50
+  - first:
+      213: 1706141149181663532
+    second: NumberScore_51
+  - first:
+      213: 6829302960854605568
+    second: NumberScore_52
+  - first:
+      213: -1797703498938905995
+    second: NumberScore_53
+  - first:
+      213: 2660454791397323227
+    second: NumberScore_54
+  - first:
+      213: 8764123989526219706
+    second: NumberScore_55
+  - first:
+      213: -1947459759490190510
+    second: NumberScore_56
+  - first:
+      213: -4182683152083228303
+    second: NumberScore_57
+  - first:
+      213: 2930963728007558999
+    second: NumberScore_58
+  - first:
+      213: -6603607991539990667
+    second: NumberScore_59
+  - first:
+      213: -136929551847483627
+    second: NumberScore_60
+  - first:
+      213: -824340606551728923
+    second: NumberScore_61
+  - first:
+      213: 1314324296946352928
+    second: NumberScore_62
+  - first:
+      213: 9153928488862066928
+    second: NumberScore_63
+  - first:
+      213: 5984071693715038923
+    second: NumberScore_64
+  - first:
+      213: -2410525028341418722
+    second: NumberScore_65
+  - first:
+      213: -8293662484248366152
+    second: NumberScore_66
+  - first:
+      213: -9128553772279281304
+    second: NumberScore_67
+  - first:
+      213: 3805542630566025094
+    second: NumberScore_68
+  - first:
+      213: 3234230242732116137
+    second: NumberScore_69
+  - first:
+      213: 8490983595811449511
+    second: NumberScore_70
+  - first:
+      213: -8532637687500884106
+    second: NumberScore_71
+  - first:
+      213: -602374476057371096
+    second: NumberScore_72
+  - first:
+      213: -2481498237922323822
+    second: NumberScore_73
+  - first:
+      213: -8922709265589357577
+    second: NumberScore_74
+  - first:
+      213: 7713030767699204896
+    second: NumberScore_75
+  - first:
+      213: 1999666607020018450
+    second: NumberScore_76
+  - first:
+      213: -2113748240173484934
+    second: NumberScore_77
+  - first:
+      213: 5785385572629521230
+    second: NumberScore_78
+  - first:
+      213: -901080772159626215
+    second: NumberScore_79
+  - first:
+      213: 7665434840560904959
+    second: NumberScore_80
+  - first:
+      213: 2426513925650866915
+    second: NumberScore_81
+  - first:
+      213: -3472823309174997854
+    second: NumberScore_82
+  - first:
+      213: -5790565766740506727
+    second: NumberScore_83
+  - first:
+      213: -2229720467216540428
+    second: NumberScore_84
+  - first:
+      213: -5607450210845355615
+    second: NumberScore_85
+  - first:
+      213: -911913187978404064
+    second: NumberScore_86
+  - first:
+      213: 8418743861764049750
+    second: NumberScore_87
+  - first:
+      213: -3888367130861057764
+    second: NumberScore_88
+  - first:
+      213: 1854861865115235223
+    second: NumberScore_89
+  - first:
+      213: 9219267206452175898
+    second: NumberScore_90
+  - first:
+      213: -5610223997411989900
+    second: NumberScore_91
+  - first:
+      213: -5508178197269481251
+    second: NumberScore_92
+  - first:
+      213: -2934993458536969
+    second: NumberScore_93
+  - first:
+      213: 7741584822361345930
+    second: NumberScore_94
+  - first:
+      213: 8211275679084059245
+    second: NumberScore_95
+  - first:
+      213: 4522050971955541546
+    second: NumberScore_96
+  - first:
+      213: -3643996375328565864
+    second: NumberScore_97
+  - first:
+      213: 9206055942019668031
+    second: NumberScore_98
+  - first:
+      213: -2052651323648588497
+    second: NumberScore_99
+  - first:
+      213: -9161098929318888132
+    second: NumberScore_100
+  - first:
+      213: 5956810885659505106
+    second: NumberScore_101
+  - first:
+      213: 8949220510055781259
+    second: NumberScore_102
+  - first:
+      213: -4878153820615603338
+    second: NumberScore_103
+  - first:
+      213: -7897112313905838550
+    second: NumberScore_104
+  - first:
+      213: 8657490955548337615
+    second: NumberScore_105
+  - first:
+      213: -3240252604286109062
+    second: NumberScore_106
+  - first:
+      213: -6181094175937304535
+    second: NumberScore_107
+  - first:
+      213: -4535610886871344000
+    second: NumberScore_108
+  - first:
+      213: -2639158577280839104
+    second: NumberScore_109
+  - first:
+      213: 8075201191730863273
+    second: NumberScore_110
+  - first:
+      213: 8032348076121313815
+    second: NumberScore_111
+  - first:
+      213: 6627520343101114212
+    second: NumberScore_112
+  - first:
+      213: -8672622152985346283
+    second: NumberScore_113
+  - first:
+      213: -1370848967474377840
+    second: NumberScore_114
+  - first:
+      213: 4279544755255927916
+    second: NumberScore_115
+  - first:
+      213: 5937634122688054941
+    second: NumberScore_116
+  - first:
+      213: -3308152590382668556
+    second: NumberScore_117
+  - first:
+      213: 4377812482286888588
+    second: NumberScore_118
+  - first:
+      213: 6640863157184348454
+    second: NumberScore_119
+  - first:
+      213: 1730880932464857051
+    second: NumberScore_120
+  - first:
+      213: 5325274538111969410
+    second: NumberScore_121
+  - first:
+      213: 7184137235218687177
+    second: NumberScore_122
+  - first:
+      213: 2494444155092731913
+    second: NumberScore_123
+  - first:
+      213: -7258217986946168239
+    second: NumberScore_124
+  - first:
+      213: 1188875939138973577
+    second: NumberScore_125
+  - first:
+      213: -6916174024735497561
+    second: NumberScore_126
+  - first:
+      213: -5208205602563936192
+    second: NumberScore_127
+  - first:
+      213: 104100643627125345
+    second: NumberScore_128
+  - first:
+      213: -3508162663744609686
+    second: NumberScore_129
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NumberScore_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 776
+        width: 72
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cb2fc2b427be2a30800000000000000
+      internalID: 4192489671375137730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_1
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 776
+        width: 44
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 205ef42741932e060800000000000000
+      internalID: 6981205132357657858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_2
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 776
+        width: 43
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9e43c4a5b1342ae0800000000000000
+      internalID: -1575079313449726307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_3
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 776
+        width: 46
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53ec9b150cb2c73a0800000000000000
+      internalID: -6666405243410330059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_4
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 776
+        width: 45
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0008286c37df2bcf0800000000000000
+      internalID: -237849156603707392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_5
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 776
+        width: 49
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43b70d801092df020800000000000000
+      internalID: 2377101262741076788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_6
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 776
+        width: 43
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 561e9860ae10b39a0800000000000000
+      internalID: -6252401553030127259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_7
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 776
+        width: 49
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0ac91d25723fe790800000000000000
+      internalID: -7498719375699359217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_8
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 776
+        width: 46
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17c7f663cdcf0eee0800000000000000
+      internalID: -1233708275163235215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_9
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 776
+        width: 45
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da0002ca04a91c320800000000000000
+      internalID: 2576510064388997293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_10
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 768
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f504a855a773d65e0800000000000000
+      internalID: -1914813268001931169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_11
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 768
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b927f6c75102c760800000000000000
+      internalID: 7476539807900314041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_12
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 769
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7770c344ad304f280800000000000000
+      internalID: -9010572718478981257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_13
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 769
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d97143b512aad3b0800000000000000
+      internalID: -5486894981912102447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_14
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 768
+        width: 31
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6fd2320061eb80a0800000000000000
+      internalID: -6878156203408302227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_15
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 769
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d98600506c5a1220800000000000000
+      internalID: 2457378115413248464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_16
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 769
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1139cfb93706bd880800000000000000
+      internalID: -8585162214997191919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_17
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 769
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 944ecbb22cf5a8600800000000000000
+      internalID: 471294398575731785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_18
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 768
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0759d732d7e1593f0800000000000000
+      internalID: -894775428147997328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_19
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 769
+        width: 103
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 690b052f950c01ee0800000000000000
+      internalID: -1292321600505335658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_20
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 684
+        width: 46
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f144c408ddb2cf70800000000000000
+      internalID: 9206129323789271545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_21
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 684
+        width: 45
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa9176c822a4a0110800000000000000
+      internalID: 1227875360656791983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_22
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 684
+        width: 46
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22d0feeddd4b9dc40800000000000000
+      internalID: 5537656081849716002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_23
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 684
+        width: 47
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4675f0cb475a0ded0800000000000000
+      internalID: -2391229481343821980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_24
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 684
+        width: 44
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b48be0f625afc070800000000000000
+      internalID: 8128897439096341688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_25
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 684
+        width: 50
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ca14e732b7b93b20800000000000000
+      internalID: 3114722593373166276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_26
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 683
+        width: 45
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa61d652a37dedc70800000000000000
+      internalID: 8997865750268810927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_27
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 683
+        width: 47
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa57e80d73fb5ebd0800000000000000
+      internalID: -2601462963293489750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_28
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 684
+        width: 45
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce26ba8ae61b8a230800000000000000
+      internalID: 3650362586818110188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_29
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 684
+        width: 47
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf87342365841fdb0800000000000000
+      internalID: -4759943796106233605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_30
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 691
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7a7afe82b0d73820800000000000000
+      internalID: 2898014350557739642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_31
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 691
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb01933ed8009bec0800000000000000
+      internalID: -3550806221802368834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_32
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 692
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2923e44a59d66c0d0800000000000000
+      internalID: -3402911978957688174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_33
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 692
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47720a230a8117290800000000000000
+      internalID: -7894501595480578188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_34
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 692
+        width: 31
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 111345ea8852d5800800000000000000
+      internalID: 602679194108047633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_35
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 692
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08c63481a0572cba0800000000000000
+      internalID: -6070160661524812672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_36
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 692
+        width: 31
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b41457bb1cc9a1820800000000000000
+      internalID: 2889794466799239499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_37
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 692
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9add14a9b28a52b50800000000000000
+      internalID: 6567840536814804393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_38
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 692
+        width: 31
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1209e7a3d60158640800000000000000
+      internalID: 5081485815876325409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_39
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 692
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a8b84f10728822b0800000000000000
+      internalID: -5609089917817145183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_40
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 591
+        width: 46
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea5e9b054489e6de0800000000000000
+      internalID: -1337964620102900306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_41
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 591
+        width: 45
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e4ad01c2c7604a90800000000000000
+      internalID: -7331746107198954268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_42
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 591
+        width: 45
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 515785ab2b2e394f0800000000000000
+      internalID: -823065049620253419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_43
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 591
+        width: 47
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9824c13967169a770800000000000000
+      internalID: 8622530123479663241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_44
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 591
+        width: 44
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a75a8d836f6943a00800000000000000
+      internalID: 735378623428076922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_45
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 591
+        width: 49
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09d1357f5657464a0800000000000000
+      internalID: -6601022073016738416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_46
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 591
+        width: 43
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b99dddad0c62de70800000000000000
+      internalID: 9138485399895513524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_47
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 591
+        width: 49
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5be32743fd0eb1bb0800000000000000
+      internalID: -4964126914983608651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_48
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 591
+        width: 44
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84b92a92bbc0b3a90800000000000000
+      internalID: -7333253570245780664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_49
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 591
+        width: 46
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d76c0eff2049e6180800000000000000
+      internalID: -9120189454774909315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_50
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 615
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a16f6b654901b5360800000000000000
+      internalID: 7159334261931570714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_51
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 615
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2956ade55e6da710800000000000000
+      internalID: 1706141149181663532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_52
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 615
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00f13451cde86ce50800000000000000
+      internalID: 6829302960854605568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_53
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 615
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57a054e31364d07e0800000000000000
+      internalID: -1797703498938905995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_54
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 615
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd1393e7985dbe420800000000000000
+      internalID: 2660454791397323227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_55
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 615
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abb803b855c60a970800000000000000
+      internalID: 8764123989526219706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_56
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 615
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2533835baab39f4e0800000000000000
+      internalID: -1947459759490190510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_57
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 615
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 179611085df14f5c0800000000000000
+      internalID: -4182683152083228303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_58
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 615
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 757f1715bffdca820800000000000000
+      internalID: 2930963728007558999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_59
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 615
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57ff354e4854b54a0800000000000000
+      internalID: -6603607991539990667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_60
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 498
+        width: 55
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51790ee4c47891ef0800000000000000
+      internalID: -136929551847483627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_61
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 498
+        width: 46
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ecdd8cf59a5f84f0800000000000000
+      internalID: -824340606551728923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_62
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 498
+        width: 46
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02307270cfa6d3210800000000000000
+      internalID: 1314324296946352928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_63
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 498
+        width: 48
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f8a3f50679490f70800000000000000
+      internalID: 9153928488862066928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_64
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 499
+        width: 44
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc2ea5e1081bb0350800000000000000
+      internalID: 5984071693715038923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_65
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 498
+        width: 50
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e15758b12481c8ed0800000000000000
+      internalID: -2410525028341418722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_66
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 498
+        width: 45
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b3746b89edf6ec80800000000000000
+      internalID: -8293662484248366152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_67
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 498
+        width: 48
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 869cd3295bcd05180800000000000000
+      internalID: -9128553772279281304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_68
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 498
+        width: 46
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6875e702cd000d430800000000000000
+      internalID: 3805542630566025094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_69
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 498
+        width: 47
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a88fd3254b42ec20800000000000000
+      internalID: 3234230242732116137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_70
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 537
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aaa20ed79806d570800000000000000
+      internalID: 8490983595811449511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_71
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 537
+        width: 31
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67736672b3bf59980800000000000000
+      internalID: -8532637687500884106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_72
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 538
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82e96d40b9fe3a7f0800000000000000
+      internalID: -602374476057371096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_73
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 537
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 292d1e90082ff8dd0800000000000000
+      internalID: -2481498237922323822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_74
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 537
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f3b57e823b2c2480800000000000000
+      internalID: -8922709265589357577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_75
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 537
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02b9e5a2e903a0b60800000000000000
+      internalID: 7713030767699204896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_76
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 538
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21b83a43f2e30cb10800000000000000
+      internalID: 1999666607020018450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_77
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 538
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a743ad7bc257aa2e0800000000000000
+      internalID: -2113748240173484934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_78
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 537
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e43a049a681d94050800000000000000
+      internalID: 5785385572629521230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_79
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 538
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 914ad75dfc7be73f0800000000000000
+      internalID: -901080772159626215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_80
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 406
+        width: 54
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffa2980df58116a60800000000000000
+      internalID: 7665434840560904959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_81
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 406
+        width: 46
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e265f42f85bca120800000000000000
+      internalID: 2426513925650866915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_82
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 406
+        width: 46
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ac7de0a99d0ecfc0800000000000000
+      internalID: -3472823309174997854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_83
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 405
+        width: 48
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99705e86d17c3afa0800000000000000
+      internalID: -5790565766740506727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_84
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 406
+        width: 44
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fcd3237c017e01e0800000000000000
+      internalID: -2229720467216540428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_85
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 406
+        width: 50
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a19fd62eb55e22b0800000000000000
+      internalID: -5607450210845355615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_86
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 405
+        width: 45
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02f9d8c79cb3853f0800000000000000
+      internalID: -911913187978404064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_87
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 406
+        width: 47
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65b427710f265d470800000000000000
+      internalID: 8418743861764049750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_88
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 405
+        width: 45
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c19c8b822beb90ac0800000000000000
+      internalID: -3888367130861057764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_89
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 405
+        width: 47
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 793bc91f90bcdb910800000000000000
+      internalID: 1854861865115235223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_90
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 460
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a146df1bdaa61ff70800000000000000
+      internalID: 9219267206452175898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_91
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 460
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 476e2e3affa7422b0800000000000000
+      internalID: -5610223997411989900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_92
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 460
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd87338fc150f83b0800000000000000
+      internalID: -5508178197269481251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_93
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 461
+        width: 38
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fd5c7593a295fff0800000000000000
+      internalID: -2934993458536969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_94
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 460
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8f47671162af6b60800000000000000
+      internalID: 7741584822361345930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_95
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 461
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6a1c9499bf44f170800000000000000
+      internalID: 8211275679084059245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_96
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 461
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a26be9f666d81ce30800000000000000
+      internalID: 4522050971955541546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_97
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 461
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 895dab57a9ced6dc0800000000000000
+      internalID: -3643996375328565864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_98
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 460
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f38d47e7a1b72cf70800000000000000
+      internalID: 9206055942019668031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_99
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 461
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f25c03e1f748383e0800000000000000
+      internalID: -2052651323648588497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_100
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 383
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3d7cb5bf0d3dd080800000000000000
+      internalID: -9161098929318888132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_101
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 383
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d13ae1a0f7daa250800000000000000
+      internalID: 5956810885659505106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_102
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 383
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b83d38e83a4023c70800000000000000
+      internalID: 8949220510055781259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_103
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 383
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67b0e7a12f05d4cb0800000000000000
+      internalID: -4878153820615603338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_104
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 383
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a268742f032d76290800000000000000
+      internalID: -7897112313905838550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_105
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 383
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc5ad9b9726952870800000000000000
+      internalID: 8657490955548337615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_106
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 384
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7afdfa8c6f4803d0800000000000000
+      internalID: -3240252604286109062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_107
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 383
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92865088897583aa0800000000000000
+      internalID: -6181094175937304535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_108
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 383
+        width: 33
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08c93a8dde54e01c0800000000000000
+      internalID: -4535610886871344000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_109
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 383
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 042104fb143df5bd0800000000000000
+      internalID: -2639158577280839104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_110
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 77
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9acddea13b0e01070800000000000000
+      internalID: 8075201191730863273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_111
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 312
+        width: 45
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 712d08d9402a87f60800000000000000
+      internalID: 8032348076121313815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_112
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 313
+        width: 47
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 467873053aea9fb50800000000000000
+      internalID: 6627520343101114212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_113
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 313
+        width: 52
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51fff14f918a4a780800000000000000
+      internalID: -8672622152985346283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_114
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 313
+        width: 45
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09b8afc8024c9fce0800000000000000
+      internalID: -1370848967474377840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_115
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 313
+        width: 46
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c646a69e74ff36b30800000000000000
+      internalID: 4279544755255927916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_116
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 313
+        width: 45
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d964f0196c6b66250800000000000000
+      internalID: 5937634122688054941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_117
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 313
+        width: 51
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f4e3731fb41712d0800000000000000
+      internalID: -3308152590382668556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_118
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 313
+        width: 47
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c862bfb024d11cc30800000000000000
+      internalID: 4377812482286888588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_119
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 312
+        width: 47
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 621c3fd4bd5192c50800000000000000
+      internalID: 6640863157184348454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_120
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 120
+        width: 53
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdf80189903550810800000000000000
+      internalID: 1730880932464857051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_121
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 120
+        width: 53
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 288a8975afc27e940800000000000000
+      internalID: 5325274538111969410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_122
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 121
+        width: 53
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c4edd290ce23b360800000000000000
+      internalID: 7184137235218687177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_123
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 121
+        width: 53
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9080a503ebb0e9220800000000000000
+      internalID: 2494444155092731913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_124
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 120
+        width: 52
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15a09b15231a54b90800000000000000
+      internalID: -7258217986946168239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_125
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 121
+        width: 53
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98f23622e5cbf7010800000000000000
+      internalID: 1188875939138973577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_126
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 121
+        width: 52
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a26bd23e50d400a0800000000000000
+      internalID: -6916174024735497561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_127
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 114
+        width: 59
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0403af5499cb8b7b0800000000000000
+      internalID: -5208205602563936192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_128
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 120
+        width: 53
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16ac84cdbf6d17100800000000000000
+      internalID: 104100643627125345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NumberScore_129
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 0
+        width: 365
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a62e635f4a0805fc0800000000000000
+      internalID: -3508162663744609686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      NumberScore_0: 4192489671375137730
+      NumberScore_1: 6981205132357657858
+      NumberScore_10: -1914813268001931169
+      NumberScore_100: -9161098929318888132
+      NumberScore_101: 5956810885659505106
+      NumberScore_102: 8949220510055781259
+      NumberScore_103: -4878153820615603338
+      NumberScore_104: -7897112313905838550
+      NumberScore_105: 8657490955548337615
+      NumberScore_106: -3240252604286109062
+      NumberScore_107: -6181094175937304535
+      NumberScore_108: -4535610886871344000
+      NumberScore_109: -2639158577280839104
+      NumberScore_11: 7476539807900314041
+      NumberScore_110: 8075201191730863273
+      NumberScore_111: 8032348076121313815
+      NumberScore_112: 6627520343101114212
+      NumberScore_113: -8672622152985346283
+      NumberScore_114: -1370848967474377840
+      NumberScore_115: 4279544755255927916
+      NumberScore_116: 5937634122688054941
+      NumberScore_117: -3308152590382668556
+      NumberScore_118: 4377812482286888588
+      NumberScore_119: 6640863157184348454
+      NumberScore_12: -9010572718478981257
+      NumberScore_120: 1730880932464857051
+      NumberScore_121: 5325274538111969410
+      NumberScore_122: 7184137235218687177
+      NumberScore_123: 2494444155092731913
+      NumberScore_124: -7258217986946168239
+      NumberScore_125: 1188875939138973577
+      NumberScore_126: -6916174024735497561
+      NumberScore_127: -5208205602563936192
+      NumberScore_128: 104100643627125345
+      NumberScore_129: -3508162663744609686
+      NumberScore_13: -5486894981912102447
+      NumberScore_14: -6878156203408302227
+      NumberScore_15: 2457378115413248464
+      NumberScore_16: -8585162214997191919
+      NumberScore_17: 471294398575731785
+      NumberScore_18: -894775428147997328
+      NumberScore_19: -1292321600505335658
+      NumberScore_2: -1575079313449726307
+      NumberScore_20: 9206129323789271545
+      NumberScore_21: 1227875360656791983
+      NumberScore_22: 5537656081849716002
+      NumberScore_23: -2391229481343821980
+      NumberScore_24: 8128897439096341688
+      NumberScore_25: 3114722593373166276
+      NumberScore_26: 8997865750268810927
+      NumberScore_27: -2601462963293489750
+      NumberScore_28: 3650362586818110188
+      NumberScore_29: -4759943796106233605
+      NumberScore_3: -6666405243410330059
+      NumberScore_30: 2898014350557739642
+      NumberScore_31: -3550806221802368834
+      NumberScore_32: -3402911978957688174
+      NumberScore_33: -7894501595480578188
+      NumberScore_34: 602679194108047633
+      NumberScore_35: -6070160661524812672
+      NumberScore_36: 2889794466799239499
+      NumberScore_37: 6567840536814804393
+      NumberScore_38: 5081485815876325409
+      NumberScore_39: -5609089917817145183
+      NumberScore_4: -237849156603707392
+      NumberScore_40: -1337964620102900306
+      NumberScore_41: -7331746107198954268
+      NumberScore_42: -823065049620253419
+      NumberScore_43: 8622530123479663241
+      NumberScore_44: 735378623428076922
+      NumberScore_45: -6601022073016738416
+      NumberScore_46: 9138485399895513524
+      NumberScore_47: -4964126914983608651
+      NumberScore_48: -7333253570245780664
+      NumberScore_49: -9120189454774909315
+      NumberScore_5: 2377101262741076788
+      NumberScore_50: 7159334261931570714
+      NumberScore_51: 1706141149181663532
+      NumberScore_52: 6829302960854605568
+      NumberScore_53: -1797703498938905995
+      NumberScore_54: 2660454791397323227
+      NumberScore_55: 8764123989526219706
+      NumberScore_56: -1947459759490190510
+      NumberScore_57: -4182683152083228303
+      NumberScore_58: 2930963728007558999
+      NumberScore_59: -6603607991539990667
+      NumberScore_6: -6252401553030127259
+      NumberScore_60: -136929551847483627
+      NumberScore_61: -824340606551728923
+      NumberScore_62: 1314324296946352928
+      NumberScore_63: 9153928488862066928
+      NumberScore_64: 5984071693715038923
+      NumberScore_65: -2410525028341418722
+      NumberScore_66: -8293662484248366152
+      NumberScore_67: -9128553772279281304
+      NumberScore_68: 3805542630566025094
+      NumberScore_69: 3234230242732116137
+      NumberScore_7: -7498719375699359217
+      NumberScore_70: 8490983595811449511
+      NumberScore_71: -8532637687500884106
+      NumberScore_72: -602374476057371096
+      NumberScore_73: -2481498237922323822
+      NumberScore_74: -8922709265589357577
+      NumberScore_75: 7713030767699204896
+      NumberScore_76: 1999666607020018450
+      NumberScore_77: -2113748240173484934
+      NumberScore_78: 5785385572629521230
+      NumberScore_79: -901080772159626215
+      NumberScore_8: -1233708275163235215
+      NumberScore_80: 7665434840560904959
+      NumberScore_81: 2426513925650866915
+      NumberScore_82: -3472823309174997854
+      NumberScore_83: -5790565766740506727
+      NumberScore_84: -2229720467216540428
+      NumberScore_85: -5607450210845355615
+      NumberScore_86: -911913187978404064
+      NumberScore_87: 8418743861764049750
+      NumberScore_88: -3888367130861057764
+      NumberScore_89: 1854861865115235223
+      NumberScore_9: 2576510064388997293
+      NumberScore_90: 9219267206452175898
+      NumberScore_91: -5610223997411989900
+      NumberScore_92: -5508178197269481251
+      NumberScore_93: -2934993458536969
+      NumberScore_94: 7741584822361345930
+      NumberScore_95: 8211275679084059245
+      NumberScore_96: 4522050971955541546
+      NumberScore_97: -3643996375328565864
+      NumberScore_98: 9206055942019668031
+      NumberScore_99: -2052651323648588497
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

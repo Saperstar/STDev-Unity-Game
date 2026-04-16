@@ -8,6 +8,7 @@ TagManager:
   - Heart
   - TreasureMap
   - Monster
+  - Sunlight
   layers:
   - Default
   - TransparentFX

@@ -8,11 +8,14 @@ public class CarriedFlowerGrowth : MonoBehaviour
     [SerializeField] private Vector3 localOffset = new Vector3(0f, 1f, 0f);
     [SerializeField] private bool flipOffsetWithCharacter = true;
 
-    [Header("Growth")]
-    [SerializeField] private Vector3 startScale = Vector3.one;
-    [SerializeField] private Vector3 maxScale = new Vector3(2f, 2f, 1f);
-    [SerializeField] private float growthPerSecond = 0.35f;
+    [Header("Score")]
+    [SerializeField] private float scorePerSecond = 1000f;
     [SerializeField] private string sunlightTag = "Sunlight";
+
+    [Header("Flower Stage")]
+    [SerializeField] private SpriteRenderer flowerSpriteRenderer;
+    [SerializeField] private Sprite[] growthStageSprites; // 4개 넣기
+    [SerializeField] private int scorePerStage = 2500;
 
     private readonly HashSet<int> touchingSunlights = new HashSet<int>();
     private SpriteRenderer characterSpriteRenderer;
@@ -33,7 +36,12 @@ public class CarriedFlowerGrowth : MonoBehaviour
             characterSpriteRenderer = targetCharacter.GetComponent<SpriteRenderer>();
         }
 
-        transform.localScale = startScale;
+        if (flowerSpriteRenderer == null)
+        {
+            flowerSpriteRenderer = GetComponent<SpriteRenderer>();
+        }
+
+        UpdateFlowerSprite();
     }
 
     private void LateUpdate()
@@ -51,12 +59,10 @@ public class CarriedFlowerGrowth : MonoBehaviour
 
         transform.position = targetCharacter.position;
 
-        if (touchingSunlights.Count > 0)
+        if (touchingSunlights.Count > 0 && ScoreManager.Instance != null)
         {
-            transform.localScale = Vector3.MoveTowards(
-                transform.localScale,
-                maxScale,
-                growthPerSecond * Time.deltaTime);
+            ScoreManager.Instance.AddScorePerSecond(scorePerSecond);
+            UpdateFlowerSprite();
         }
     }
 
@@ -89,5 +95,27 @@ public class CarriedFlowerGrowth : MonoBehaviour
     private bool IsSunlight(GameObject otherObject)
     {
         return string.IsNullOrWhiteSpace(sunlightTag) || otherObject.CompareTag(sunlightTag);
+    }
+
+    private void UpdateFlowerSprite()
+    {
+        if (flowerSpriteRenderer == null || growthStageSprites == null || growthStageSprites.Length == 0)
+        {
+            return;
+        }
+
+        int score = 0;
+        if (ScoreManager.Instance != null)
+        {
+            score = ScoreManager.Instance.CurrentScore;
+        }
+
+        int stageIndex = scorePerStage > 0 ? score / scorePerStage : 0;
+        stageIndex = Mathf.Clamp(stageIndex, 0, growthStageSprites.Length - 1);
+
+        if (growthStageSprites[stageIndex] != null)
+        {
+            flowerSpriteRenderer.sprite = growthStageSprites[stageIndex];
+        }
     }
 }
