@@ -10,11 +10,12 @@ public class CarriedFlowerGrowth : MonoBehaviour
 
     [Header("Score")]
     [SerializeField] private float scorePerSecond = 1000f;
+    [SerializeField] private float scoreDecreasePerSecond = 200f;
     [SerializeField] private string sunlightTag = "Sunlight";
 
     [Header("Flower Stage")]
     [SerializeField] private SpriteRenderer flowerSpriteRenderer;
-    [SerializeField] private Sprite[] growthStageSprites; // 4개 넣기
+    [SerializeField] private Sprite[] growthStageSprites;
     [SerializeField] private int scorePerStage = 2500;
 
     private readonly HashSet<int> touchingSunlights = new HashSet<int>();
@@ -46,6 +47,11 @@ public class CarriedFlowerGrowth : MonoBehaviour
 
     private void LateUpdate()
     {
+        if (Heart_GameStartController.Instance != null && !Heart_GameStartController.Instance.HasStarted)
+        {
+            return;
+        }
+
         if (targetCharacter == null)
         {
             return;
@@ -59,11 +65,19 @@ public class CarriedFlowerGrowth : MonoBehaviour
 
         transform.position = targetCharacter.position;
 
-        if (touchingSunlights.Count > 0 && ScoreManager.Instance != null)
+        if (ScoreManager.Instance != null)
         {
-            ScoreManager.Instance.AddScorePerSecond(scorePerSecond);
-            UpdateFlowerSprite();
+            if (touchingSunlights.Count > 0)
+            {
+                ScoreManager.Instance.AddScorePerSecond(scorePerSecond);
+            }
+            else
+            {
+                ScoreManager.Instance.AddScorePerSecond(-scoreDecreasePerSecond);
+            }
         }
+
+        UpdateFlowerSprite();
     }
 
     private void OnTriggerEnter2D(Collider2D other)
