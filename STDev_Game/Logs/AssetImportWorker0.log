@@ -1,11 +1,11 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.4/staging' branch; Version is '6000.4.2f1 (7a4c1aeef971) revision 8014874'; Using compiler version '194234433'; Build Type 'Release'
 OS: 'Windows 11  (10.0.26200) Core' Language: 'ko' Physical Memory: 65139 MB
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User" at "2026-04-14T16:29:28.5346943Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User" at "2026-04-16T09:05:28.0633453Z"
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-04-14T16:29:28Z
+Date: 2026-04-16T09:05:28Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.4.2f1\Editor\Unity.exe
@@ -19,7 +19,7 @@ C:/Users/User/Documents/GitHub/STDev-Unity-Game/STDev_Game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-4514
+13870
 -licensingIpc
 LicenseClient-User
 -force-d3d12
@@ -68,12 +68,12 @@ C:/Users/User/Documents/GitHub/STDev-Unity-Game/STDev_Game
     "memorysetup-job-temp-allocator-block-size=2097152"
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
-Player connection [32468]  Target information:
+Player connection [18072]  Target information:
 
-Player connection [32468]  * "[IP] 49.142.1.230 [Port] 0 [Flags] 2 [Guid] 4228094403 [EditorId] 4228094403 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-CL97U5V) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [18072]  * "[IP] 49.142.1.230 [Port] 0 [Flags] 2 [Guid] 1551081352 [EditorId] 1551081352 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-CL97U5V) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [32468] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [32468] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [18072] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [18072] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -85,7 +85,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 3.91 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 2.90 ms, found 5 plugins.
 Initialize engine version: 6000.4.2f1 (7a4c1aeef971)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.4.2f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/User/Documents/GitHub/STDev-Unity-Game/STDev_Game/Assets
@@ -103,19 +103,13 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.4.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.4.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56752
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56584
 CodeReloadManager initialized
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001187 seconds.
-[Licensing::Client] Error: HandshakeResponse reported an error:
-	ResponseCode: 505
-	ResponseStatus: Unsupported protocol version '1.18.1'.
-[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-User"
-[Licensing::IpcConnector] LicenseClient-User channel disconnected successfully.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User-6000.4.2" at "2026-04-14T16:29:29.2345315Z"
+Registered in 0.001328 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -124,38 +118,44 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.279 seconds
-Domain Reload Profiling: 589ms
-	BeginReloadAssembly (85ms)
-	RebuildCommonClasses (26ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (43ms)
-	LoadAllAssembliesAndSetupDomain (146ms)
-		LoadAssemblies (83ms)
-		AnalyzeDomain (139ms)
-			TypeCache.Refresh (138ms)
-				TypeCache.ScanAssembly (128ms)
-	FinalizeReload (280ms)
+- Finished resetting the current domain, in  0.239 seconds
+Domain Reload Profiling: 500ms
+	BeginReloadAssembly (74ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (120ms)
+		LoadAssemblies (72ms)
+		AnalyzeDomain (114ms)
+			TypeCache.Refresh (114ms)
+				TypeCache.ScanAssembly (105ms)
+	FinalizeReload (240ms)
 		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (38ms)
-			BeforeProcessingInitializeOnLoad (60ms)
-			ProcessInitializeOnLoadAttributes (80ms)
-			ProcessInitializeOnLoadMethodAttributes (58ms)
+			InitializePlatformSupportModulesInManaged (29ms)
+			BeforeProcessingInitializeOnLoad (48ms)
+			ProcessInitializeOnLoadAttributes (66ms)
+			ProcessInitializeOnLoadMethodAttributes (57ms)
 ========================================================================
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 [Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-User"
+[Licensing::IpcConnector] LicenseClient-User channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User-6000.4.2" at "2026-04-16T09:05:30.3304628Z"
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.18.1+9fbee8e
-  Session Id:              ede5a048839842f6876764363b44af40
-  Correlation Id:          3ccdedc53f14ec32384de305929ac7f0
-  External correlation Id: 5418659813102329268
+  Session Id:              27dff23983964db2bf6825158ae2672f
+  Correlation Id:          7555fb62ece72d2384f83e93f26a60ee
+  External correlation Id: 7441169652582694221
   Machine Id:              7Rkg+453PpH69n8NcTT5q07kvjI=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-User-6000.4.2" (connect: 0.00s, validation: 0.00s, handshake: 0.65s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User-6000.4.2-notifications" at "2026-04-14T16:29:29.8833348Z"
-[Licensing::Module] Licensing Background thread has ended after 1.35s
-[Licensing::Module] Licensing is initialized (took 0.09s).
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-User-6000.4.2" (connect: 0.00s, validation: 0.00s, handshake: 0.61s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User-6000.4.2-notifications" at "2026-04-16T09:05:30.9463978Z"
+[Licensing::Module] Licensing Background thread has ended after 2.88s
+[Licensing::Module] Licensing is initialized (took 1.78s).
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
   Id: 14569739307647-UnityPersXXXX
@@ -196,173 +196,172 @@ Native extension for WebGL target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 2.26 ms, found 5 plugins.
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.433 seconds
-Domain Reload Profiling: 1149ms
-	BeginReloadAssembly (224ms)
-		DisableScriptedObjects (3ms)
-		CreateAndSetChildDomain (28ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (64ms)
-	LoadAllAssembliesAndSetupDomain (384ms)
-		LoadAssemblies (291ms)
-		AnalyzeDomain (159ms)
-			TypeCache.Refresh (116ms)
-				TypeCache.ScanAssembly (106ms)
-			BuildScriptInfoCaches (39ms)
+- Finished resetting the current domain, in  0.365 seconds
+Domain Reload Profiling: 2581ms
+	BeginReloadAssembly (1889ms)
+		DisableScriptedObjects (4ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (260ms)
+		LoadAssemblies (179ms)
+		AnalyzeDomain (133ms)
+			TypeCache.Refresh (94ms)
+				TypeCache.ScanAssembly (86ms)
+			BuildScriptInfoCaches (34ms)
 			ResolveRequiredComponents (3ms)
-	FinalizeReload (433ms)
+	FinalizeReload (365ms)
 		SetupLoadedEditorAssemblies (0ms)
-			BeforeProcessingInitializeOnLoad (93ms)
-			ProcessInitializeOnLoadAttributes (195ms)
-			ProcessInitializeOnLoadMethodAttributes (43ms)
+			BeforeProcessingInitializeOnLoad (79ms)
+			ProcessInitializeOnLoadAttributes (163ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
 			AfterProcessingInitializeOnLoad (3ms)
 		AwakeInstancesAfterBackupRestoration (5ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5273 unused Assets / (1.3 MB). Loaded Objects now: 5880.
-Memory consumption went from 121.1 MB to 119.7 MB.
-Total: 5.361400 ms (FindLiveObjects: 0.531400 ms CreateObjectMapping: 0.142400 ms MarkObjects: 3.623900 ms  DeleteObjects: 1.061800 ms)
+Unloading 5273 unused Assets / (1.2 MB). Loaded Objects now: 5880.
+Memory consumption went from 120.9 MB to 119.7 MB.
+Total: 4.744100 ms (FindLiveObjects: 0.489300 ms CreateObjectMapping: 0.166900 ms MarkObjects: 3.215800 ms  DeleteObjects: 0.870400 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 385354.362195 seconds.
+  Time since last request: 2004.831193 seconds.
   path: Assets/Scenes/SelectMenu.unity
   importAddress: Guid(785d33abe5d3be849a6826b88e59eeff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scenes/SelectMenu.unity using Guid(785d33abe5d3be849a6826b88e59eeff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'dd7152a2d1eb116f872b8d3710571237') in 0.0524185 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=20eec58862ec359bf821f1e28ef53b54 DependenciesID=bfb8ac5c270121c9491823c40b11c919 StaticDependenciesID=c6eec571c6f079b35db692bb23cd11b4 
+Start importing Assets/Scenes/SelectMenu.unity using Guid(785d33abe5d3be849a6826b88e59eeff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f5c018b513dcb4c041610baa3a23877a') in 0.0626581 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=794a70d21259d633e2e9be39497cb2e6 DependenciesID=0a025461242f77e7dc3ae339dc3f1928 StaticDependenciesID=e18a16e4bbbc8a3275dcbc932230f098 
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 21.469573 seconds.
-  path: Assets/map/pine-tree.png
-  importAddress: Guid(754d50fb2f4b13f4593b2fa711a6e7ee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/map/pine-tree.png using Guid(754d50fb2f4b13f4593b2fa711a6e7ee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'fd5bb390523d1b1f3ababb1070a22162') in 0.0506432 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0ceb44aba2144fa7b38a2d8d52538af5 DependenciesID=7596f89d1076532402c66a401558019c StaticDependenciesID=0f1a4c671cd42ed64195cf7885d1094b 
+  Time since last request: 720.838964 seconds.
+  path: Assets/Scenes/New Folder 1
+  importAddress: Guid(7c312a76837edd445981640ed73b5bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/New Folder 1 using Guid(7c312a76837edd445981640ed73b5bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'd45ea82e804af9eb910ab112c71fd82e') in 0.0017353 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=570bc051b81e519ab10df8890cc995ed DependenciesID=ec0f78e39a05c7662ada6336e7f6e49e StaticDependenciesID=4128cc3029f5698b97aac99f6759c961 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.406395 seconds.
+  path: Assets/Scenes/SelectMenu2.unity
+  importAddress: Guid(05ae79df90ba74640b9c1394b8dec4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SelectMenu2.unity using Guid(05ae79df90ba74640b9c1394b8dec4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '6342cdfca31fdbfd78d49fe166add496') in 0.0004097 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a98cfe960afc5c6136a31ddd3775172e DependenciesID=019577b393a985f63a3b7ee213fa4da1 StaticDependenciesID=5eed7be2bddd6fbe9d6c428e4c0ffcef 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.978043 seconds.
+  path: Assets/Scenes/SelectMenu2.unity
+  importAddress: Guid(05ae79df90ba74640b9c1394b8dec4a9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/SelectMenu2.unity using Guid(05ae79df90ba74640b9c1394b8dec4a9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c0e3d3670e2ec3b6eb7728a7d7c8ccf8') in 0.0081701 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=973209f5aba94db401c91155e45d42bd DependenciesID=1703f23ffba682a4531de994d10450b5 StaticDependenciesID=e502d89ca862298ae2183d98f334146a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.387491 seconds.
+  path: Assets/Scenes/SelectMenu.unity
+  importAddress: Guid(785d33abe5d3be849a6826b88e59eeff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SelectMenu.unity using Guid(785d33abe5d3be849a6826b88e59eeff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'ba292c985763be876fc3f22154d2764e') in 0.0004421 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2f6fec37c1a78881dff674a05a498c31 DependenciesID=ac097a07ee0e53e94830d7c0315b5702 StaticDependenciesID=52fe3dae90241ea2c2e317d8fc0fd941 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.630427 seconds.
+  path: Assets/Scenes/SelectMenu1.unity
+  importAddress: Guid(785d33abe5d3be849a6826b88e59eeff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SelectMenu1.unity using Guid(785d33abe5d3be849a6826b88e59eeff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'c3cd57544b456350e13490844007f1f0') in 0.0004489 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2f6fec37c1a78881dff674a05a498c31 DependenciesID=89a5bcc580fcb908d15ef1a2ddb4c631 StaticDependenciesID=35900df12c854693bcc0004f151ae636 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.979882 seconds.
+  path: Assets/Scenes/SelectMenu1.unity
+  importAddress: Guid(785d33abe5d3be849a6826b88e59eeff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/SelectMenu1.unity using Guid(785d33abe5d3be849a6826b88e59eeff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ec6900e2dedaf907448de74804e4b6d5') in 0.008364 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=92205ca2bdacf0d7fa7400c4b24010c1 DependenciesID=f0e9af88023bca410672fe3b89d36e8a StaticDependenciesID=84a81cb95d2c3f400f372ec3232931ed 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 180.048852 seconds.
+  path: Assets/map/desert_tileset32x32.png
+  importAddress: Guid(e36561eca1e38cc4e89190358d0c6b76) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/map/desert_tileset32x32.png using Guid(e36561eca1e38cc4e89190358d0c6b76) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '315bf0c9d1bb122ec4b5545fa9b28b4e') in 0.0428796 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2c9fadb3f15716e49a8591ee294ec988 DependenciesID=a3881aa61be9528a0c55f2e4324ae0e9 StaticDependenciesID=5b8665f952907987bb6e4273a7b1fe46 
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.154744 seconds.
-  path: Assets/map/tree-1.png
-  importAddress: Guid(7d89b880a7e8c444f9005800f9420059) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/map/tree-1.png using Guid(7d89b880a7e8c444f9005800f9420059) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4e1e2f904950253f8d2915c390c70883') in 0.0244366 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f2256d823c8396088b8bd4fe300a827f DependenciesID=980badb54272b604b5026c11208a18c5 StaticDependenciesID=43948717cd47c902bf48d279b5f71799 
+  Time since last request: 0.111980 seconds.
+  path: Assets/map/desert_tileset32x32.png
+  importAddress: Guid(e36561eca1e38cc4e89190358d0c6b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map/desert_tileset32x32.png using Guid(e36561eca1e38cc4e89190358d0c6b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '75f16d7c198bf4eabfba6150ff20e637') in 0.0438068 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8b348dd312d53d8843e8a1814f26864c DependenciesID=237dbd790cd29fabd3458b19eed3407b StaticDependenciesID=8f809868330afc76f2694bee0db9b170 
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.260632 seconds.
-  path: Assets/map/tree-2.png
-  importAddress: Guid(0e9e556f96ccfb241814e6fd4658d441) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/map/tree-2.png using Guid(0e9e556f96ccfb241814e6fd4658d441) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '40206e857e643573be4f353ee8342e9d') in 0.0120302 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a8e3545cf860fae7cb312b28c90b6f85 DependenciesID=759a8b2e5c7da9dbec5e9837f839ce52 StaticDependenciesID=a484889bf73cb1fe7241c634f2f0c2ba 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+  Time since last request: 43.728298 seconds.
+  path: Assets/map/desert_tileset32x32.png
+  importAddress: Guid(e36561eca1e38cc4e89190358d0c6b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map/desert_tileset32x32.png using Guid(e36561eca1e38cc4e89190358d0c6b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '8aa10af3107daccdd12f7306a321fb34') in 0.1482881 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a93cb42d01daea73d45c9d843ca90022 DependenciesID=2c392280653503d1f3cbfa8f1e6d0714 StaticDependenciesID=91db9ab833b308d9e59bbda4b382665b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 44
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.404181 seconds.
-  path: Assets/map/small-bushes.png
-  importAddress: Guid(63eb223660d62a44cb9dc04c51b10c70) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/map/small-bushes.png using Guid(63eb223660d62a44cb9dc04c51b10c70) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'dd7d0c338a0a7280b5cf839bd125ed98') in 0.0128478 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f249ff74691395879013ead655244451 DependenciesID=b8e355c7ba057275943e22878e4c79ae StaticDependenciesID=26775af19f47a91fd455b46875eefea1 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+  Time since last request: 0.821577 seconds.
+  path: Assets/map/desert_tileset32x32.png
+  importAddress: Guid(e36561eca1e38cc4e89190358d0c6b76) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/map/desert_tileset32x32.png using Guid(e36561eca1e38cc4e89190358d0c6b76) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '12e8b1a25305281baf66ebe5d169734b') in 0.0627207 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=aa18295d83bfc2a24f70a9ff931ac30a DependenciesID=a406d04e9fba6c32e69904db1386e0c2 StaticDependenciesID=c18692587299898b93bad91c18f190a6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 44
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.731194 seconds.
-  path: Assets/map/small-bushes-blue-berries.png
-  importAddress: Guid(cc526579d25831b47bf8e64d5401091c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/map/small-bushes-blue-berries.png using Guid(cc526579d25831b47bf8e64d5401091c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd025e2dff95026306cb4057b05cee0e2') in 0.0106949 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e1739995eab5763d15a34cd624adef1e DependenciesID=a443f018d60db489326ccd2928a84d8a StaticDependenciesID=7ec320043b01d28ea17b160282b08995 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+  Time since last request: 31.116637 seconds.
+  path: Assets/Scenes/SelectMenu2.unity
+  importAddress: Guid(05ae79df90ba74640b9c1394b8dec4a9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/SelectMenu2.unity using Guid(05ae79df90ba74640b9c1394b8dec4a9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f717ff83652481881af7d7049f204c27') in 0.0079461 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=24edd5a85d58bd27bcdce82da7b7fae8 DependenciesID=327056319542618d676d142fc4c9490b StaticDependenciesID=b8e6220be7bd02b2e673f28d7bf5387b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.790380 seconds.
-  path: Assets/map/small-bushes-red-berries.png
-  importAddress: Guid(4b39186320fd49647909d119000c614d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/map/small-bushes-red-berries.png using Guid(4b39186320fd49647909d119000c614d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a660fb24d9112da7e79e39c14ba4227b') in 0.0129022 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=348ff209ef4e3012b7b67c57bae7709f DependenciesID=230826e7668fc3ab79b501812ef3080c StaticDependenciesID=007881e37ffec27d1bcf7a76c74929f7 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+  Time since last request: 5.455583 seconds.
+  path: Assets/Scenes/SelectMenu2.unity
+  importAddress: Guid(05ae79df90ba74640b9c1394b8dec4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SelectMenu2.unity using Guid(05ae79df90ba74640b9c1394b8dec4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '6ef0f220c6194a9cc30f40eb6bf3cb71') in 0.0004412 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a98cfe960afc5c6136a31ddd3775172e DependenciesID=a9fabe0540d6978380c4cb47563350f8 StaticDependenciesID=049a5e441fc1d910d34f794145648922 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.653309 seconds.
-  path: Assets/map/weeping-willow-tree.png
-  importAddress: Guid(c224b451c08aaaa4ca544a191ca9c3e1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/map/weeping-willow-tree.png using Guid(c224b451c08aaaa4ca544a191ca9c3e1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'df522416852933e56ebd210314549062') in 0.0116709 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=52826dd6d65293bac28d63ebc32ecfa1 DependenciesID=490291807f827859750fad1047918418 StaticDependenciesID=4b3acd84896d67345d9b2e2f5e173029 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+  Time since last request: 416.594174 seconds.
+  path: Assets/Scenes/SelectMenu2.unity
+  importAddress: Guid(05ae79df90ba74640b9c1394b8dec4a9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/SelectMenu2.unity using Guid(05ae79df90ba74640b9c1394b8dec4a9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '06514c2e4f536c28dad6071cb6469b80') in 0.0085345 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a14f4bd2ac2cdbcf24d3a3e555ded4e4 DependenciesID=b16abcca025fe533e7b8382b0e0f26de StaticDependenciesID=576497bfa1d2670278ad71f0a6b4ac98 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 35.910882 seconds.
-  path: Assets/map/pine-tree.png
-  importAddress: Guid(754d50fb2f4b13f4593b2fa711a6e7ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/map/pine-tree.png using Guid(754d50fb2f4b13f4593b2fa711a6e7ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '0527313578501a6f028e3d72dd8cf2fb') in 0.0498858 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c9d910e497fe7b53f4cf5f70db30ac43 DependenciesID=c67b546d41e5c1e0bede4ce3089d9dfe StaticDependenciesID=2bdd6abe68725cca3a91471ed848a244 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+  Time since last request: 6.265803 seconds.
+  path: Assets/Scenes/SelectMenu2.unity
+  importAddress: Guid(05ae79df90ba74640b9c1394b8dec4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SelectMenu2.unity using Guid(05ae79df90ba74640b9c1394b8dec4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '286cd36872981e07aec8e0dd8dc1a985') in 0.0004614 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a98cfe960afc5c6136a31ddd3775172e DependenciesID=d44830aada0e280a2b5d6a33c300223b StaticDependenciesID=85abafc7115222b47a140573e3b3455a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.237184 seconds.
-  path: Assets/map/small-bushes-orange-berries.png
-  importAddress: Guid(99dafd1dbd60487489a9058aba1dce33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/map/small-bushes-orange-berries.png using Guid(99dafd1dbd60487489a9058aba1dce33) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '01efc25cdb1b5b0beb869f272c96eab8') in 0.0100655 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=53d79120531eb78c970d6a71f206d0b7 DependenciesID=8537ec735b6866e0b9040a7fe9b4dd4d StaticDependenciesID=708e3b178c3251a42c10c23a2f4fd223 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+  Time since last request: 1115.431229 seconds.
+  path: Assets/Scenes/SelectMenu2.unity
+  importAddress: Guid(05ae79df90ba74640b9c1394b8dec4a9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/SelectMenu2.unity using Guid(05ae79df90ba74640b9c1394b8dec4a9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '597659f3483951f2b42431c2b6c6466f') in 0.0087744 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=03fbd67a764b1f2e0ef75e24a2763455 DependenciesID=10a5f903f8075b4377ccf5025c90634c StaticDependenciesID=643c7423eaaf5a05f15e945fe44fa4c3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.013934 seconds.
-  path: Assets/map/small-bushes.png
-  importAddress: Guid(63eb223660d62a44cb9dc04c51b10c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/map/small-bushes.png using Guid(63eb223660d62a44cb9dc04c51b10c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'ec6c8dd74611d54a6ff0498779da22f1') in 0.0105223 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8b456786dd00ba8c5a588581078997c0 DependenciesID=1867a39936178408f3c8ee4b9d94f69e StaticDependenciesID=e720abb63fc9e88b61f49319d52a6773 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.034305 seconds.
-  path: Assets/map/tree-2.png
-  importAddress: Guid(0e9e556f96ccfb241814e6fd4658d441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/map/tree-2.png using Guid(0e9e556f96ccfb241814e6fd4658d441) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'bfcad22a4ba7030975e9c44b5ec84bf0') in 0.0108579 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=47dc3130acd3694a4bc3707b35ca1bbe DependenciesID=17f8b22300c3f453139b74b1c7e04642 StaticDependenciesID=203d74b030d7958a1fb66d16e2621402 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 563.214974 seconds.
-  path: Assets/map/flowerpot-1.png
-  importAddress: Guid(4e65148c69ba23841a60dddedb34f020) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/map/flowerpot-1.png using Guid(4e65148c69ba23841a60dddedb34f020) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0cd8ab5e63813b7f338bd4828433e613') in 0.0105581 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5c83a822a5b7869a0a46de41b8c6c2ed DependenciesID=f93a3ea80e8a5a6845c17b4ff36ce116 StaticDependenciesID=483f90df4c6ee720cb61790cf6493ca8 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.521966 seconds.
-  path: Assets/map/flowerpot-1.png
-  importAddress: Guid(4e65148c69ba23841a60dddedb34f020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/map/flowerpot-1.png using Guid(4e65148c69ba23841a60dddedb34f020) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'e6d252bfe4e5d2d2588809b1e2ed1f5d') in 0.0117045 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=888106bd5a84e1826fed59c5d9aa832e DependenciesID=f10da846d06f756684f62864d60ee97e StaticDependenciesID=224d54ed03784fd944ff3638a44401ea 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 73.506926 seconds.
-  path: Assets/map/map.png
-  importAddress: Guid(d110e4c82e0c57949950c2986293bb30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/map/map.png using Guid(d110e4c82e0c57949950c2986293bb30) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'f8d5011336d24ade4d8fec4fc19a3cc1') in 0.1389785 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f6037f731725c1b275e387bdb35636a6 DependenciesID=5285820234051c5e456f772122723cc0 StaticDependenciesID=d4f109efe11fe47afcb335accc2f20e7 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 91
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.081627 seconds.
-  path: Assets/map/map.png
-  importAddress: Guid(d110e4c82e0c57949950c2986293bb30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/map/map.png using Guid(d110e4c82e0c57949950c2986293bb30) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'b75d46e5782c4c801a6f4b435d8647b3') in 0.1243681 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3e4d7723a85affcd344c0260afd10b91 DependenciesID=52e8b7c8b945fd069fd84e388516b4c4 StaticDependenciesID=0d2a006a0c281dcd9b08a8eb010f4f4a 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 91
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.834591 seconds.
-  path: Assets/map/map.png
-  importAddress: Guid(d110e4c82e0c57949950c2986293bb30) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/map/map.png using Guid(d110e4c82e0c57949950c2986293bb30) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '3adabe2fd3d628c788472ccae0222eba') in 0.0773852 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d46fb3e76004ef209699c11e9fc932ec DependenciesID=3007dbf680f80c1106b640a26e4bf3e5 StaticDependenciesID=0126cf5850bdf606e39865bbdf48c225 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 91
+  Time since last request: 23.819336 seconds.
+  path: Assets/Scenes/SelectMenu2.unity
+  importAddress: Guid(05ae79df90ba74640b9c1394b8dec4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SelectMenu2.unity using Guid(05ae79df90ba74640b9c1394b8dec4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'ba78b1efe42e64b4ba9285679ff23319') in 0.0004889 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a98cfe960afc5c6136a31ddd3775172e DependenciesID=6296a150b728c74907fce5630ca635a0 StaticDependenciesID=05129f38b7ac5f83ac3ea9ece940eb01 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
