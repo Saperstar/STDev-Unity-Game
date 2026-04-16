@@ -8949,6 +8949,7 @@ GameObject:
   - component: {fileID: 1822106263}
   - component: {fileID: 1822106262}
   - component: {fileID: 1822106261}
+  - component: {fileID: 1822106264}
   m_Layer: 5
   m_Name: Button5_Heart
   m_TagString: Untagged
@@ -9019,7 +9020,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1822106262}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1822106264}
+        m_TargetAssemblyTypeName: ButtonScript_new, Assembly-CSharp
+        m_MethodName: GoNext
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1822106262
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9058,6 +9071,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1822106259}
   m_CullTransparentMesh: 1
+--- !u!114 &1822106264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1822106259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9a83725a2c55e149930bba1d0c4d534, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonScript_new
 --- !u!1 &1829335769
 GameObject:
   m_ObjectHideFlags: 0
