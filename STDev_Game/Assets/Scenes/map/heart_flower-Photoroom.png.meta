@@ -1,0 +1,990 @@
+fileFormatVersion: 2
+guid: 7f65f34607a94934cb0041c63f74f31f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7940055469055229605
+    second: heart_flower-Photoroom_0
+  - first:
+      213: -2564927192070082031
+    second: heart_flower-Photoroom_1
+  - first:
+      213: -2179243130808934284
+    second: heart_flower-Photoroom_2
+  - first:
+      213: 2262890004009546606
+    second: heart_flower-Photoroom_3
+  - first:
+      213: -662180155076763103
+    second: heart_flower-Photoroom_4
+  - first:
+      213: -1915262090200122217
+    second: heart_flower-Photoroom_5
+  - first:
+      213: 6393910655685732245
+    second: heart_flower-Photoroom_6
+  - first:
+      213: -3900856419262882947
+    second: heart_flower-Photoroom_7
+  - first:
+      213: -7454826259653242327
+    second: heart_flower-Photoroom_8
+  - first:
+      213: 1980477790731423379
+    second: heart_flower-Photoroom_9
+  - first:
+      213: -950138819977493118
+    second: heart_flower-Photoroom_10
+  - first:
+      213: 7142863130138503564
+    second: heart_flower-Photoroom_11
+  - first:
+      213: 6970735753399446068
+    second: heart_flower-Photoroom_12
+  - first:
+      213: 5252719058717846733
+    second: heart_flower-Photoroom_13
+  - first:
+      213: 2990834844486448548
+    second: heart_flower-Photoroom_14
+  - first:
+      213: -3701866224777231681
+    second: heart_flower-Photoroom_15
+  - first:
+      213: 1545062193603289122
+    second: heart_flower-Photoroom_16
+  - first:
+      213: -8829809618491525252
+    second: heart_flower-Photoroom_17
+  - first:
+      213: 4862295966597067988
+    second: heart_flower-Photoroom_18
+  - first:
+      213: 2661468328742259312
+    second: heart_flower-Photoroom_19
+  - first:
+      213: -3265796568516819244
+    second: heart_flower-Photoroom_20
+  - first:
+      213: 8314999365201995759
+    second: heart_flower-Photoroom_21
+  - first:
+      213: 5665248238934985984
+    second: heart_flower-Photoroom_22
+  - first:
+      213: 6608646384377092595
+    second: heart_flower-Photoroom_23
+  - first:
+      213: -1240062171590587973
+    second: heart_flower-Photoroom_24
+  - first:
+      213: 8646117532220499416
+    second: heart_flower-Photoroom_25
+  - first:
+      213: 3176118426120214103
+    second: heart_flower-Photoroom_26
+  - first:
+      213: 3578300357627224470
+    second: heart_flower-Photoroom_27
+  - first:
+      213: 4109319227463668653
+    second: heart_flower-Photoroom_28
+  - first:
+      213: 2082785591449617781
+    second: heart_flower-Photoroom_29
+  - first:
+      213: -8723769514788946829
+    second: heart_flower-Photoroom_30
+  - first:
+      213: -4125846573097333334
+    second: heart_flower-Photoroom_31
+  - first:
+      213: -688476427060489471
+    second: heart_flower-Photoroom_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: heart_flower-Photoroom_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 611
+        width: 126
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b51c01e7e914fc190800000000000000
+      internalID: -7940055469055229605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_flower-Photoroom_1
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 611
+        width: 89
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1123ce1fe4c876cd0800000000000000
+      internalID: -2564927192070082031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_flower-Photoroom_2
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 611
+        width: 103
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4706cec2be5c1c1e0800000000000000
+      internalID: -2179243130808934284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_flower-Photoroom_3
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 611
+        width: 114
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6375c62876676f10800000000000000
+      internalID: 2262890004009546606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_flower-Photoroom_4
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 611
+        width: 113
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 122265748a67fc6f0800000000000000
+      internalID: -662180155076763103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_flower-Photoroom_5
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 611
+        width: 114
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79c79d5c64f9b65e0800000000000000
+      internalID: -1915262090200122217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_flower-Photoroom_6
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 611
+        width: 124
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 597abbd6ddbbbb850800000000000000
+      internalID: 6393910655685732245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_flower-Photoroom_7
+      rect:
+        serializedVersion: 2
+        x: 1273
+        y: 628
+        width: 124
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7b980a11cf5dd9c0800000000000000
+      internalID: -3900856419262882947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_flower-Photoroom_8
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 429
+        width: 99
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9225d13a3032b8890800000000000000
+      internalID: -7454826259653242327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_flower-Photoroom_9
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 431
+        width: 96
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39ec812ce021c7b10800000000000000
+      internalID: 1980477790731423379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_flower-Photoroom_10
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 523
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 285ceebf6cd60d2f0800000000000000
+      internalID: -950138819977493118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_flower-Photoroom_11
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 431
+        width: 120
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c89e32f1c2c802360800000000000000
+      internalID: 7142863130138503564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_flower-Photoroom_12
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 518
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43a2d743c370db060800000000000000
+      internalID: 6970735753399446068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_flower-Photoroom_13
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 513
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcc2dcf572865e840800000000000000
+      internalID: 5252719058717846733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_flower-Photoroom_14
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 529
+        width: 29
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a5b977e174918920800000000000000
+      internalID: 2990834844486448548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_flower-Photoroom_15
+      rect:
+        serializedVersion: 2
+        x: 1239
+        y: 422
+        width: 151
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb2032a284450acc0800000000000000
+      internalID: -3701866224777231681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_flower-Photoroom_16
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 432
+        width: 90
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2202c9501e9217510800000000000000
+      internalID: 1545062193603289122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_flower-Photoroom_17
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 431
+        width: 92
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c773c7f2fe6367580800000000000000
+      internalID: -8829809618491525252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_flower-Photoroom_18
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 431
+        width: 92
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d435d98b685a7340800000000000000
+      internalID: 4862295966597067988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_flower-Photoroom_19
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 422
+        width: 138
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07a82ab085f6fe420800000000000000
+      internalID: 2661468328742259312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_flower-Photoroom_20
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 493
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d68dd8e25f8da2d0800000000000000
+      internalID: -3265796568516819244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_flower-Photoroom_21
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 433
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe7a67e2edfc46370800000000000000
+      internalID: 8314999365201995759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_flower-Photoroom_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 152
+        height: 328
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00d802ee1410f9e40800000000000000
+      internalID: 5665248238934985984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_flower-Photoroom_23
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 209
+        width: 124
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f957fa5fd0a6bb50800000000000000
+      internalID: 6608646384377092595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_flower-Photoroom_24
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 209
+        width: 124
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb981fa660a6acee0800000000000000
+      internalID: -1240062171590587973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_flower-Photoroom_25
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 209
+        width: 131
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d5a742261e2df770800000000000000
+      internalID: 8646117532220499416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_flower-Photoroom_26
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 209
+        width: 136
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 756d77971e6d31c20800000000000000
+      internalID: 3176118426120214103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_flower-Photoroom_27
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 209
+        width: 135
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6912604773da8a130800000000000000
+      internalID: 3578300357627224470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_flower-Photoroom_28
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 209
+        width: 135
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da397a5b01c370930800000000000000
+      internalID: 4109319227463668653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_flower-Photoroom_29
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 210
+        width: 135
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57508a9d57a87ec10800000000000000
+      internalID: 2082785591449617781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_flower-Photoroom_30
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 51
+        width: 102
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37c7f98c8d1fee680800000000000000
+      internalID: -8723769514788946829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_flower-Photoroom_31
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 51
+        width: 103
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aad45c4c66c0eb6c0800000000000000
+      internalID: -4125846573097333334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_flower-Photoroom_32
+      rect:
+        serializedVersion: 2
+        x: 1266
+        y: 0
+        width: 131
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10354d8565a0276f0800000000000000
+      internalID: -688476427060489471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e5dda22421e0bf647a19bdd7c2b502d1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      heart_flower-Photoroom_0: -7940055469055229605
+      heart_flower-Photoroom_1: -2564927192070082031
+      heart_flower-Photoroom_10: -950138819977493118
+      heart_flower-Photoroom_11: 7142863130138503564
+      heart_flower-Photoroom_12: 6970735753399446068
+      heart_flower-Photoroom_13: 5252719058717846733
+      heart_flower-Photoroom_14: 2990834844486448548
+      heart_flower-Photoroom_15: -3701866224777231681
+      heart_flower-Photoroom_16: 1545062193603289122
+      heart_flower-Photoroom_17: -8829809618491525252
+      heart_flower-Photoroom_18: 4862295966597067988
+      heart_flower-Photoroom_19: 2661468328742259312
+      heart_flower-Photoroom_2: -2179243130808934284
+      heart_flower-Photoroom_20: -3265796568516819244
+      heart_flower-Photoroom_21: 8314999365201995759
+      heart_flower-Photoroom_22: 5665248238934985984
+      heart_flower-Photoroom_23: 6608646384377092595
+      heart_flower-Photoroom_24: -1240062171590587973
+      heart_flower-Photoroom_25: 8646117532220499416
+      heart_flower-Photoroom_26: 3176118426120214103
+      heart_flower-Photoroom_27: 3578300357627224470
+      heart_flower-Photoroom_28: 4109319227463668653
+      heart_flower-Photoroom_29: 2082785591449617781
+      heart_flower-Photoroom_3: 2262890004009546606
+      heart_flower-Photoroom_30: -8723769514788946829
+      heart_flower-Photoroom_31: -4125846573097333334
+      heart_flower-Photoroom_32: -688476427060489471
+      heart_flower-Photoroom_4: -662180155076763103
+      heart_flower-Photoroom_5: -1915262090200122217
+      heart_flower-Photoroom_6: 6393910655685732245
+      heart_flower-Photoroom_7: -3900856419262882947
+      heart_flower-Photoroom_8: -7454826259653242327
+      heart_flower-Photoroom_9: 1980477790731423379
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
