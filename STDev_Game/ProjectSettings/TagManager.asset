@@ -4,10 +4,10 @@
 TagManager:
   serializedVersion: 3
   tags:
-  - Star
   - Heart
   - TreasureMap
   - Monster
+  - Coin
   layers:
   - Default
   - TransparentFX

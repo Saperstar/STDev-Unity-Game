@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour
 
     [Header("결과 UI 연결")]
     public GameObject resultCanvas;
-    public TextMeshProUGUI starCountText;
+    public TextMeshProUGUI coinCountText;
 
     [Header("하트 UI 연결 (애니메이션)")]
     public Animator[] heartAnimators;
@@ -20,11 +20,21 @@ public class GameManager : MonoBehaviour
     private int currentStops;
 
     [Header("데이터")]
-    public int currentStars = 0;
+    public int currentCoins = 0;
     public string nextStageName;
 
     private int currentHearts;
     private int maxHearts = 3;
+
+    [Header("코인 수집 상태")]
+    public bool[] collectedCoins = new bool[3]; // [False, False, False] 로 시작
+    public Animator[] resultCoinAnimators;    // 결과창에 있는 코인 3개의 애니메이터 연결
+
+    [Header("스테이지 지팡이 개별 설정")]
+    // 인스펙터에서 체크박스 3개가 뜰 겁니다. (0번: 1차, 1번: 2차, 2번: 3차)
+    public bool[] allowedWands = new bool[3] { true, false, false };
+
+
 
     void Awake()
     {
@@ -54,9 +64,9 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public void AddStar()
+    public void AddCoin()
     {
-        currentStars++;
+        currentCoins++;
     }
 
     // 정지 사용 요청 처리
@@ -85,7 +95,7 @@ public class GameManager : MonoBehaviour
 
     public void CheckClearCondition()
     {
-        if (currentStars > 0) ShowClearUI();
+        if (currentCoins > 0) ShowClearUI();
         else LoseHeart();
     }
 
@@ -113,11 +123,36 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    // 특정 인덱스의 코인을 획득했을 때 호출
+    public void AddSpecificCoin(int index)
+    {
+        if (index >= 0 && index < collectedCoins.Length)
+        {
+            collectedCoins[index] = true;
+            Debug.Log(index + "번 코인 획득!");
+        }
+    }
+
+    // 결과창을 띄울 때 호출할 함수
     void ShowClearUI()
     {
         resultCanvas.SetActive(true);
-        starCountText.text = "Stars: " + currentStars;
         Time.timeScale = 0f;
+
+        // ★ 결과창 코인 애니메이션 연출 루프
+        for (int i = 0; i < collectedCoins.Length; i++)
+        {
+            if (collectedCoins[i] == true)
+            {
+                // 먹은 코인이라면 '띵띵' 애니메이션 실행!
+                resultCoinAnimators[i].SetTrigger("OnPop");
+            }
+            else
+            {
+                // 안 먹은 코인이라면 회색(비활성화) 상태 유지 (애니메이션 안 함)
+                // 기본 이미지를 회색 코인으로 해두면 됩니다.
+            }
+        }
     }
 
     public void RestartStage() { SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex); }
