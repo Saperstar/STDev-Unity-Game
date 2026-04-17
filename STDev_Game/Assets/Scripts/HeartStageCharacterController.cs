@@ -19,8 +19,8 @@ public class HeartStageCharacterController : MonoBehaviour
     [SerializeField] private float sprintRecoverPerSecond = 18f;
 
     [Header("Gauge UI")]
-    [SerializeField] private Vector2 gaugePosition = new Vector2(24f, 24f);
-    [SerializeField] private Vector2 gaugeSize = new Vector2(240f, 24f);
+    [SerializeField] private Vector2 gaugePosition = new Vector2(40f, 60f);
+    [SerializeField] private Vector2 gaugeSize = new Vector2(420f, 36f);
     [SerializeField] private Color gaugeBackgroundColor = new Color(0.12f, 0.16f, 0.2f, 0.9f);
     [SerializeField] private Color gaugeFillColor = new Color(0.3f, 0.85f, 0.5f, 1f);
     [SerializeField] private Color gaugeTextColor = Color.white;

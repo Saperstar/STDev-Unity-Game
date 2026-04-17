@@ -7,9 +7,9 @@ public class SunPatrolController : MonoBehaviour
     [SerializeField] private float maxX = 8.5f;
 
     [Header("Move Speed")]
-    [SerializeField] private float minMoveSpeed = 3f;
-    [SerializeField] private float maxMoveSpeed = 8f;
-    [SerializeField] private float minimumDirectionTime = 0.5f;
+    [SerializeField] private float minMoveSpeed = 5.5f;
+    [SerializeField] private float maxMoveSpeed = 12f;
+    [SerializeField] private float minimumDirectionTime = 1.0f;
 
     [Header("Pause")]
     [SerializeField] private float pauseEverySeconds = 4f;
@@ -73,7 +73,7 @@ public class SunPatrolController : MonoBehaviour
             return;
         }
 
-        if (directionTimer <= 0f && Random.value < 0.25f)
+        if (directionTimer <= 0f && Random.value < 0.5f)
         {
             PickNewDirection(forceChange: true);
         }

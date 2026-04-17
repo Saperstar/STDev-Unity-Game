@@ -10,7 +10,7 @@ public class CarriedFlowerGrowth : MonoBehaviour
 
     [Header("Score")]
     [SerializeField] private float scorePerSecond = 1000f;
-    [SerializeField] private float scoreDecreasePerSecond = 200f;
+    [SerializeField] private float scoreDecreasePerSecond = 500f;
     [SerializeField] private string sunlightTag = "Sunlight";
 
     [Header("Flower Stage")]
