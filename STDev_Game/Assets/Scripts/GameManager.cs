@@ -8,36 +8,57 @@ public class GameManager : MonoBehaviour
 
     [Header("결과 UI 연결")]
     public GameObject resultCanvas;
-    public TextMeshProUGUI starCountText;
-
-    [Header("하트 UI 연결 (애니메이션)")]
+    public TextMeshProUGUI coinCountText;
     public Animator[] heartAnimators;
 
-    [Header("정지 횟수 설정")]
-    // ★ 유니티 인스펙터에서 직접 지정 가능!
+    [Header("UI 요소 연결")]
     public TextMeshProUGUI stopCountText;
-    public int maxStops = 3;
+    public UnityEngine.UI.Image backgroundImageUI;
+
+    // --- [StageInfo에서 받아올 데이터들: 인스펙터에서는 숨김!] ---
+    [HideInInspector] public string nextStageName;
+    [HideInInspector] public int maxStops;
+    [HideInInspector] public bool[] allowedWands;
+    [HideInInspector] public Sprite currentCoinSprite;
+    // 선언부 수정
+    [HideInInspector] public Sprite currentMonsterSprite; // currentBirdSprite 였던 것을 변경!
+
+    // --------------------------------------------------------
+
+    [Header("실시간 데이터")]
+    public int currentCoins = 0;
     private int currentStops;
-
-    [Header("데이터")]
-    public int currentStars = 0;
-    public string nextStageName;
-
     private int currentHearts;
     private int maxHearts = 3;
+
+    [Header("코인 수집 상태")]
+    public bool[] collectedCoins = new bool[3];
+    public Animator[] resultCoinAnimators;
 
     void Awake()
     {
         if (Instance == null) Instance = this;
+
+        // ★ 지시서(StageInfo)에서 데이터 스포이트로 빨아들이기
+        StageInfo info = FindAnyObjectByType<StageInfo>();
+        if (info != null)
+        {
+            this.nextStageName = info.nextStageName;
+            this.maxStops = info.maxStops;
+            this.allowedWands = info.allowedWands;
+            this.currentCoinSprite = info.coinImage;
+            this.currentMonsterSprite = info.monsterImage; // 이름 맞춰주기
+
+            // 배경화면은 여기서 바로 교체!
+            if (backgroundImageUI != null && info.stageBackground != null)
+            {
+                backgroundImageUI.sprite = info.stageBackground;
+            }
+        }
+
         if (resultCanvas != null) resultCanvas.SetActive(false);
-
-        // 씬 시작 시 시간 흐름 정상화
         Time.timeScale = 1f;
-
-        // 하트 데이터 로드
         currentHearts = PlayerPrefs.GetInt("PlayerHearts", maxHearts);
-
-        // 정지 횟수 초기화
         currentStops = maxStops;
         UpdateStopUI();
     }
@@ -54,9 +75,9 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public void AddStar()
+    public void AddCoin()
     {
-        currentStars++;
+        currentCoins++;
     }
 
     // 정지 사용 요청 처리
@@ -85,7 +106,7 @@ public class GameManager : MonoBehaviour
 
     public void CheckClearCondition()
     {
-        if (currentStars > 0) ShowClearUI();
+        if (currentCoins > 0) ShowClearUI();
         else LoseHeart();
     }
 
@@ -113,11 +134,35 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    // 특정 인덱스의 코인을 획득했을 때 호출
+    public void AddSpecificCoin(int index)
+    {
+        if (index >= 0 && index < collectedCoins.Length)
+        {
+            collectedCoins[index] = true;
+            Debug.Log(index + "번 코인 획득!");
+        }
+    }
+
+    // 결과창을 띄울 때 호출할 함수
     void ShowClearUI()
     {
         resultCanvas.SetActive(true);
-        starCountText.text = "Stars: " + currentStars;
         Time.timeScale = 0f;
+
+        // ★ 결과창 코인 애니메이션 연출 루프
+        for (int i = 0; i < collectedCoins.Length; i++)
+        {
+            if (collectedCoins[i] == true)
+            {
+                // 먹은 코인이라면 '띵띵' 애니메이션 실행!
+                resultCoinAnimators[i].SetTrigger("OnPop");
+            }
+            else
+            {
+                // 안 먹은 코인이라면 회색(비활성화) 상태 유지 (애니메이션 안 함)
+            }
+        }
     }
 
     public void RestartStage() { SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex); }

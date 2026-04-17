@@ -9,9 +9,10 @@ public class PlayerController : MonoBehaviour
 
     private bool isMoving = false;
     private int currentPointIndex = 0;
-    private int collectedStars = 0;
+    private int collectedCoins = 0; // [변경] collectedStars -> collectedCoins
 
     public bool IsMoving => isMoving;
+    public bool HasHeartKey { get; private set; } = false;
 
     public void StartMoving()
     {
@@ -24,7 +25,6 @@ public class PlayerController : MonoBehaviour
         isMoving = false;
     }
 
-    // ★ WandController가 무조건 이 함수를 부르도록 할 겁니다!
     public void RequestStop()
     {
         if (!isMoving) return;
@@ -42,13 +42,10 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        // [수정됨] 여기서 우클릭 감지하던 코드를 지웠습니다! 이제 WandController가 혼자 담당합니다.
-
         if (!isMoving) return;
 
         Vector3 targetPos = pathLine.GetPosition(currentPointIndex);
 
-        // 회전 로직
         Vector3 direction = targetPos - transform.position;
         if (direction != Vector3.zero)
         {
@@ -56,7 +53,6 @@ public class PlayerController : MonoBehaviour
             transform.rotation = Quaternion.Euler(0, 0, angle);
         }
 
-        // 이동 로직
         transform.position = Vector3.MoveTowards(transform.position, targetPos, speed * Time.deltaTime);
 
         if (Vector3.Distance(transform.position, targetPos) < 0.05f)
@@ -72,18 +68,32 @@ public class PlayerController : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Star"))
+        // 1. 동전(Coin) 획득
+        if (other.CompareTag("Coin"))
         {
-            collectedStars++;
-            if (GameManager.Instance != null) GameManager.Instance.AddStar();
-            other.gameObject.SetActive(false);
+            collectedCoins++; // [변경]
+            // GameManager에 있는 함수 이름도 AddCoin으로 바꾸셔야 에러가 안 납니다!
+            if (GameManager.Instance != null) GameManager.Instance.AddCoin();
+
+            CoinItem coin = other.GetComponent<CoinItem>();
+            if (coin != null) coin.PopAndDestroy();
+            else other.gameObject.SetActive(false);
         }
+        // 2. 보물지도 획득
         else if (other.CompareTag("TreasureMap"))
         {
             other.gameObject.SetActive(false);
             isMoving = false;
             if (GameManager.Instance != null) GameManager.Instance.CheckClearCondition();
         }
+        // 3. 하트(입장권) 획득
+        else if (other.CompareTag("Heart"))
+        {
+            HasHeartKey = true;
+            other.gameObject.SetActive(false);
+            Debug.Log("❤️ 하트 스테이지 입장권 획득!");
+        }
+        // 4. 몬스터 충돌
         else if (other.CompareTag("Monster"))
         {
             Rigidbody2D rb = GetComponent<Rigidbody2D>();
@@ -96,6 +106,18 @@ public class PlayerController : MonoBehaviour
             transform.position = transform.position;
 
             if (GameManager.Instance != null) GameManager.Instance.LoseHeart();
+        }
+        if (other.CompareTag("Coin"))
+        {
+            CoinItem coin = other.GetComponent<CoinItem>();
+            if (coin != null)
+            {
+                // ★ 동전의 번호를 매니저에게 알려줍니다.
+                if (GameManager.Instance != null)
+                    GameManager.Instance.AddSpecificCoin(coin.coinIndex);
+
+                coin.PopAndDestroy();
+            }
         }
     }
 
