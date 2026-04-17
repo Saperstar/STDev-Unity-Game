@@ -6,6 +6,12 @@ public class CoinItem : MonoBehaviour
     public float popForce = 5f;     // 위로 튀어 오르는 힘
     public float destroyTime = 0.5f; // 튀어 오르고 며칠 뒤에(몇 초 뒤에) 사라질지
 
+    void Start()
+    {
+        if (GameManager.Instance != null)
+            GetComponent<SpriteRenderer>().sprite = GameManager.Instance.currentCoinSprite;
+    }
+
     public void PopAndDestroy()
     {
         // 1. 충돌체 끄기 (튀어 오르는 동안 캐릭터가 또 먹는 버그 방지)

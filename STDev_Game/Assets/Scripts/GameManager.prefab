@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2778810548617616899
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7639210258276451467}
+  - component: {fileID: 6136436243317099232}
+  - component: {fileID: 3468632576822146720}
+  - component: {fileID: 7557835511699848236}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7639210258276451467
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2778810548617616899}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.36658, y: 0.28571, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6136436243317099232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2778810548617616899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61550c0312d0efd4d88f3cc660554dbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WandController
+  player: {fileID: 0}
+  lineRenderer: {fileID: 0}
+  pointPrefab: {fileID: 1264090567705663451, guid: e5e95118ce9548d4a8b35a1264d306a2, type: 3}
+  wandBtnImage: {fileID: 0}
+  linearIcon: {fileID: 1153958647160800411, guid: c3aa1a3d844c980459845fd839e369a4, type: 3}
+  quadraticIcon: {fileID: -6227556571718054553, guid: c3aa1a3d844c980459845fd839e369a4, type: 3}
+  cubicIcon: {fileID: 3143559840251678270, guid: c3aa1a3d844c980459845fd839e369a4, type: 3}
+  xRangeMin: -7.5
+  xRangeMax: 8
+  lineResolution: 500
+  graphParticles: {fileID: 0}
+  particlesPerFrame: 4
+--- !u!114 &3468632576822146720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2778810548617616899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0bd7147ab8e9df4592a12326e34a0da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GameManager
+  resultCanvas: {fileID: 0}
+  coinCountText: {fileID: 0}
+  heartAnimators:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  stopCountText: {fileID: 0}
+  maxStops: 3
+  currentCoins: 0
+  nextStageName: Chapter1_Stage01
+  collectedCoins: 000000
+  resultCoinAnimators:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  allowedWands: 010001
+--- !u!114 &7557835511699848236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2778810548617616899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d0d03ee3822ce84a95a82e674b7b2a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WandUI
+  wandSlots:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  lockObjects:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}

@@ -9,45 +9,56 @@ public class GameManager : MonoBehaviour
     [Header("결과 UI 연결")]
     public GameObject resultCanvas;
     public TextMeshProUGUI coinCountText;
-
-    [Header("하트 UI 연결 (애니메이션)")]
     public Animator[] heartAnimators;
 
-    [Header("정지 횟수 설정")]
-    // ★ 유니티 인스펙터에서 직접 지정 가능!
+    [Header("UI 요소 연결")]
     public TextMeshProUGUI stopCountText;
-    public int maxStops = 3;
-    private int currentStops;
+    public UnityEngine.UI.Image backgroundImageUI;
 
-    [Header("데이터")]
+    // --- [StageInfo에서 받아올 데이터들: 인스펙터에서는 숨김!] ---
+    [HideInInspector] public string nextStageName;
+    [HideInInspector] public int maxStops;
+    [HideInInspector] public bool[] allowedWands;
+    [HideInInspector] public Sprite currentCoinSprite;
+    // 선언부 수정
+    [HideInInspector] public Sprite currentMonsterSprite; // currentBirdSprite 였던 것을 변경!
+
+    // --------------------------------------------------------
+
+    [Header("실시간 데이터")]
     public int currentCoins = 0;
-    public string nextStageName;
-
+    private int currentStops;
     private int currentHearts;
     private int maxHearts = 3;
 
     [Header("코인 수집 상태")]
-    public bool[] collectedCoins = new bool[3]; // [False, False, False] 로 시작
-    public Animator[] resultCoinAnimators;    // 결과창에 있는 코인 3개의 애니메이터 연결
-
-    [Header("스테이지 지팡이 개별 설정")]
-    // 인스펙터에서 체크박스 3개가 뜰 겁니다. (0번: 1차, 1번: 2차, 2번: 3차)
-    public bool[] allowedWands = new bool[3] { true, false, false };
-
-
+    public bool[] collectedCoins = new bool[3];
+    public Animator[] resultCoinAnimators;
 
     void Awake()
     {
         if (Instance == null) Instance = this;
+
+        // ★ 지시서(StageInfo)에서 데이터 스포이트로 빨아들이기
+        StageInfo info = FindAnyObjectByType<StageInfo>();
+        if (info != null)
+        {
+            this.nextStageName = info.nextStageName;
+            this.maxStops = info.maxStops;
+            this.allowedWands = info.allowedWands;
+            this.currentCoinSprite = info.coinImage;
+            this.currentMonsterSprite = info.monsterImage; // 이름 맞춰주기
+
+            // 배경화면은 여기서 바로 교체!
+            if (backgroundImageUI != null && info.stageBackground != null)
+            {
+                backgroundImageUI.sprite = info.stageBackground;
+            }
+        }
+
         if (resultCanvas != null) resultCanvas.SetActive(false);
-
-        // 씬 시작 시 시간 흐름 정상화
         Time.timeScale = 1f;
-
-        // 하트 데이터 로드
         currentHearts = PlayerPrefs.GetInt("PlayerHearts", maxHearts);
-
-        // 정지 횟수 초기화
         currentStops = maxStops;
         UpdateStopUI();
     }
@@ -150,7 +161,6 @@ public class GameManager : MonoBehaviour
             else
             {
                 // 안 먹은 코인이라면 회색(비활성화) 상태 유지 (애니메이션 안 함)
-                // 기본 이미지를 회색 코인으로 해두면 됩니다.
             }
         }
     }
