@@ -86,6 +86,7 @@
     <Compile Include="Assets/Scripts/MainMenuManager.cs" />
     <Compile Include="Assets/Scripts/Heart_GameTimer.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/CameraController.cs" />
+    <Compile Include="Assets/Scripts/Heart_Desert_Scripts/HeartDesertQuizBootstrap.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark03.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/DropdownSample.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexColorCycler.cs" />
