@@ -27,13 +27,19 @@ EditorBuildSettings:
     path: Assets/Scenes/ClearMenu.unity
     guid: 2f1bd712a6503aa42aa58a8912a5e6a9
   - enabled: 1
-    path: Assets/Scenes/Shop1Menu.unity
+    path: Assets/Scenes/Chapter1/WandScene.unity
+    guid: e6f503037c85d7044bfcc99ed862d6bd
+  - enabled: 1
+    path: Assets/Scenes/Chapter2/WandScene 1.unity
+    guid: 3513fee0c61601c47bec1e0a8e2395f4
+  - enabled: 1
+    path: Assets/Scenes/Chapter1/Shop1Menu.unity
     guid: d5a8383e6aadeba4ea326d6ae4c2541e
   - enabled: 1
-    path: Assets/Scenes/Shop2Menu.unity
+    path: Assets/Scenes/Chapter2/Shop2Menu.unity
     guid: fa5673dde6023db42b558fedad1a5396
   - enabled: 1
-    path: Assets/Scenes/Shop3Menu.unity
+    path: Assets/Scenes/Chapter3/Shop3Menu.unity
     guid: 8bc9d9f7f5820924ba75cd13cc854140
   - enabled: 1
     path: Assets/Scenes/Chapter1/Practice_Stage.unity

@@ -4067,7 +4067,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 866, y: 627.11}
+  m_AnchoredPosition: {x: 930, y: 627.11}
   m_SizeDelta: {x: 227.7383, y: 191.4646}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &796388505
@@ -6442,7 +6442,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 627, y: 636.71}
+  m_AnchoredPosition: {x: 691, y: 636.71}
   m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1222795240
@@ -10089,7 +10089,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9a83725a2c55e149930bba1d0c4d534, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ButtonScript_new
-  stageToLoad: Tutorial_Stage
+  stageToLoad: WandScene
   chapterID: 1
 --- !u!1 &1822919794
 GameObject:

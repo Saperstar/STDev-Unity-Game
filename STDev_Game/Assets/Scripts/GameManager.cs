@@ -117,6 +117,18 @@ public class GameManager : MonoBehaviour
 
     public void LoseHeart()
     {
+        // 🛡️ [추가] 방패(Shield) 체크 로직: 하트 로직보다 먼저 실행되어야 함
+        if (PlayerStats.Instance != null && PlayerStats.Instance.shield > 0)
+        {
+            PlayerStats.Instance.shield--; // 방패 1개 감소
+            Debug.Log("방패 사용! 남은 방패: " + PlayerStats.Instance.shield);
+
+            // 하트는 잃지 않지만, 장애물에서 떼어놓기 위해 스테이지는 재시작함
+            RestartStage();
+            return; // ★ 여기서 함수를 끝내서 아래 하트 감소 로직이 안 돌게 함
+        }
+
+        // --- 여기서부터 기존 하트 감소 로직 ---
         if (heartAnimators == null || heartAnimators.Length == 0) return;
         if (currentHearts <= 0) return;
 
