@@ -274,12 +274,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f9d39d9d4b46da4abeb4238c9669eb5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::StageInfo
-  nextStageName: EndingScreen
+  nextStageName: ClearMenu
   maxStops: 5
   allowedWands: 010101
-  stageBackground: {fileID: 5731888313771206321, guid: fd97a33d31e84df41b89ff95777b4b4d, type: 3}
   coinImage: {fileID: 1483268659738890104, guid: c9e1cc6212e59444c82f7ea03071b7d3, type: 3}
   monsterImage: {fileID: -3551287784963028691, guid: a23b0fee40a544a409d927c277b4855e, type: 3}
+  stageBackground: {fileID: 4685324250920534110, guid: 4bdf27f2dfef11943b7d7c46baf5108a, type: 3}
+  nextStageMapPos: {x: 0, y: 0, z: 0}
+  returnMapName: SelectMenu3
+  chapterID: 3
+  nextChapterID: 3
 --- !u!114 &146813824 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 9007177384432394073, guid: 10cb56cba4cd04d45aa3c260879d5631, type: 3}
@@ -1656,6 +1660,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9007177384432394073, guid: 10cb56cba4cd04d45aa3c260879d5631, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 4685324250920534110, guid: 4bdf27f2dfef11943b7d7c46baf5108a, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
