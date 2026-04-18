@@ -14,7 +14,7 @@ public class HeartStageCharacterController : MonoBehaviour
     [SerializeField] private float maxX = 8.5f;
 
     [Header("Gauge")]
-    [SerializeField] private float maxSprintGauge = 100f;
+    [SerializeField] private float maxSprintGauge = 60f;
     [SerializeField] private float sprintDrainPerSecond = 35f;
     [SerializeField] private float sprintRecoverPerSecond = 18f;
 
