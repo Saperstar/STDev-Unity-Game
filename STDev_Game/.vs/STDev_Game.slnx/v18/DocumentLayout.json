@@ -7,34 +7,44 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\GameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dh001\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uB300\uD68C\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\Monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dh001\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uB300\uD68C\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\PlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dh001\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uB300\uD68C\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\InfiniteLoop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\InfiniteLoop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dh001\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uB300\uD68C\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\StageInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\StageInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dh001\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uB300\uD68C\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\CoinItem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\CoinItem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dh001\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uB300\uD68C\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\WandUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\WandUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dh001\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uB300\uD68C\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\CoinItem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\CoinItem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dh001\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uB300\uD68C\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\PracticeManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PracticeManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dh001\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uB300\uD68C\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\TutorialManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\TutorialManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dh001\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uB300\uD68C\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\FloatingUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\FloatingUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dh001\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uB300\uD68C\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\Monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dh001\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uB300\uD68C\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\WandController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\WandController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dh001\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uB300\uD68C\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\PlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\Desktop\\\uB300\uD68C\\STDev Hackathon\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\TreasureMap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\Desktop\\\uB300\uD68C\\STDev Hackathon\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\StarItem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dh001\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uB300\uD68C\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\MainMenuManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -56,20 +66,46 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Monster.cs",
-              "DocumentMoniker": "C:\\Users\\dh001\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uB300\uD68C\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\Monster.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Monster.cs",
-              "ToolTip": "C:\\Users\\dh001\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uB300\uD68C\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\Monster.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Monster.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "InfiniteLoop.cs",
+              "DocumentMoniker": "C:\\Users\\dh001\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uB300\uD68C\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\InfiniteLoop.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\InfiniteLoop.cs",
+              "ToolTip": "C:\\Users\\dh001\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uB300\uD68C\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\InfiniteLoop.cs",
+              "RelativeToolTip": "Assets\\Scripts\\InfiniteLoop.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-17T19:32:08.387Z",
+              "WhenOpened": "2026-04-18T07:39:52.065Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
+              "Title": "PracticeManager.cs",
+              "DocumentMoniker": "C:\\Users\\dh001\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uB300\uD68C\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\PracticeManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PracticeManager.cs",
+              "ToolTip": "C:\\Users\\dh001\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uB300\uD68C\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\PracticeManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PracticeManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-18T07:36:08.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TutorialManager.cs",
+              "DocumentMoniker": "C:\\Users\\dh001\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uB300\uD68C\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\TutorialManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TutorialManager.cs",
+              "ToolTip": "C:\\Users\\dh001\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uB300\uD68C\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\TutorialManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TutorialManager.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADkAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-18T05:55:56.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "StageInfo.cs",
               "DocumentMoniker": "C:\\Users\\dh001\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uB300\uD68C\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\StageInfo.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\StageInfo.cs",
@@ -90,11 +126,12 @@
               "RelativeToolTip": "Assets\\Scripts\\WandUI.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAiwA8AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T14:46:52.579Z"
+              "WhenOpened": "2026-04-16T14:46:52.579Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "CoinItem.cs",
               "DocumentMoniker": "C:\\Users\\dh001\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uB300\uD68C\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\CoinItem.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CoinItem.cs",
@@ -107,56 +144,58 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "TreasureMap.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\\uB300\uD68C\\STDev Hackathon\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\TreasureMap.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\USER\\Desktop\\\uB300\uD68C\\STDev Hackathon\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\TreasureMap.cs",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\\uB300\uD68C\\STDev Hackathon\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\TreasureMap.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\USER\\Desktop\\\uB300\uD68C\\STDev Hackathon\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\TreasureMap.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-15T10:38:30.808Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "StarItem.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\\uB300\uD68C\\STDev Hackathon\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\StarItem.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\USER\\Desktop\\\uB300\uD68C\\STDev Hackathon\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\StarItem.cs",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\\uB300\uD68C\\STDev Hackathon\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\StarItem.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\USER\\Desktop\\\uB300\uD68C\\STDev Hackathon\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\StarItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-15T09:47:18.676Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\Users\\dh001\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uB300\uD68C\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
               "ToolTip": "C:\\Users\\dh001\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uB300\uD68C\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\GameManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAAEUAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAAAH8AAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-15T09:44:33.524Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\Users\\dh001\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uB300\uD68C\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
               "ToolTip": "C:\\Users\\dh001\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uB300\uD68C\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAiwGkAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAGMAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-14T11:34:23.695Z"
+              "WhenOpened": "2026-04-14T11:34:23.695Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
+              "Title": "FloatingUI.cs",
+              "DocumentMoniker": "C:\\Users\\dh001\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uB300\uD68C\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\FloatingUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\FloatingUI.cs",
+              "ToolTip": "C:\\Users\\dh001\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uB300\uD68C\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\FloatingUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\FloatingUI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-18T07:08:05.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Monster.cs",
+              "DocumentMoniker": "C:\\Users\\dh001\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uB300\uD68C\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\Monster.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Monster.cs",
+              "ToolTip": "C:\\Users\\dh001\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uB300\uD68C\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\Monster.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Monster.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T19:32:08.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "WandController.cs",
               "DocumentMoniker": "C:\\Users\\dh001\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uB300\uD68C\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\WandController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\WandController.cs",
@@ -168,7 +207,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "GraphDrawer.cs",
               "DocumentMoniker": "C:\\Users\\dh001\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uB300\uD68C\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\GraphDrawer.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GraphDrawer.cs",
@@ -180,7 +219,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "MainMenuManager.cs",
               "DocumentMoniker": "C:\\Users\\dh001\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uB300\uD68C\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\MainMenuManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MainMenuManager.cs",

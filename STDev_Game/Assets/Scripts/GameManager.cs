@@ -112,6 +112,11 @@ public class GameManager : MonoBehaviour
 
     public void LoseHeart()
     {
+        // [추가할 방어막] 하트 UI 배열이 아예 없거나 비어있으면 그냥 무시하고 함수 종료! (연습장이니까 안 죽음)
+        if (heartAnimators == null || heartAnimators.Length == 0)
+        {
+            return;
+        }
         if (currentHearts <= 0) return;
 
         int heartToBreakIndex = currentHearts - 1;
