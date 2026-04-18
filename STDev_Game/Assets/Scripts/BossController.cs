@@ -38,6 +38,7 @@ public class BossController : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
+
         if (currentHP <= 0)
             return;
 
@@ -47,11 +48,22 @@ public class BossController : MonoBehaviour
 
         UpdateHPUI();
 
-        // ✅ 보스 사망 판정이 최우선
+        // ✅ 1️⃣ 보스 사망 판정이 최우선
         if (currentHP <= 0)
         {
             OnBossDefeated();
+            return;
         }
+
+        // ✅ 2️⃣ 산성 패턴 발동 (HP 50% 이하 최초 1회)
+        if (!AcidAttackManager.Instance.HasActivated &&
+            currentHP <= maxHP / 2)
+        {
+            Debug.Log("🧪 산성 패턴 트리거!");
+            AcidAttackManager.Instance.StartAcidAttack();
+            return;
+        }
+
     }
 
     void UpdateHPUI()

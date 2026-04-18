@@ -5,16 +5,23 @@ public class AcidAttackManager : MonoBehaviour
     public static AcidAttackManager Instance;
 
     [Header("UI")]
-    public GameObject acidAttackUI;
+    public GameObject acidAttackUI;   // Canvas 안의 AcidAttackUI
 
+    // ✅ 산성 패턴이 이미 한 번 발동됐는지
     private bool hasActivated = false;
+
+    // ✅ 외부(BossController)에서 읽기 전용으로 사용
+    public bool HasActivated => hasActivated;
 
     void Awake()
     {
         if (Instance == null)
             Instance = this;
         else
+        {
             Destroy(gameObject);
+            return;
+        }
     }
 
     /// <summary>
@@ -22,47 +29,68 @@ public class AcidAttackManager : MonoBehaviour
     /// </summary>
     public void StartAcidAttack()
     {
+        // 이미 발동했으면 다시 안 함
+        if (hasActivated)
+            return;
 
+        hasActivated = true;
+
+        Debug.Log("🧪 산성 공격 패턴 시작");
+
+        // ✅ 산성 패턴 상태로 전환
         GameManager.Instance.isInAcidAttack = true;
 
+        // ✅ 기존 게임 UI 전부 끄기
         GameManager.Instance.SetAllGameUIOff();
-        acidAttackUI.SetActive(true);
 
+        // ✅ 산성 패턴 UI 켜기
+        if (acidAttackUI != null)
+            acidAttackUI.SetActive(true);
     }
 
     // =========================
-    // 화학 선택 처리
+    // 버튼 선택 처리
     // =========================
 
-    // ✅ 정답: NaCl
+    /// <summary>
+    /// 정답 선택 (NaCl)
+    /// </summary>
     public void SelectNaCl()
     {
-        Debug.Log("✅ NaCl 선택 - 산성 공격 회피 성공");
+        Debug.Log("✅ NaCl 선택 - 중화 성공");
         EndAcidAttack();
     }
 
-    // ❌ 오답: 다른 화학물질
+    /// <summary>
+    /// 오답 선택 (NaOH, H2SO4 등)
+    /// </summary>
     public void SelectWrongChemical()
     {
-        Debug.Log("❌ 잘못된 화학물질 선택 - 플레이어 피해 -20");
-        PlayerController.Instance.TakeDamage(20);
+        Debug.Log("❌ 잘못된 화학물질 선택 - 피해 발생");
+
+        if (PlayerController.Instance != null)
+            PlayerController.Instance.TakeDamage(20);
+
         EndAcidAttack();
     }
 
     // =========================
-    // 이벤트 종료 처리
+    // 산성 패턴 종료
     // =========================
 
     void EndAcidAttack()
     {
+        Debug.Log("🧪 산성 공격 패턴 종료");
 
-        acidAttackUI.SetActive(false);
+        // ✅ UI 끄기
+        if (acidAttackUI != null)
+            acidAttackUI.SetActive(false);
 
+        // ✅ 산성 패턴 상태 해제
         GameManager.Instance.isInAcidAttack = false;
 
-        // ✅ 여기서만 Math 복귀 가능
+        // ✅ 다시 수학 문제로 복귀
         GameManager.Instance.EnterMathState();
-
     }
 }
 
