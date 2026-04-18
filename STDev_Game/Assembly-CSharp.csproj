@@ -60,6 +60,7 @@
     <Compile Include="Assets/Scripts/WandController.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_ExampleScript_01.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMPro_InstructionOverlay.cs" />
+    <Compile Include="Assets/Scripts/Ocean_Heart_Scripts/Ocean_HeartSceneBootstrap.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeB.cs" />
     <Compile Include="Assets/Scripts/Heart_GameStartController.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexJitter.cs" />
@@ -84,7 +85,9 @@
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshSpawner.cs" />
     <Compile Include="Assets/Scripts/MainMenuManager.cs" />
+    <Compile Include="Assets/Scripts/Ocean_Heart_Scripts/Ocean_HeartTreasureCollector.cs" />
     <Compile Include="Assets/Scripts/Heart_GameTimer.cs" />
+    <Compile Include="Assets/Scripts/Ocean_Heart_Scripts/Ocean_HeartWaterMaskController.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/CameraController.cs" />
     <Compile Include="Assets/Scripts/Heart_Desert_Scripts/HeartDesertQuizBootstrap.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark03.cs" />
