@@ -10879,7 +10879,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d900ef5eefe1309488e5b1f372414b07, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerStats
-  coins: 200
+  coins: 18
   hearts: 2
   shield: 3
 --- !u!4 &927372435
