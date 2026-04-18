@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "D:\\Unity\\Workspace\\STDev-Unity-Game\\STDev_Game\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity\\Workspace\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\EndingManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\EndingManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity\\Workspace\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\BossController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\BossController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity\\Workspace\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\AttackMiniGame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\AttackMiniGame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity\\Workspace\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\GameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\GameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity\\Workspace\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\BGMManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\BGMManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity\\Workspace\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\MathManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\MathManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:2:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity\\Workspace\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\AcidAttackManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:2:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\AcidAttackManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity\\Workspace\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\GameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\GameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity\\Workspace\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\PlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,8 +31,16 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\DodgeMiniGame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity\\Workspace\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\AcidAttackManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\AcidAttackManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity\\Workspace\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\AttackMiniGame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\AttackMiniGame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity\\Workspace\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\EndingManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\EndingManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:1:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity\\Workspace\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\AcidAttackManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:1:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\AcidAttackManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,33 +50,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EndingManager.cs",
-              "DocumentMoniker": "D:\\Unity\\Workspace\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\EndingManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\EndingManager.cs",
-              "ToolTip": "D:\\Unity\\Workspace\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\EndingManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\EndingManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "BGMManager.cs",
+              "DocumentMoniker": "D:\\Unity\\Workspace\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\BGMManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BGMManager.cs",
+              "ToolTip": "D:\\Unity\\Workspace\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\BGMManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BGMManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T16:00:49.291Z",
+              "WhenOpened": "2026-04-18T13:42:35.038Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "AcidAttackManager.cs",
               "DocumentMoniker": "D:\\Unity\\Workspace\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\AcidAttackManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\AcidAttackManager.cs",
               "ToolTip": "D:\\Unity\\Workspace\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\AcidAttackManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\AcidAttackManager.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAAEUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAowF4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T14:33:13.956Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-16T14:33:13.956Z"
             },
             {
               "$type": "Document",
@@ -78,10 +85,9 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\DodgeMiniGame.cs",
               "ToolTip": "D:\\Unity\\Workspace\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\DodgeMiniGame.cs",
               "RelativeToolTip": "Assets\\Scripts\\DodgeMiniGame.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAAEsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAFQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T13:51:46.537Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-16T13:51:46.537Z"
             },
             {
               "$type": "Document",
@@ -91,62 +97,83 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
               "ToolTip": "D:\\Unity\\Workspace\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T13:47:25.135Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-16T13:47:25.135Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "BossController.cs",
               "DocumentMoniker": "D:\\Unity\\Workspace\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\BossController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\BossController.cs",
               "ToolTip": "D:\\Unity\\Workspace\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\BossController.cs",
               "RelativeToolTip": "Assets\\Scripts\\BossController.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAAFgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADsAAAAAAAAAAAAqwHEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-16T13:09:59.099Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "MathManager.cs",
               "DocumentMoniker": "D:\\Unity\\Workspace\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\MathManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MathManager.cs",
               "ToolTip": "D:\\Unity\\Workspace\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\MathManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\MathManager.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAkwB0AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAowHUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-16T10:38:57.844Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "GameManager.cs",
               "DocumentMoniker": "D:\\Unity\\Workspace\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
               "ToolTip": "D:\\Unity\\Workspace\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\GameManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T10:36:43.145Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-16T10:36:43.145Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "AttackMiniGame.cs",
               "DocumentMoniker": "D:\\Unity\\Workspace\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\AttackMiniGame.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\AttackMiniGame.cs",
               "ToolTip": "D:\\Unity\\Workspace\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\AttackMiniGame.cs",
               "RelativeToolTip": "Assets\\Scripts\\AttackMiniGame.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAADgAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAADoAAAAAAAAAAAAowE4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T12:50:02.907Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-16T12:50:02.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EndingManager.cs",
+              "DocumentMoniker": "D:\\Unity\\Workspace\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\EndingManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EndingManager.cs",
+              "ToolTip": "D:\\Unity\\Workspace\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\EndingManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EndingManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T16:00:49.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AcidAttackManager.cs",
+              "DocumentMoniker": "D:\\Unity\\Workspace\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\AcidAttackManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AcidAttackManager.cs",
+              "ToolTip": "D:\\Unity\\Workspace\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\AcidAttackManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AcidAttackManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-18T06:12:38.222Z"
             }
           ]
         }
