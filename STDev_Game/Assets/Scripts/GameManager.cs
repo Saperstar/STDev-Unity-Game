@@ -24,15 +24,17 @@ public class GameManager : MonoBehaviour
     // Game Over UI
     // =========================
     [Header("Game Over UI")]
-    public GameObject gameOverUI;   // Canvas / GameOverUI
+    public GameObject gameOverUI;
 
-    // =========================
-    // Unity Life Cycle
-    // =========================
     void Awake()
     {
+        // 싱글톤 설정
         if (Instance == null)
+        {
             Instance = this;
+            // 만약 씬을 이동해도 점수 등을 유지하고 싶다면 아래 주석을 해제하세요.
+            // DontDestroyOnLoad(gameObject); 
+        }
         else
         {
             Destroy(gameObject);
@@ -42,14 +44,14 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-        // 상태 초기화
+        // 씬이 시작될 때마다 초기화
         isGameFinished = false;
         isInAcidAttack = false;
 
         if (gameOverUI != null)
             gameOverUI.SetActive(false);
 
-        // ✅ 게임 시작은 항상 수학 상태
+        // 게임 시작 시 수학 문제 화면으로 진입
         EnterMathState();
     }
 
@@ -57,86 +59,62 @@ public class GameManager : MonoBehaviour
     // State Transitions
     // =========================
 
-    /// <summary>
-    /// 수학 문제 상태로 진입
-    /// </summary>
     public void EnterMathState()
     {
-        if (isGameFinished || isInAcidAttack)
-            return;
+        if (isGameFinished || isInAcidAttack) return;
 
+        SetAllGameUIOff();
         if (mathUI != null) mathUI.SetActive(true);
-        if (attackMiniGame != null) attackMiniGame.SetActive(false);
-        if (dodgeMiniGame != null) dodgeMiniGame.SetActive(false);
 
-        // ✅ 핵심: 수학 문제 시작
-        MathManager.Instance.StartQuestion();
+        // ✅ 수정된 MathManager (뒤에 1 없음)를 호출합니다.
+        if (MathManager.Instance != null)
+        {
+            MathManager.Instance.StartQuestion();
+        }
+        else
+        {
+            Debug.LogWarning("현재 씬에 MathManager가 없습니다!");
+        }
     }
 
-    /// <summary>
-    /// 공격 미니게임 시작
-    /// </summary>
     public void StartAttackMiniGame()
     {
-        if (isGameFinished || isInAcidAttack)
-            return;
+        if (isGameFinished || isInAcidAttack) return;
 
-        if (mathUI != null) mathUI.SetActive(false);
+        SetAllGameUIOff();
         if (attackMiniGame != null) attackMiniGame.SetActive(true);
-        if (dodgeMiniGame != null) dodgeMiniGame.SetActive(false);
     }
 
-    /// <summary>
-    /// 회피 미니게임 시작
-    /// </summary>
     public void StartDodgeMiniGame()
     {
-        if (isGameFinished || isInAcidAttack)
-            return;
+        if (isGameFinished || isInAcidAttack) return;
 
-        if (mathUI != null) mathUI.SetActive(false);
-        if (attackMiniGame != null) attackMiniGame.SetActive(false);
+        SetAllGameUIOff();
         if (dodgeMiniGame != null) dodgeMiniGame.SetActive(true);
     }
 
     // =========================
-    // Game Over (Player Defeat)
+    // Game Control
     // =========================
 
-    /// <summary>
-    /// 플레이어 패배 처리
-    /// </summary>
     public void GameOver()
     {
-        if (isGameFinished)
-            return;
+        if (isGameFinished) return;
 
         Debug.Log("💀 GAME OVER");
-
         isGameFinished = true;
-
         SetAllGameUIOff();
 
         if (gameOverUI != null)
             gameOverUI.SetActive(true);
     }
 
-    // =========================
-    // Retry
-    // =========================
-
-    /// <summary>
-    /// 처음부터 다시 시작
-    /// </summary>
     public void RetryGame()
     {
         Debug.Log("🔁 Retry Game");
+        // 현재 씬을 다시 로드
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
-
-    // =========================
-    // Common UI Control
-    // =========================
 
     public void SetAllGameUIOff()
     {
@@ -145,4 +123,3 @@ public class GameManager : MonoBehaviour
         if (dodgeMiniGame != null) dodgeMiniGame.SetActive(false);
     }
 }
-

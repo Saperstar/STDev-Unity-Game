@@ -18,8 +18,16 @@ public class BossController : MonoBehaviour
 
     // ===== HP UI =====
     [Header("Boss HP UI")]
-    public Image bossHPFill;          // Canvas/BossHPUI/HP_Fill
-    public float hpAnimSpeed = 3f;    // 클수록 빠름
+    public Image bossHPFill;
+    public float hpAnimSpeed = 3f;
+
+    // =========================
+    // ✅ 추가된 보스 사운드 설정
+    // =========================
+    [Header("Boss Sounds")]
+    public AudioSource audioSource;    // 보스 전용 오디오 소스
+    public AudioClip bossHurtSound;    // 보스 피격음
+    public AudioClip bossDeathSound;   // 보스 사망음
 
     private Coroutine hpAnimCoroutine;
 
@@ -35,7 +43,6 @@ public class BossController : MonoBehaviour
     {
         currentHP = maxHP;
 
-        // HP 바 초기화
         if (bossHPFill != null)
             bossHPFill.fillAmount = 1f;
 
@@ -44,6 +51,10 @@ public class BossController : MonoBehaviour
 
         if (bossDefeated != null)
             bossDefeated.SetActive(false);
+
+        // 오디오 소스가 설정 안 되어 있으면 자동으로 찾아줌
+        if (audioSource == null)
+            audioSource = GetComponent<AudioSource>();
     }
 
     // ===== 데미지 처리 =====
@@ -56,9 +67,11 @@ public class BossController : MonoBehaviour
         if (currentHP < 0)
             currentHP = 0;
 
+        // ✅ 보스 피격 소리 재생
+        PlayBossSound(bossHurtSound);
+
         AnimateHPBar();
 
-        // 산성 패턴 트리거 (HP 50% 이하, 1회)
         if (currentHP <= maxHP / 2 &&
             AcidAttackManager.Instance != null &&
             !AcidAttackManager.Instance.HasActivated)
@@ -68,6 +81,17 @@ public class BossController : MonoBehaviour
 
         if (currentHP == 0)
             OnBossDefeated();
+    }
+
+    // ✅ 보스 전용 소리 재생 함수
+    void PlayBossSound(AudioClip clip)
+    {
+        if (audioSource != null && clip != null)
+        {
+            // 보스니까 피치를 살짝 낮게(0.8~0.9) 설정하면 더 묵직한 소리가 납니다.
+            audioSource.pitch = Random.Range(0.8f, 1.0f);
+            audioSource.PlayOneShot(clip);
+        }
     }
 
     // ===== HP Bar 애니메이션 =====
@@ -99,6 +123,9 @@ public class BossController : MonoBehaviour
     void OnBossDefeated()
     {
         Debug.Log("🎉 보스 처치!");
+
+        // ✅ 보스 사망 소리 재생
+        PlayBossSound(bossDeathSound);
 
         if (bossAlive != null)
             bossAlive.SetActive(false);

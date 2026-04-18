@@ -1,10 +1,15 @@
 using UnityEngine;
 using TMPro;
-using System.Linq; // For .Any()
+using System.Linq;
 
 public class MathManager : MonoBehaviour
 {
     public static MathManager Instance;
+
+    // 인스펙터에서 씬마다 모드를 설정할 수 있습니다.
+    public enum QuestionMode { Calculus, Trigonometry }
+    [Header("Settings")]
+    public QuestionMode currentMode;
 
     [Header("UI")]
     public TextMeshProUGUI questionText;
@@ -15,74 +20,58 @@ public class MathManager : MonoBehaviour
     void Awake()
     {
         if (Instance == null) Instance = this;
-        else Destroy(gameObject);
+        else { Destroy(gameObject); return; }
     }
 
     public void StartQuestion()
     {
         answerInput.text = "";
-        GenerateTrigQuestion();
+
+        // 현재 씬에 설정된 모드에 따라 다른 문제 생성
+        if (currentMode == QuestionMode.Calculus)
+            GenerateCalculusQuestion();
+        else
+            GenerateTrigQuestion();
     }
 
+    // --- [모드 1] 미분 문제 (씬 1용) ---
+    void GenerateCalculusQuestion()
+    {
+        int a = Random.Range(1, 10);
+        int b = Random.Range(1, 10);
+        int c = Random.Range(1, 10);
+
+        // f(x) = ax² + bx + c -> f'(x) = 2ax + b
+        string formula = $"{FormatTerm(a, "x²")} + {FormatTerm(b, "x")} + {c}";
+        string answer = $"{2 * a}x + {b}"; // 계수 1 생략 로직은 필요시 추가 가능
+
+        questionText.text = $"f(x) = {formula}\nf'(x) = ?";
+        correctAnswers = new[] { answer.Replace(" ", "").ToLower() };
+    }
+
+    // --- [모드 2] 삼각함수 문제 (씬 2용) ---
     void GenerateTrigQuestion()
     {
-        // (Question, Allowed Answers)
-        (string question, string[] answers)[] problems =
-        {
-            // sin
-            ("sin(30°)", new[] { "1/2", "0.5" }),
-            ("sin(45°)", new[] { "R2/2", "0.7", "0.707" }),
-            ("sin(60°)", new[] { "R3/2", "0.8", "0.86", "0.866" }),
-            ("sin(90°)", new[] { "1", "1.0" }),
-
-            // cos
-            ("cos(30°)", new[] { "R3/2", "0.8", "0.86", "0.866" }),
-            ("cos(45°)", new[] { "R2/2", "0.7", "0.707" }),
-            ("cos(60°)", new[] { "1/2", "0.5" }),
-            ("cos(90°)", new[] { "0", "0.0" }),
-
-            // tan
-            ("tan(30°)", new[] { "1/R3", "R3/3", "0.57", "0.577" }),
-            ("tan(45°)", new[] { "1", "1.0" }),
-            ("tan(60°)", new[] { "R3", "1.7", "1.73", "1.732" })
+        (string q, string[] a)[] trigProblems = {
+            ("sin(30°)", new[] {"1/2", "0.5"}),
+            ("cos(60°)", new[] {"1/2", "0.5"}),
+            ("tan(45°)", new[] {"1"})
         };
 
-        int index = Random.Range(0, problems.Length);
-
-        // 영어 가이드 문구로 교체
-        // Use 'R' for Square Root (e.g., √3/2 -> R3/2)
-        questionText.text = $"{problems[index].question} = ?\n<size=60%>(Use 'R' for √, e.g., R3/2)</size>";
-
-        correctAnswers = problems[index].answers;
+        int idx = Random.Range(0, trigProblems.Length);
+        questionText.text = $"{trigProblems[idx].q} = ?";
+        correctAnswers = trigProblems[idx].a;
     }
+
+    string FormatTerm(int coef, string var) => (coef == 1) ? var : coef + var;
 
     public void SubmitAnswer()
     {
-        if (CheckAnswer(answerInput.text))
-        {
-            Debug.Log("Correct!");
+        string input = answerInput.text.Replace(" ", "").ToLower();
+        if (correctAnswers.Any(ans => ans.ToLower() == input))
             GameManager.Instance.StartAttackMiniGame();
-        }
         else
-        {
-            Debug.Log("Wrong!");
             GameManager.Instance.StartDodgeMiniGame();
-        }
-    }
-
-    bool CheckAnswer(string userAnswer)
-    {
-        string Normalize(string s)
-        {
-            if (string.IsNullOrEmpty(s)) return "";
-            return s.Replace(" ", "").Replace("\n", "").Replace("\r", "").ToUpper();
-        }
-
-        string normalizedUserAnswer = Normalize(userAnswer);
-
-        return correctAnswers.Any(ans => Normalize(ans) == normalizedUserAnswer);
     }
 }
-
-
 
