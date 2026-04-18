@@ -6,6 +6,9 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
 
+    [Header("캐릭터 설정")]
+    public GameObject player;
+
     [Header("결과 UI 연결")]
     public GameObject resultCanvas;
     public TextMeshProUGUI coinCountText;
@@ -15,15 +18,15 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI stopCountText;
     public UnityEngine.UI.Image backgroundImageUI;
 
-    // --- [StageInfo에서 받아올 데이터들: 인스펙터에서는 숨김!] ---
+    // --- [StageInfo 데이터] ---
     [HideInInspector] public string nextStageName;
     [HideInInspector] public int maxStops;
     [HideInInspector] public bool[] allowedWands;
     [HideInInspector] public Sprite currentCoinSprite;
-    // 선언부 수정
-    [HideInInspector] public Sprite currentMonsterSprite; // currentBirdSprite 였던 것을 변경!
-
-    // --------------------------------------------------------
+    [HideInInspector] public Sprite currentMonsterSprite;
+    [HideInInspector] public Vector3 nextStageMapPos;
+    [HideInInspector] public string returnMapName;
+    [HideInInspector] public int nextChapterID;
 
     [Header("실시간 데이터")]
     public int currentCoins = 0;
@@ -39,7 +42,6 @@ public class GameManager : MonoBehaviour
     {
         if (Instance == null) Instance = this;
 
-        // ★ 지시서(StageInfo)에서 데이터 스포이트로 빨아들이기
         StageInfo info = FindAnyObjectByType<StageInfo>();
         if (info != null)
         {
@@ -47,9 +49,13 @@ public class GameManager : MonoBehaviour
             this.maxStops = info.maxStops;
             this.allowedWands = info.allowedWands;
             this.currentCoinSprite = info.coinImage;
-            this.currentMonsterSprite = info.monsterImage; // 이름 맞춰주기
+            this.currentMonsterSprite = info.monsterImage;
 
-            // 배경화면은 여기서 바로 교체!
+            // 맵 이동 데이터 받아오기
+            this.nextStageMapPos = info.nextStageMapPos;
+            this.returnMapName = info.returnMapName;
+            this.nextChapterID = info.nextChapterID;
+
             if (backgroundImageUI != null && info.stageBackground != null)
             {
                 backgroundImageUI.sprite = info.stageBackground;
@@ -58,6 +64,7 @@ public class GameManager : MonoBehaviour
 
         if (resultCanvas != null) resultCanvas.SetActive(false);
         Time.timeScale = 1f;
+
         currentHearts = PlayerPrefs.GetInt("PlayerHearts", maxHearts);
         currentStops = maxStops;
         UpdateStopUI();
@@ -65,12 +72,14 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-        // 씬 로드 시 이미 깎여있어야 할 하트들을 'Break' 상태로 강제 고정
-        for (int i = 0; i < heartAnimators.Length; i++)
+        if (heartAnimators != null)
         {
-            if (i >= currentHearts)
+            for (int i = 0; i < heartAnimators.Length; i++)
             {
-                heartAnimators[i].Play("Heart_break_Anim", 0, 1.0f);
+                if (i >= currentHearts && heartAnimators[i] != null)
+                {
+                    heartAnimators[i].Play("Heart_break_Anim", 0, 1.0f);
+                }
             }
         }
     }
@@ -78,9 +87,12 @@ public class GameManager : MonoBehaviour
     public void AddCoin()
     {
         currentCoins++;
+        if (PlayerStats.Instance != null)
+        {
+            PlayerStats.Instance.AddCoin(1);
+        }
     }
 
-    // 정지 사용 요청 처리
     public bool TryUseStop()
     {
         if (currentStops > 0)
@@ -89,19 +101,12 @@ public class GameManager : MonoBehaviour
             UpdateStopUI();
             return true;
         }
-        else
-        {
-            Debug.Log("정지 횟수 부족!");
-            return false;
-        }
+        return false;
     }
 
     void UpdateStopUI()
     {
-        if (stopCountText != null)
-        {
-            stopCountText.text = "STOP LEFT : " + currentStops;
-        }
+        if (stopCountText != null) stopCountText.text = "STOP LEFT : " + currentStops;
     }
 
     public void CheckClearCondition()
@@ -112,20 +117,19 @@ public class GameManager : MonoBehaviour
 
     public void LoseHeart()
     {
-        // [추가할 방어막] 하트 UI 배열이 아예 없거나 비어있으면 그냥 무시하고 함수 종료! (연습장이니까 안 죽음)
-        if (heartAnimators == null || heartAnimators.Length == 0)
-        {
-            return;
-        }
+        if (heartAnimators == null || heartAnimators.Length == 0) return;
         if (currentHearts <= 0) return;
 
         int heartToBreakIndex = currentHearts - 1;
-        if (heartToBreakIndex >= 0 && heartToBreakIndex < heartAnimators.Length)
+        if (heartToBreakIndex >= 0 && heartToBreakIndex < heartAnimators.Length && heartAnimators[heartToBreakIndex] != null)
         {
             heartAnimators[heartToBreakIndex].SetTrigger("OnBreak");
         }
 
         currentHearts--;
+
+        if (PlayerStats.Instance != null) PlayerStats.Instance.hearts--;
+
         PlayerPrefs.SetInt("PlayerHearts", currentHearts);
 
         if (currentHearts <= 0)
@@ -139,38 +143,52 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    // 특정 인덱스의 코인을 획득했을 때 호출
     public void AddSpecificCoin(int index)
     {
-        if (index >= 0 && index < collectedCoins.Length)
-        {
-            collectedCoins[index] = true;
-            Debug.Log(index + "번 코인 획득!");
-        }
+        if (index >= 0 && index < collectedCoins.Length) collectedCoins[index] = true;
     }
 
-    // 결과창을 띄울 때 호출할 함수
     void ShowClearUI()
     {
         resultCanvas.SetActive(true);
         Time.timeScale = 0f;
 
-        // ★ 결과창 코인 애니메이션 연출 루프
         for (int i = 0; i < collectedCoins.Length; i++)
         {
-            if (collectedCoins[i] == true)
+            if (collectedCoins[i] == true && resultCoinAnimators.Length > i && resultCoinAnimators[i] != null)
             {
-                // 먹은 코인이라면 '띵띵' 애니메이션 실행!
                 resultCoinAnimators[i].SetTrigger("OnPop");
-            }
-            else
-            {
-                // 안 먹은 코인이라면 회색(비활성화) 상태 유지 (애니메이션 안 함)
             }
         }
     }
 
     public void RestartStage() { SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex); }
-    public void GoToNextStage() { if (!string.IsNullOrEmpty(nextStageName)) SceneManager.LoadScene(nextStageName); }
-    public void GoToMainMenu() { SceneManager.LoadScene("MainMenu"); }
+
+    public void GoToNextStage()
+    {
+        if (!string.IsNullOrEmpty(nextStageName))
+        {
+            // 다음 맵 좌표 및 챕터 ID 금고에 저장
+            PlayerPrefs.SetFloat("MapPosX", nextStageMapPos.x);
+            PlayerPrefs.SetFloat("MapPosY", nextStageMapPos.y);
+            PlayerPrefs.SetInt("SavedChapterID", nextChapterID);
+            PlayerPrefs.SetInt("HasMapSaved", 1);
+            PlayerPrefs.Save();
+
+            SceneManager.LoadScene(nextStageName);
+        }
+    }
+
+    public void GoToMainMenu()
+    {
+        // 내 챕터에 맞는 맵으로 귀환
+        if (!string.IsNullOrEmpty(returnMapName))
+        {
+            SceneManager.LoadScene(returnMapName);
+        }
+        else
+        {
+            SceneManager.LoadScene("SelectMenu1");
+        }
+    }
 }
