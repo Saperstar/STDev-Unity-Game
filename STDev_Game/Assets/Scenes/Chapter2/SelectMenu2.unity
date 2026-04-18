@@ -5722,7 +5722,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -933, y: -103}
+  m_AnchoredPosition: {x: -148.5, y: 425}
   m_SizeDelta: {x: 75, y: 75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &518032977
@@ -5737,7 +5737,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9a83725a2c55e149930bba1d0c4d534, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ButtonScript_new
-  stageToLoad: Chapter1_Stage01
+  stageToLoad: WandScene 1
   chapterID: 2
 --- !u!114 &518032978
 MonoBehaviour:
@@ -8795,7 +8795,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 866, y: 627.1101}
+  m_AnchoredPosition: {x: 971, y: 627.1101}
   m_SizeDelta: {x: 227.7383, y: 191.4646}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &755291391
@@ -9684,7 +9684,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 627, y: 636.70996}
+  m_AnchoredPosition: {x: 732, y: 636.70996}
   m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &827718735
@@ -15356,7 +15356,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 578, y: 577.07007}
+  m_AnchoredPosition: {x: 626, y: 577.07007}
   m_SizeDelta: {x: 418.6778, y: 291.5452}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1266551734
@@ -21039,7 +21039,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 274, y: 636.70996}
+  m_AnchoredPosition: {x: 322, y: 636.70996}
   m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1753004372
