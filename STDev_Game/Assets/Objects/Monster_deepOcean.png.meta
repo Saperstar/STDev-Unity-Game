@@ -103,10 +103,10 @@ TextureImporter:
       name: Monster_deepOcean_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 2128
-        height: 2016
+        x: 74
+        y: 118
+        width: 404
+        height: 289
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
