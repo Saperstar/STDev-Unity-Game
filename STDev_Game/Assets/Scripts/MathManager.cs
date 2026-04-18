@@ -1,3 +1,4 @@
+
 using UnityEngine;
 using TMPro;
 
@@ -5,66 +6,129 @@ public class MathManager : MonoBehaviour
 {
     public static MathManager Instance;
 
-    [Header("UI References")]
-    public TMP_Text questionText;
+    [Header("UI")]
+    public TextMeshProUGUI questionText;
     public TMP_InputField answerInput;
 
-    private int correctAnswer;
+    private string correctAnswer;
+    private string currentFunction;
 
     void Awake()
     {
-        // 싱글톤 설정
         if (Instance == null)
             Instance = this;
         else
-        {
             Destroy(gameObject);
-            return;
-        }
     }
 
-    /// <summary>
-    /// 새로운 수학 문제 생성
-    /// </summary>
     public void StartQuestion()
     {
-        int a = Random.Range(10, 100);
-        int b = Random.Range(10, 100);
-
-        correctAnswer = a + b;
-
-        if (questionText != null)
-            questionText.text = a + " + " + b + " = ?";
+        GenerateDifferentiationQuestion();
 
         if (answerInput != null)
             answerInput.text = "";
     }
 
-    /// <summary>
-    /// 답 제출
-    /// </summary>
+    void GenerateDifferentiationQuestion()
+    {
+        bool isCubic = Random.value > 0.5f;
+
+        if (isCubic)
+            GenerateCubic();
+        else
+            GenerateQuadratic();
+
+        questionText.text =
+            $"f(x) = {currentFunction}\n\nf'(x) = ?";
+    }
+
+    void GenerateQuadratic()
+    {
+        int a = RandomCoeff();
+        int b = RandomCoeff();
+        int c = RandomCoeff();
+
+        currentFunction =
+            $"{a}x^2 {Sign(b)} {Mathf.Abs(b)}x {Sign(c)} {Mathf.Abs(c)}";
+
+        correctAnswer =
+            $"{2 * a}x {Sign(b)} {Mathf.Abs(b)}";
+    }
+
+    void GenerateCubic()
+    {
+        int a = RandomCoeff();
+        int b = RandomCoeff();
+        int c = RandomCoeff();
+        int d = RandomCoeff();
+
+        currentFunction =
+            $"{a}x^3 {Sign(b)} {Mathf.Abs(b)}x^2 {Sign(c)} {Mathf.Abs(c)}x {Sign(d)} {Mathf.Abs(d)}";
+
+        correctAnswer =
+            $"{3 * a}x^2 {Sign(2 * b)} {Mathf.Abs(2 * b)}x {Sign(c)} {Mathf.Abs(c)}";
+    }
+
     public void SubmitAnswer()
     {
-        int playerAnswer;
+        if (answerInput == null)
+            return;
 
-        if (int.TryParse(answerInput.text, out playerAnswer))
+        string userAnswer = answerInput.text;
+
+        Debug.Log($"입력한 답: {userAnswer}");
+        Debug.Log($"정답: {correctAnswer}");
+
+        bool isCorrect = CheckAnswer(userAnswer);
+
+        if (isCorrect)
         {
-            if (playerAnswer == correctAnswer)
-            {
-                Debug.Log("✅ 정답!");
-                GameManager.Instance.StartAttackMiniGame();
-            }
-            else
-            {
-                Debug.Log("❌ 오답!");
-                GameManager.Instance.StartDodgeMiniGame();
-            }
+            Debug.Log("✅ 정답 → 공격 미니게임");
+            GameManager.Instance.StartAttackMiniGame();
         }
         else
         {
-            Debug.Log("숫자를 입력하세요.");
+            Debug.Log("❌ 오답 → 회피 미니게임");
+            GameManager.Instance.StartDodgeMiniGame();
         }
     }
+
+    bool CheckAnswer(string userAnswer)
+    {
+
+        string Normalize(string s)
+        {
+            return s
+                .Replace(" ", "")
+                .Replace("\n", "")
+                .Replace("\r", "")
+                .Replace("\t", "")
+                .Replace("−", "-")   // 유니코드 마이너스
+                .ToLower();
+        }
+
+        string u = Normalize(userAnswer);
+        string c = Normalize(correctAnswer);
+
+        Debug.Log($"[ANSWER CHECK]");
+        Debug.Log($"User   : '{u}'");
+        Debug.Log($"Correct: '{c}'");
+
+        return u == c;
+
+    }
+
+    int RandomCoeff()
+    {
+        int value = Random.Range(10, 100);
+        return Random.value > 0.5f ? value : -value;
+    }
+
+    string Sign(int value)
+    {
+        return value >= 0 ? "+" : "-";
+    }
 }
+
 
 
