@@ -38,6 +38,10 @@ public class GameManager : MonoBehaviour
     public bool[] collectedCoins = new bool[3];
     public Animator[] resultCoinAnimators;
 
+    // 🚨 [새로 추가된 부분] 하트가 0개여도 입장할 수 있는 VIP 구역인지 체크!
+    [Header("하트 검사 무시 (회복소/상점 등)")]
+    public bool ignoreHeartCheck = false;
+
     void Awake()
     {
         if (Instance == null) Instance = this;
@@ -65,7 +69,15 @@ public class GameManager : MonoBehaviour
         if (resultCanvas != null) resultCanvas.SetActive(false);
         Time.timeScale = 1f;
 
-        currentHearts = PlayerPrefs.GetInt("PlayerHearts", maxHearts);
+        if (PlayerStats.Instance != null)
+        {
+            currentHearts = PlayerStats.Instance.hearts;
+        }
+        else
+        {
+            currentHearts = maxHearts; // 혹시라도 에디터에서 바로 씬을 켰을 때를 위한 안전빵
+        }
+
         currentStops = maxStops;
         UpdateStopUI();
     }
@@ -83,6 +95,16 @@ public class GameManager : MonoBehaviour
             }
         }
     }
+    // 👇 여기에 딱 4줄만 추가해 주시면 됩니다!
+    void Update()
+    {
+        // 키보드 ESC 키를 눌렀을 때
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            GoToMainMenu(); // 아까 완벽하게 고쳐둔 메인 메뉴 귀환 함수 실행!
+        }
+    }
+    // 👆 여기까지!
 
     public void AddCoin()
     {
@@ -140,9 +162,13 @@ public class GameManager : MonoBehaviour
 
         currentHearts--;
 
-        if (PlayerStats.Instance != null) PlayerStats.Instance.hearts--;
+        // 🚨 [수정된 부분] 스테이지에서 깎인 하트를 전역 PlayerStats에도 똑같이 깎아줍니다!
+        if (PlayerStats.Instance != null)
+        {
+            PlayerStats.Instance.hearts = currentHearts;
+        }
 
-        PlayerPrefs.SetInt("PlayerHearts", currentHearts);
+        // PlayerPrefs 저장은 헷갈리니까 이제 지우거나 무시하셔도 됩니다.
 
         if (currentHearts <= 0)
         {

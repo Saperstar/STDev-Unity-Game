@@ -1,0 +1,1456 @@
+fileFormatVersion: 2
+guid: 3eadb61bf15934e02a710d7662a95bc3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2990198924154610895
+    second: Submarine-Photoroom_0
+  - first:
+      213: -4044354418927841521
+    second: Submarine-Photoroom_1
+  - first:
+      213: 3951480477828274109
+    second: Submarine-Photoroom_2
+  - first:
+      213: -3651309544313366741
+    second: Submarine-Photoroom_3
+  - first:
+      213: -2964987559799359851
+    second: Submarine-Photoroom_4
+  - first:
+      213: -7317096469700688789
+    second: Submarine-Photoroom_5
+  - first:
+      213: -3708157403466583119
+    second: Submarine-Photoroom_6
+  - first:
+      213: 7321488734333080569
+    second: Submarine-Photoroom_7
+  - first:
+      213: 645423196163169662
+    second: Submarine-Photoroom_8
+  - first:
+      213: -148687456592499608
+    second: Submarine-Photoroom_9
+  - first:
+      213: 5087084382359208442
+    second: Submarine-Photoroom_10
+  - first:
+      213: 8861306825910626490
+    second: Submarine-Photoroom_11
+  - first:
+      213: 7055205415227778086
+    second: Submarine-Photoroom_12
+  - first:
+      213: 3948554859434535980
+    second: Submarine-Photoroom_13
+  - first:
+      213: 4636960185740656671
+    second: Submarine-Photoroom_14
+  - first:
+      213: 5942795628202008732
+    second: Submarine-Photoroom_15
+  - first:
+      213: -2430979607630950094
+    second: Submarine-Photoroom_16
+  - first:
+      213: 8065516080893208159
+    second: Submarine-Photoroom_17
+  - first:
+      213: -4966612994437269308
+    second: Submarine-Photoroom_18
+  - first:
+      213: -6523592342958082855
+    second: Submarine-Photoroom_19
+  - first:
+      213: -850898522281463461
+    second: Submarine-Photoroom_20
+  - first:
+      213: -6160244111175939029
+    second: Submarine-Photoroom_21
+  - first:
+      213: 5508454634077894997
+    second: Submarine-Photoroom_22
+  - first:
+      213: -5640182443516707065
+    second: Submarine-Photoroom_23
+  - first:
+      213: -2896226974600127219
+    second: Submarine-Photoroom_24
+  - first:
+      213: -4330893345942785181
+    second: Submarine-Photoroom_25
+  - first:
+      213: 5187700471887068438
+    second: Submarine-Photoroom_26
+  - first:
+      213: -3343749577098596742
+    second: Submarine-Photoroom_27
+  - first:
+      213: -5159069093667469685
+    second: Submarine-Photoroom_28
+  - first:
+      213: 3670083552363852360
+    second: Submarine-Photoroom_29
+  - first:
+      213: 287697022281953294
+    second: Submarine-Photoroom_30
+  - first:
+      213: 3767170727523777529
+    second: Submarine-Photoroom_31
+  - first:
+      213: 5841790641847621624
+    second: Submarine-Photoroom_32
+  - first:
+      213: 1986161163399668629
+    second: Submarine-Photoroom_33
+  - first:
+      213: 54383818812546892
+    second: Submarine-Photoroom_34
+  - first:
+      213: 8237334326070548977
+    second: Submarine-Photoroom_35
+  - first:
+      213: -2560837864647442061
+    second: Submarine-Photoroom_36
+  - first:
+      213: -8870339224731194600
+    second: Submarine-Photoroom_37
+  - first:
+      213: -8708992260256178234
+    second: Submarine-Photoroom_38
+  - first:
+      213: 5124936824391541220
+    second: Submarine-Photoroom_39
+  - first:
+      213: -5172270669330385340
+    second: Submarine-Photoroom_40
+  - first:
+      213: 7042943975988299867
+    second: Submarine-Photoroom_41
+  - first:
+      213: 3913707587312024146
+    second: Submarine-Photoroom_42
+  - first:
+      213: 7324268531454426774
+    second: Submarine-Photoroom_43
+  - first:
+      213: -7970427933492713791
+    second: Submarine-Photoroom_44
+  - first:
+      213: 8997431931213895967
+    second: Submarine-Photoroom_45
+  - first:
+      213: -2485643697129487638
+    second: Submarine-Photoroom_46
+  - first:
+      213: 1104131275160134901
+    second: Submarine-Photoroom_47
+  - first:
+      213: -8748061118830343015
+    second: Submarine-Photoroom_48
+  - first:
+      213: 855443585219540066
+    second: Submarine-Photoroom_49
+  - first:
+      213: 4527307470859274818
+    second: Submarine-Photoroom_50
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Submarine-Photoroom_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 838
+        width: 380
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc4adf924125f7920800000000000000
+      internalID: 2990198924154610895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Submarine-Photoroom_1
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 851
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0f460a75119fd7c0800000000000000
+      internalID: -4044354418927841521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Submarine-Photoroom_2
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 838
+        width: 277
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db758d90f8a76d630800000000000000
+      internalID: 3951480477828274109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Submarine-Photoroom_3
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 838
+        width: 297
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b27553e9051f35dc0800000000000000
+      internalID: -3651309544313366741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Submarine-Photoroom_4
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 834
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 596f4b6068f3ad6d0800000000000000
+      internalID: -2964987559799359851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Submarine-Photoroom_5
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 853
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b64c9384783747a90800000000000000
+      internalID: -7317096469700688789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Submarine-Photoroom_6
+      rect:
+        serializedVersion: 2
+        x: 1173
+        y: 838
+        width: 363
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b3b32bfc7af98cc0800000000000000
+      internalID: -3708157403466583119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Submarine-Photoroom_7
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 835
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f392f486372b9560800000000000000
+      internalID: 7321488734333080569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Submarine-Photoroom_8
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 834
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7d5a113af005f800800000000000000
+      internalID: 645423196163169662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Submarine-Photoroom_9
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 837
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86c6f37cb81cfedf0800000000000000
+      internalID: -148687456592499608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Submarine-Photoroom_10
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 835
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af145f01b44f89640800000000000000
+      internalID: 5087084382359208442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Submarine-Photoroom_11
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 631
+        width: 283
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab8a524eb9fa9fa70800000000000000
+      internalID: 8861306825910626490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Submarine-Photoroom_12
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 631
+        width: 295
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6246010f1ff19e160800000000000000
+      internalID: 7055205415227778086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Submarine-Photoroom_13
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 631
+        width: 305
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2cecbc69b51cc630800000000000000
+      internalID: 3948554859434535980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Submarine-Photoroom_14
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 700
+        width: 37
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1083b4a8bac95040800000000000000
+      internalID: 4636960185740656671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Submarine-Photoroom_15
+      rect:
+        serializedVersion: 2
+        x: 1173
+        y: 631
+        width: 319
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c90a9b7332d097250800000000000000
+      internalID: 5942795628202008732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Submarine-Photoroom_16
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 656
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23150fe3dec634ed0800000000000000
+      internalID: -2430979607630950094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Submarine-Photoroom_17
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 631
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5627d384287eef60800000000000000
+      internalID: 8065516080893208159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Submarine-Photoroom_18
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 563
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c83ab9bbcb031bb0800000000000000
+      internalID: -4966612994437269308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Submarine-Photoroom_19
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 562
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d4768ad35b8775a0800000000000000
+      internalID: -6523592342958082855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Submarine-Photoroom_20
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 566
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b51328f5d400134f0800000000000000
+      internalID: -850898522281463461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Submarine-Photoroom_21
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 406
+        width: 279
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2c8aa78e9a628aa0800000000000000
+      internalID: -6160244111175939029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Submarine-Photoroom_22
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 553
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 559319dfd46f17c40800000000000000
+      internalID: 5508454634077894997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Submarine-Photoroom_23
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 550
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70fbac953fb0ab1b0800000000000000
+      internalID: -5640182443516707065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Submarine-Photoroom_24
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 406
+        width: 279
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0d1e0659e88ec7d0800000000000000
+      internalID: -2896226974600127219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Submarine-Photoroom_25
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 553
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3633afaa27395e3c0800000000000000
+      internalID: -4330893345942785181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Submarine-Photoroom_26
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 406
+        width: 293
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61d74f3f71a6ef740800000000000000
+      internalID: 5187700471887068438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Submarine-Photoroom_27
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 406
+        width: 310
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7eec2fb97d9891d0800000000000000
+      internalID: -3343749577098596742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Submarine-Photoroom_28
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 540
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8601444efd4768b0800000000000000
+      internalID: -5159069093667469685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Submarine-Photoroom_29
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 526
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 842b6a2cb81cee230800000000000000
+      internalID: 3670083552363852360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Submarine-Photoroom_30
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 505
+        width: 39
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e00bd00eaea1ef300800000000000000
+      internalID: 287697022281953294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Submarine-Photoroom_31
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 511
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fbfd4e31dda74430800000000000000
+      internalID: 3767170727523777529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Submarine-Photoroom_32
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 528
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f7578b33a5321150800000000000000
+      internalID: 5841790641847621624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Submarine-Photoroom_33
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 494
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5932d131e03409b10800000000000000
+      internalID: 1986161163399668629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Submarine-Photoroom_34
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 495
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4fd9d98bc531c000800000000000000
+      internalID: 54383818812546892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Submarine-Photoroom_35
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 475
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f911912de3e05270800000000000000
+      internalID: 8237334326070548977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Submarine-Photoroom_36
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 481
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 371c15ea783167cd0800000000000000
+      internalID: -2560837864647442061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Submarine-Photoroom_37
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 456
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81beea0e87936e480800000000000000
+      internalID: -8870339224731194600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Submarine-Photoroom_38
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 464
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cfddc77ea1732780800000000000000
+      internalID: -8708992260256178234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Submarine-Photoroom_39
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 444
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e12d2283ee6f1740800000000000000
+      internalID: 5124936824391541220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Submarine-Photoroom_40
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 475
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 446f368ea376838b0800000000000000
+      internalID: -5172270669330385340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Submarine-Photoroom_41
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 462
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5882c52b309db160800000000000000
+      internalID: 7042943975988299867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Submarine-Photoroom_42
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 315
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25afb70a058405630800000000000000
+      internalID: 3913707587312024146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Submarine-Photoroom_43
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 307
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69eb9e87c6705a560800000000000000
+      internalID: 7324268531454426774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Submarine-Photoroom_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 407
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c6e05c060a536190800000000000000
+      internalID: -7970427933492713791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Submarine-Photoroom_45
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 290
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f19d2c6cbac4ddc70800000000000000
+      internalID: 8997431931213895967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Submarine-Photoroom_46
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 280
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae2886a1a38318dd0800000000000000
+      internalID: -2485643697129487638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Submarine-Photoroom_47
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 0
+        width: 749
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f4a1597b89a25f00800000000000000
+      internalID: 1104131275160134901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Submarine-Photoroom_48
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 92
+        width: 241
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99c06baf2c4a89680800000000000000
+      internalID: -8748061118830343015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Submarine-Photoroom_49
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 277
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 264b56e88652fdb00800000000000000
+      internalID: 855443585219540066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Submarine-Photoroom_50
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 158
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24a0a85782a34de30800000000000000
+      internalID: 4527307470859274818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Submarine-Photoroom_0: 2990198924154610895
+      Submarine-Photoroom_1: -4044354418927841521
+      Submarine-Photoroom_10: 5087084382359208442
+      Submarine-Photoroom_11: 8861306825910626490
+      Submarine-Photoroom_12: 7055205415227778086
+      Submarine-Photoroom_13: 3948554859434535980
+      Submarine-Photoroom_14: 4636960185740656671
+      Submarine-Photoroom_15: 5942795628202008732
+      Submarine-Photoroom_16: -2430979607630950094
+      Submarine-Photoroom_17: 8065516080893208159
+      Submarine-Photoroom_18: -4966612994437269308
+      Submarine-Photoroom_19: -6523592342958082855
+      Submarine-Photoroom_2: 3951480477828274109
+      Submarine-Photoroom_20: -850898522281463461
+      Submarine-Photoroom_21: -6160244111175939029
+      Submarine-Photoroom_22: 5508454634077894997
+      Submarine-Photoroom_23: -5640182443516707065
+      Submarine-Photoroom_24: -2896226974600127219
+      Submarine-Photoroom_25: -4330893345942785181
+      Submarine-Photoroom_26: 5187700471887068438
+      Submarine-Photoroom_27: -3343749577098596742
+      Submarine-Photoroom_28: -5159069093667469685
+      Submarine-Photoroom_29: 3670083552363852360
+      Submarine-Photoroom_3: -3651309544313366741
+      Submarine-Photoroom_30: 287697022281953294
+      Submarine-Photoroom_31: 3767170727523777529
+      Submarine-Photoroom_32: 5841790641847621624
+      Submarine-Photoroom_33: 1986161163399668629
+      Submarine-Photoroom_34: 54383818812546892
+      Submarine-Photoroom_35: 8237334326070548977
+      Submarine-Photoroom_36: -2560837864647442061
+      Submarine-Photoroom_37: -8870339224731194600
+      Submarine-Photoroom_38: -8708992260256178234
+      Submarine-Photoroom_39: 5124936824391541220
+      Submarine-Photoroom_4: -2964987559799359851
+      Submarine-Photoroom_40: -5172270669330385340
+      Submarine-Photoroom_41: 7042943975988299867
+      Submarine-Photoroom_42: 3913707587312024146
+      Submarine-Photoroom_43: 7324268531454426774
+      Submarine-Photoroom_44: -7970427933492713791
+      Submarine-Photoroom_45: 8997431931213895967
+      Submarine-Photoroom_46: -2485643697129487638
+      Submarine-Photoroom_47: 1104131275160134901
+      Submarine-Photoroom_48: -8748061118830343015
+      Submarine-Photoroom_49: 855443585219540066
+      Submarine-Photoroom_5: -7317096469700688789
+      Submarine-Photoroom_50: 4527307470859274818
+      Submarine-Photoroom_6: -3708157403466583119
+      Submarine-Photoroom_7: 7321488734333080569
+      Submarine-Photoroom_8: 645423196163169662
+      Submarine-Photoroom_9: -148687456592499608
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

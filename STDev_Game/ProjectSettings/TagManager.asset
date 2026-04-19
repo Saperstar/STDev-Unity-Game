@@ -8,6 +8,8 @@ TagManager:
   - TreasureMap
   - Monster
   - Coin
+  - Treasure
+  - Sunlight
   layers:
   - Default
   - TransparentFX
