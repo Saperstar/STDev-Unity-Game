@@ -1,12 +1,139 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\dh001\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uB300\uD68C\\STDev-Unity-Game\\STDev_Game\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dh001\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uB300\uD68C\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\Ocean_Heart_Scripts\\Ocean_HeartSceneBootstrap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Ocean_Heart_Scripts\\Ocean_HeartSceneBootstrap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dh001\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uB300\uD68C\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\Heart_Desert_Scripts\\HeartDesertQuizBootstrap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Heart_Desert_Scripts\\HeartDesertQuizBootstrap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dh001\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uB300\uD68C\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\CarriedFlowerGrowth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\CarriedFlowerGrowth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dh001\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uB300\uD68C\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\SunlightFollower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\SunlightFollower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dh001\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uB300\uD68C\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\Heart_GameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Heart_GameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dh001\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uB300\uD68C\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\MathManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\MathManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dh001\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uB300\uD68C\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\GameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\GameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Ocean_HeartSceneBootstrap.cs",
+              "DocumentMoniker": "C:\\Users\\dh001\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uB300\uD68C\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\Ocean_Heart_Scripts\\Ocean_HeartSceneBootstrap.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Ocean_Heart_Scripts\\Ocean_HeartSceneBootstrap.cs",
+              "ToolTip": "C:\\Users\\dh001\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uB300\uD68C\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\Ocean_Heart_Scripts\\Ocean_HeartSceneBootstrap.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Ocean_Heart_Scripts\\Ocean_HeartSceneBootstrap.cs",
+              "ViewState": "AgIAAEcBAAAAAAAAAAAlwFkBAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-18T21:39:34.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HeartDesertQuizBootstrap.cs",
+              "DocumentMoniker": "C:\\Users\\dh001\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uB300\uD68C\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\Heart_Desert_Scripts\\HeartDesertQuizBootstrap.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Heart_Desert_Scripts\\HeartDesertQuizBootstrap.cs",
+              "ToolTip": "C:\\Users\\dh001\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uB300\uD68C\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\Heart_Desert_Scripts\\HeartDesertQuizBootstrap.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Heart_Desert_Scripts\\HeartDesertQuizBootstrap.cs",
+              "ViewState": "AgIAAGgBAAAAAAAAAAAAAIABAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-18T21:24:57.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SunlightFollower.cs",
+              "DocumentMoniker": "C:\\Users\\dh001\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uB300\uD68C\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\SunlightFollower.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SunlightFollower.cs",
+              "ToolTip": "C:\\Users\\dh001\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uB300\uD68C\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\SunlightFollower.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SunlightFollower.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-18T21:08:50.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CarriedFlowerGrowth.cs",
+              "DocumentMoniker": "C:\\Users\\dh001\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uB300\uD68C\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\CarriedFlowerGrowth.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CarriedFlowerGrowth.cs",
+              "ToolTip": "C:\\Users\\dh001\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uB300\uD68C\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\CarriedFlowerGrowth.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CarriedFlowerGrowth.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAowHMAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-18T21:08:42.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Heart_GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\dh001\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uB300\uD68C\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\Heart_GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Heart_GameManager.cs",
+              "ToolTip": "C:\\Users\\dh001\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uB300\uD68C\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\Heart_GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Heart_GameManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-18T21:08:04.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MathManager.cs",
+              "DocumentMoniker": "C:\\Users\\dh001\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uB300\uD68C\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\MathManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MathManager.cs",
+              "ToolTip": "C:\\Users\\dh001\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uB300\uD68C\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\MathManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MathManager.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAowGAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-18T20:16:08.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\dh001\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uB300\uD68C\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
+              "ToolTip": "C:\\Users\\dh001\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uB300\uD68C\\STDev-Unity-Game\\STDev_Game\\Assets\\Scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
+              "ViewState": "AgIAAKAAAAAAAAAAAAAowMEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-18T20:03:27.803Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

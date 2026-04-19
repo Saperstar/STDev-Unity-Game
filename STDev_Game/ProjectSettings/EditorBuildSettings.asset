@@ -6,12 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
-    path: Assets/Scenes/GameScene.unity
-    guid: 60145b526aca7fe46acff33dd1224ee3
-  - enabled: 1
     path: Assets/Scenes/StartMenu.unity
     guid: 0e7b9cf7bb3ca3f42b3e0daa0b902dc5
   - enabled: 1
@@ -23,6 +17,21 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Chapter3/SelectMenu3.unity
     guid: d3bb7f157a17db641843f767e777d08a
+  - enabled: 1
+    path: Assets/Scenes/GameScene.unity
+    guid: 60145b526aca7fe46acff33dd1224ee3
+  - enabled: 1
+    path: Assets/Scenes/SampleScene.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Chapter2/Heart_Desert.unity
+    guid: b28480605c8fe4283af75bdf215daa7b
+  - enabled: 1
+    path: Assets/Scenes/Chapter1/Heart_stage.unity
+    guid: 98fe11b7032b14529b5ce21d8a5a070e
+  - enabled: 1
+    path: Assets/Scenes/Chapter3/Ocean_Heart_Scene.unity
+    guid: 16e3f5184e2345d28df38130e3cf4cfd
   - enabled: 1
     path: Assets/Scenes/ClearMenu.unity
     guid: 2f1bd712a6503aa42aa58a8912a5e6a9
@@ -49,16 +58,16 @@ EditorBuildSettings:
     guid: 5699479af749bd84591eac23b3190f00
   - enabled: 1
     path: Assets/Scenes/Chapter1/Chapter1_Stage01.unity
-    guid: e140225a3275dbf4d8291992a661488b
+    guid: 972e56da4190db946babe8d393c6cb79
   - enabled: 1
     path: Assets/Scenes/Chapter1/Chapter1_Stage02.unity
-    guid: bc3553f9b66db2943b7b84f1598aa105
+    guid: 4a11c887da736a54184acbe77bf6f74d
   - enabled: 1
     path: Assets/Scenes/Chapter1/Chapter1_Stage03.unity
-    guid: a7e6dfa994b0b154684bf796e785fa02
+    guid: 44a1f34b873f7eb4ca764f2f6d7f279f
   - enabled: 1
     path: Assets/Scenes/Chapter1/Chapter1_Stage04.unity
-    guid: 75bdd324dfd9e9b40b6ab9c4537323dc
+    guid: c50d6a76e64f89e409bab767f50982a6
   - enabled: 1
     path: Assets/Scenes/Chapter2/Chapter2_Stage01.unity
     guid: a8f582d7aaa1af446abc6b7959fab649
